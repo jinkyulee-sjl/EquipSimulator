@@ -16,13 +16,10 @@ def main():
     # Initialize Simulator
     sim = Simulator()
     
-    # Add Devices (Phase 1)
-    # Scenario: 6 Identical Scales
-    for i in range(1, 7):
-        sim.add_device(ANDScale(f"AND AD-4401 #{i}", f"SCALE_{i:02d}"))
-    
-    # Optional: Keep other types if needed
-    # sim.add_device(CasCI600A("CAS CI-600A", "SCALE_99"))
+    # Register Device Types
+    sim.register_device_type("AND AD-4401", ANDScale)
+    sim.register_device_type("AND CB Series", ANDScale, model="CB")
+    sim.register_device_type("CAS CI-600A", CasCI600A)
     
     try:
         app = MainWindow(sim)

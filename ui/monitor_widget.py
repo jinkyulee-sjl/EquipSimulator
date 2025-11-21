@@ -5,6 +5,7 @@ import datetime
 class MonitorWidget(ttk.Frame):
     def __init__(self, parent):
         super().__init__(parent)
+        self.filtered_port = None  # None means show all
         self._setup_ui()
         self.max_lines = 1000
 
@@ -34,6 +35,10 @@ class MonitorWidget(ttk.Frame):
         self.log_text.tag_config("ERROR", foreground="red")
 
     def add_log(self, port: str, direction: str, data: bytes):
+        # Filter by port if set
+        if self.filtered_port and port != self.filtered_port:
+            return
+            
         timestamp = datetime.datetime.now().strftime("%H:%M:%S.%f")[:-3]
         
         # Format data
@@ -66,3 +71,7 @@ class MonitorWidget(ttk.Frame):
         self.log_text.configure(state='normal')
         self.log_text.delete('1.0', tk.END)
         self.log_text.configure(state='disabled')
+
+    def set_filter(self, port: str = None):
+        """Set port filter. None means show all ports."""
+        self.filtered_port = port

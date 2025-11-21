@@ -10,6 +10,8 @@ class BaseScale(Equipment):
         self.is_stable = True
         self.unit = "kg"
         self.print_mode = "Command" # Command or Stream
+        self.current_format = None
+        self.weight_range = {"min": -100, "max": 1000}  # Default slider range
         self._streaming = False
         self._stream_thread: Optional[threading.Thread] = None
         self.on_output: Optional[Callable[[bytes], None]] = None
@@ -33,6 +35,7 @@ class BaseScale(Equipment):
         return []
 
     def set_format(self, format_name: str):
+        self.current_format = format_name
         self.logger.info(f"Format set to {format_name}")
 
     def set_print_mode(self, mode: str):
@@ -75,3 +78,8 @@ class BaseScale(Equipment):
         Override this in subclasses to return the current weight data packet.
         """
         return None
+
+    def disconnect(self):
+        """Override to stop streaming when disconnecting"""
+        self.stop_streaming()
+        super().disconnect()

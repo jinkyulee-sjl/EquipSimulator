@@ -2,11 +2,20 @@ from abc import ABC, abstractmethod
 import logging
 
 class Equipment(ABC):
-    def __init__(self, name: str, device_id: str):
+    def __init__(self, name: str, device_id: str, model: str = ""):
         self.name = name
         self.device_id = device_id
+        self.model = model
         self.connected = False
         self.logger = logging.getLogger(f"Equipment.{name}")
+        self.on_output = None
+        self.connection_settings = {
+            "port": "COM1",
+            "baudrate": 9600,
+            "bytesize": 8,
+            "parity": "None",
+            "stopbits": 1
+        }
 
     @abstractmethod
     def process_command(self, command: bytes) -> bytes:
