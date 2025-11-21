@@ -1,0 +1,382 @@
+
+--- Page 46 ---
+KF format 5if type 2
+This is the Karl-Fischer moisture meter format and is used when the peripheral equipment can only
+communicate using this format.
+(cid:122) This format consists of fourteen characters excluding the terminator.
+(cid:122) This format has no header characters.
+(cid:122) The polarity sign is placed before the data, with spaces in place of leading zeros, if the data is
+not zero or overloaded.
+(cid:122) This format outputs the unit only for a stable value.
+MT format 5if type 3
+(cid:122) A header of two characters indicates the balance condition.
+(cid:122) The polarity sign is used only for negative data.
+(cid:122) The weighing data uses spaces in place of the leading zeros.
+(cid:122) The character length of this format changes dependent upon the unit
+NU (numerical) format 5if type 4
+This format outputs only numerical data.
+(cid:122) This format consists of nine characters excluding the terminator.
+(cid:122) The polarity sign is placed before the data with the leading zeros. If the data is zero, the plus
+sign is used.
+CSV format 5if type 5
+(cid:122) Separates the data of A&D standard format and the unit by a comma ( , ).
+(cid:122) Outputs the unit even when the data is overloaded.
+(cid:122) When ID number, data number, time and date are added, outputs ID number, data number,
+date, time and weighing data in this order and separates each item by a comma and treats all
+the items as one group of data.
+44
+
+[Table 1]
+['', '']
+
+[Table 2]
+['', '']
+
+[Table 3]
+['', '']
+
+[Table 4]
+['', '', '', '']
+
+--- Page 47 ---
+9-7 Description of the Data Format Added to the Weighing Data
+ID number dout 5-id 1
+The number to identify a specific balance.
+(cid:122) This format consists of seven characters excluding the terminator.
+Data number dout d-no 1
+This format outputs the data number just before the data is transmitted using the RS-232C interface.
+(cid:122) This format consists of six characters excluding the terminator.
+(cid:122) When CSV format (5if type 5) is selected, the period ( . ) is replaced with a comma ( , ).
+Date dout 5-td 2 or 3
+(cid:122) The date output order can be changed in “Clock (Cl adj)”. Outputs the year in four-digit
+format.
+Time dout 5-td 1 or 3
+(cid:122) Outputs time in 24-hour format.
+Tare value
+(cid:122) When the tare value in memory is recalled, the tare value is output before the weighing data.
+Tare value
+Weighing data (Net value)
+Comparison results
+(cid:122) By setting “Comparison results (Cp-r)” of the function table to “1”, the comparison results can be
+added to the data output using the RS-232C serial interface. Use A&D standard format (type 0).
+The comparison results are added after the header in A&D standard format as below.
+Note
+When the data described above is added to the weighing data, the output is in the
+following order: ID number, Data number, Date, Time and Weighing data.
+45
+
+[Table 1]
+['', '', '', '']
+
+[Table 2]
+['', '', '', '']
+
+[Table 3]
+['', '', '', '', '', '', '']
+
+[Table 4]
+['', '', '', '', '']
+
+[Table 5]
+['', '', '', '', '', '', '', '', '']
+
+[Table 6]
+['', '', '', '', '', '', '', '', '']
+
+--- Page 48 ---
+9-8 Data Format Examples
+46
+
+--- Page 49 ---
+Note
+When “Pound Ounce” is selected, the data is output with the unit of ounce (oz).
+47
+
+[Table 1]
+['', '']
+
+--- Page 81 ---
+15. CONNECTION TO PERIPHERAL EQUIPMENT
+15-1 Connection to the AD-8121B Printer
+Set the following parameters to use the AD-8121B printer.
+Function setting Description
+dout prt 0-3 Selects a print mode.
+dout ap-p 0-2 Selects the polarity for the auto print mode.
+dout ap-b 0-2 Selects the auto print difference.
+dout pU5e 0,1 Selects data output pause.
+5if bp5 2 Factory setting 2400 bps
+5if btpr 0 Factory setting 7 bits, Even parity check
+5if Crlf 0 Factory setting CR, LF
+5if Ct5 0 Factory setting CTS and RTS control, not used
+When “MODE 1” or “MODE 2” of the AD-8121B printer is used
+dout 5-td 0 Factory setting Not to output the time and date.
+dout 5-id 0 Factory setting Not to output the ID number.
+dout at-f 0 Factory setting Not to use auto feed.
+5if type 0 Factory setting A&D standard format
+When “MODE 3” of the AD-8121B printer is used.
+dout 5-td 0-3 Outputs the time and date as necessary.
+dout 5-id 0,1 Outputs the ID number as necessary.
+dout at-f 0,1 Uses auto feed as necessary.
+5if type 1 DP format
+When data is transmitted continuously.
+When all memory data is transmitted at one time.
+dout pU5e 1 Uses pause.
+Note
+The printer performs as follows, depending on the data memory setting.
+Setting What is printed
+data 0 The weighing data
+data 2 The weighing data stored in memory
+data 3 The calibration or calibration test data stored in memory
+Refer to “10. ID NUMBER AND GLP REPORT” for a print sample.
+15-2 Connection to a Computer
+The GP series balance is of the DCE type (Data Communication Equipment), which can be
+connected to a personal computer using the RS-232C interface.
+Before connection, read the personal computer manual thoroughly.
+Use a standard DCE cable for connection (cable type: straight-through).
+When the personal computer type is a DOS/V with a 9-pin port, use a straight-through cable with
+a 25-pin male connector and a 9-pin female connector.
+79
+
+[Table 1]
+['Function setting', 'Description']
+['dout prt 0-3', 'Selects a print mode.']
+['dout ap-p 0-2', 'Selects the polarity for the auto print mode.']
+['dout ap-b 0-2', 'Selects the auto print difference.']
+['dout pU5e 0,1', 'Selects data output pause.']
+['5if bp5 2 Factory setting', '2400 bps']
+['5if btpr 0 Factory setting', '7 bits, Even parity check']
+['5if Crlf 0 Factory setting', 'CR, LF']
+['5if Ct5 0 Factory setting', 'CTS and RTS control, not used']
+
+[Table 2]
+['When “MODE 1” or “MODE 2” of the AD-8121B printer is used', None]
+['dout 5-td 0 Factory setting', 'Not to output the time and date.']
+['dout 5-id 0 Factory setting', 'Not to output the ID number.']
+['dout at-f 0 Factory setting', 'Not to use auto feed.']
+['5if type 0 Factory setting', 'A&D standard format']
+
+[Table 3]
+['When “MODE 3” of the AD-8121B printer is used.', None]
+['dout 5-td 0-3', 'Outputs the time and date as necessary.']
+['dout 5-id 0,1', 'Outputs the ID number as necessary.']
+['dout at-f 0,1', 'Uses auto feed as necessary.']
+['5if type 1', 'DP format']
+
+[Table 4]
+['When data is transmitted continuously.\nWhen all memory data is transmitted at one time.', None]
+['dout pU5e 1', 'Uses pause.']
+
+[Table 5]
+['Setting', 'What is printed']
+['data 0', 'The weighing data']
+['data 2', 'The weighing data stored in memory']
+['data 3', 'The calibration or calibration test data stored in memory']
+
+--- Page 82 ---
+15-3 Using Windows Communication Tools (WinCT)
+When Windows is used as an operating system in a personal computer, the provided WinCT
+software can be used to transmit the weighing data to the personal computer.
+The WinCT software has two communication methods: “RsCom” and “RsKey”. For details on WinCT,
+refer to the WinCT instruction manual.
+RsCom
+(cid:122) Can transmit commands to control the balance.
+(cid:122) Can make bi-directional communication between the balance and a personal computer using
+the RS-232C interface.
+(cid:122) Can display or store the data using a text file format. Can also print the data using a printer
+connected to the personal computer.
+(cid:122) When several ports of a personal computer have balances connected, can communicate with
+each balance simultaneously.
+(cid:122) Can share a personal computer with other application software.
+(cid:122) Can receive the balance GLP report.
+RsKey
+(cid:122) Can transmit the weighing data output from the balance directly to other application software
+such as Microsoft Excel.
+(cid:122) Can be used with most application software.
+(cid:122) Can receive the balance GLP report.
+Note
+Windows and Excel are registered trademarks of Microsoft Corporation.
+15-4 Using the WinCT software, the balance can do the following:
+1 Analyzing the weighing data and the statistics with “RsKey”
+The weighing data can be input directly into an Excel worksheet. Then, Excel can analyze the
+data to obtain total, average, standard deviation, maximum and minimum value, and display
+them in a graph.
+2 Controlling the balance using commands from a personal computer
+By using “RsCom”, the personal computer sends commands such as “re-zero” or “send
+weighing data” to the balance and controls the balance.
+3 Printing the balance GLP report using your printer
+The balance GLP report can be printed using a printer connected to the personal computer.
+4 Receiving weighing data at a certain interval
+The weighing data can be received at a certain interval and data characteristic with elapsed
+time can be obtained.
+5 Using the GP series balance memory function
+The data can be stored in the balance’s memory. Of the data stored, the weighing data and
+calibration data can be transmitted to a personal computer at one time.
+6 Using a personal computer as an external indicator
+With the “RsKey” test mode function, a personal computer can be used as an external weight
+indicator for the balance. (To do this, set the balance data output mode to stream mode.)
+80
+
+--- Page 83 ---
+16. COMMANDS
+16-1 Command List
+Note
+A command has a terminator added, that is specified using “5if Crlf” of the function table,
+and is sent to the balance.
+Commands to query weighing data
+C Cancels the S or SIR command.
+Q Requests the weighing data immediately.
+S Requests the weighing data when stabilized.
+SI Requests the weighing data immediately.
+SIR Requests the weighing data continuously.
+Commands to control the balance
+CAL Same as the CAL key.
+OFF Turns the display off.
+ON Turns the display on.
+P Same as the ON:OFF key
+PRT Same as the PRINT key
+R Same as the RE-ZERO key
+SMP Same as the SAMPLE key.
+U Same as the MODE key
+UN:mm Recalls the unit mass values in memory. (mm indicates 01-50)
+?UN Requests the unit mass numbers in memory.
+UW:∗∗∗∗∗∗. ∗ g Changes the unit mass value. (Only “g” is available as a unit.)
+Command e.g.: UW:+002000.0 g
+(Set the unit mass value to 2000.0 g: indicates a space.)
+?UW Requests the unit mass value.
+CN:mm Recalls the upper/lower limit value in memory (mm indicates 01-20)
+?CN Requests the upper/lower limit value code number of the selected
+value.
+H I:∗∗∗∗∗∗. ∗ g Sets the upper limit values.
+Command e.g.: HI:+002000.0 g
+(To set the upper limit value to 2000.0 g: indicates a space.)
+LO:∗∗∗∗∗∗. ∗ g Sets the lower limit values.
+Command e.g.:LO:+001000.0 g
+(To set the lower limit value to 1000.0 g: indicates a space.)
+?HI Requests the upper limit value.
+?LO Requests the lower limit value.
+PN:mm Recalls the tare value in memory. (mm indicates 01-20)
+?PN Request the tare number of the selected value. (mm indicates 01-20)
+PT:∗∗∗∗∗. ∗ g Sets the tare value.
+Command e.g.:PT:+001000.0 g
+(To set the tare value to 1000.0 g: indicates a space.)
+?PT Request the tare value.
+MCL Deletes all data in memory.
+MD:nnn Deletes data with the data number nnn.
+?MA Outputs all weighing data in memory.
+?MQnnn Outputs data with the data number nnn.
+?MX Outputs the number of data in memory (the last data number)
+Notes
+When a unit is required in commands such as a “PT:” command, use the 3-digit unit code of
+the A&D standard format.
+nnn indicates a three-digit numerical value.
+81
+
+[Table 1]
+['', 'Commands to query weighing data', None, None, None, None, None, None, '']
+['C', None, 'Cancels the S or SIR command.', None, None, None, None, None, None]
+['Q', None, 'Requests the weighing data immediately.', None, None, None, None, None, None]
+['S', None, 'Requests the weighing data when stabilized.', None, None, None, None, None, None]
+['SI', None, 'Requests the weighing data immediately.', None, None, None, None, None, None]
+['SIR', None, 'Requests the weighing data continuously.', None, None, None, None, None, None]
+['', 'Commands to control the balance', None, None, None, None, None, None, '']
+['CAL', None, 'Same as the', 'CAL', 'key.', None, None, None, None]
+['OFF', None, 'Turns the display off.', None, None, None, None, None, None]
+['ON', None, 'Turns the display on.', None, None, None, None, None, None]
+['P', None, 'Same as the', 'ON:OFF', None, None, 'key', None, None]
+['PRT', None, 'Same as the', 'PRINT', None, 'key', None, None, None]
+['R', None, 'Same as the', 'RE-ZERO', None, None, None, 'key', None]
+['SMP', None, 'Same as the', 'SAMPLE', None, None, 'key.', None, None]
+['U', None, 'Same as the', 'MODE', None, 'key', None, None, None]
+['UN:mm', None, 'Recalls the unit mass values in memory. (mm indicates 01-50)', None, None, None, None, None, None]
+['?UN', None, 'Requests the unit mass numbers in memory.', None, None, None, None, None, None]
+['UW:∗∗∗∗∗∗. ∗ g', None, 'Changes the unit mass value. (Only “g” is available as a unit.)\nCommand e.g.: UW:+002000.0 g\n(Set the unit mass value to 2000.0 g: indicates a space.)', None, None, None, None, None, None]
+['?UW', None, 'Requests the unit mass value.', None, None, None, None, None, None]
+['CN:mm', None, 'Recalls the upper/lower limit value in memory (mm indicates 01-20)', None, None, None, None, None, None]
+['?CN', None, 'Requests the upper/lower limit value code number of the selected\nvalue.', None, None, None, None, None, None]
+['H I:∗∗∗∗∗∗. ∗ g', None, 'Sets the upper limit values.\nCommand e.g.: HI:+002000.0 g\n(To set the upper limit value to 2000.0 g: indicates a space.)', None, None, None, None, None, None]
+['LO:∗∗∗∗∗∗. ∗ g', None, 'Sets the lower limit values.\nCommand e.g.:LO:+001000.0 g\n(To set the lower limit value to 1000.0 g: indicates a space.)', None, None, None, None, None, None]
+['?HI', None, 'Requests the upper limit value.', None, None, None, None, None, None]
+['?LO', None, 'Requests the lower limit value.', None, None, None, None, None, None]
+['PN:mm', None, 'Recalls the tare value in memory. (mm indicates 01-20)', None, None, None, None, None, None]
+['?PN', None, 'Request the tare number of the selected value. (mm indicates 01-20)', None, None, None, None, None, None]
+['PT:∗∗∗∗∗. ∗ g', None, 'Sets the tare value.\nCommand e.g.:PT:+001000.0 g\n(To set the tare value to 1000.0 g: indicates a space.)', None, None, None, None, None, None]
+['?PT', None, 'Request the tare value.', None, None, None, None, None, None]
+['MCL', None, 'Deletes all data in memory.', None, None, None, None, None, None]
+['MD:nnn', None, 'Deletes data with the data number nnn.', None, None, None, None, None, None]
+['?MA', None, 'Outputs all weighing data in memory.', None, None, None, None, None, None]
+['?MQnnn', None, 'Outputs data with the data number nnn.', None, None, None, None, None, None]
+['?MX', None, 'Outputs the number of data in memory (the last data number)', None, None, None, None, None, None]
+
+--- Page 84 ---
+16-2 Acknowledge Code and Error Codes
+When the “Serial interface function (5if)” parameter is set to “erCd 1”, the balance outputs <AK>
+code or error code to each command as follows:
+<AK> (06h) Acknowledge in ASCII code.
+(cid:122) When the balance receives a command to request data and can not process it, the balance
+transmits an error code (EC, Exx).
+When the balance receives a command to request data and can process it, the balance
+outputs the data.
+(cid:122) When the balance receives a command to control the balance and can not process it, the
+balance transmits an error code (EC, Exx).
+When the balance receives a command to control the balance and can process it, the balance
+transmits the acknowledge code.
+Among commands to control the balance, the following transmit the acknowledge code both
+when the balance receives the command and when the balance has accomplished the
+command. If the command can not be processed properly, the balance transmits an error code
+(EC, Exx). This error can be released using the CAL command.
+CAL command (Calibration command) ON command (Display ON command)
+P command (Display ON/OFF command) R command (RE-ZERO command)
+(cid:122) When a communication error has occurred due to external noise, or a parity error has occurred
+due to transmission error, the balance transmits an error code. In this case, send the command
+again.
+16-3 Control Using CTS and RTS
+Depending on the “Ct5” parameter of “Serial interface (5if)”, the balance performs as follows:
+Ct5 0
+Regardless of whether the balance can receive a command or not, the balance keeps the CTS line
+HI. The balance outputs data regardless of the condition of the RTS line.
+Ct5 1
+The CTS line is kept Hi normally. When the balance can not receive the next command (e.g. while
+the balance is processing last command), the balance sets the CTS line to Lo. The balance confirms
+the level of the RTS line before outputting a set of data. If the RTS level is Hi, the balance outputs
+data. If the RTS level is Lo, data is not output (The data is canceled).
+16-4 Settings Related to RS-232C
+Concerning the RS-232C, the balance has two functions: “Data output (dout)” and “Serial interface
+(5if)”. Set each function as necessary.
+82
+
+--- Page 85 ---
+17. MAINTENANCE
+(cid:122) Do not disassemble the balance. Contact the local A&D dealer if the balance needs service or repair.
+(cid:122) Use the original packing material for transportation.
+(cid:122) Do not use organic solvents to clean the balance. Clean the balance with a lint free cloth that
+is moistened with warm water and a mild detergent.
+(cid:122) The mass of the internal mass may change due to corrosion or other damage caused by the operating
+environment, or due to aging. Check the internal mass using an external weight periodically.
+18. TROUBLESHOOTING
+18-1 Checking the Balance Performance and Environment
+The balance is a precision instrument. When the operating environment or the operating method is
+inadequate, correct weighing can not be performed. Place a sample on the pan and remove it, and
+repeat this several times. If the balance seems to have a problem with repeatability or to perform
+improperly, check as described below. If improper performance persists after checking, contact the
+local A&D dealer for repair.
+Checking that the balance performs properly
+(cid:122) Check the balance performance using the self-check function as described in “6-1 Automatic
+Response Adjustment / Self Check Function”.
+An error display appears when a malfunction is found.
+(cid:122) Check the balance repeatability using an external weight. Be sure to place the weight in the
+center of the weighing pan.
+(cid:122) Check the balance repeatability, linearity and calibrated value using external weights with a
+known value.
+Checking that the operating environment or weighing method is proper
+Operating environment
+(cid:122) Is the weighing table solid enough?
+(cid:122) Is the balance level? Refer to “3-1 Before Use”.
+(cid:122) Is the operating environment free from vibration and drafts?
+(cid:122) Is there a strong electrical or magnetic noise source such as a motor near the balance?
+Weighing method
+(cid:122) Is the weighing pan installed correctly?
+(cid:122) Is the RE-ZERO key pressed before placing a sample on the weighing pan?
+(cid:122) Is the sample placed in the center of the weighing pan?
+(cid:122) Has the balance been calibrated using the internal mass (one-touch calibration)?
+(cid:122) Has the balance been warmed up for 30 minutes before weighing?
+83

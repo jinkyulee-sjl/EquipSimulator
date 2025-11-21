@@ -1,0 +1,2950 @@
+
+--- Page 1 ---
+Operating Instructions
+Sartorius CP|Gemplus Series
+CPA, GCA and GPA Models
+Electronic Micro-, Analytical and Precision Balances and Precious Metal Scales
+98648-015-70
+
+--- Page 2 ---
+Contents
+Safety Precautions 3 Generating a Printout 51
+ISO/GLP-compliant Printout/Record 53
+Getting Started 5
+Interface Port 55
+Installation 6 Data Input Format 59
+Pin Assignment Charts 62
+Operation 15 Cabling Diagram 63
+Overview of Display and
+Operating Elements 15 Troubleshooting Guide 64
+Basic Weighing Function 16
+Below-Balance Weighing 18 Preparing CPA2P.. Models for
+Calibration and Adjustment 20 Transport 65
+Configuration 25 Care and Maintenance 66
+Printing the Parameter Settings 25
+Setting the Parameters Instructions for Recycling 68
+(Menu Codes) 26
+Parameter Settings (Overview) 27 Overview 69
+Setting IDs, Time, Date and Specifications 69
+Display Brightness 32 Accessories (Options) 81
+Declarations of Conformity 84
+Application Programs 35 EC Type-approval Certificate 87
+Net-total Formulation 36 Plates and Markings 88
+Counting 40
+Reference Balance/Scale for Counting 40
+Weighing in Percent 44
+Animal Weighing/Averaging 47
+Toggling between Weight Units 50
+2
+
+--- Page 3 ---
+Safety Precautions
+Safety Instructions !If there is visible damage to the equip-
+§ Please read these operating instructions ment or power cord, disconnect the
+carefully before using your balance equipment from power and lock it in
+to prevent damage to the equipment. a secure place to ensure that it cannot
+be used for the time being.
+!Do not use this equipment in hazardous
+areas/locations. – Connect only Sartorius accessories
+and options, as these are optimally
+!The balance housing may be opened designed for use with your balance.
+only by Sartorius service technicians The operator shall be responsible
+who have been trained at the factory. for any modifications to Sartorius
+equipment and for any connection
+!Make sure you disconnect the balance of cables or equipment not supplied
+from power before connecting or by Sartorius and must check and,
+disconnecting peripheral devices to or if necessary, correct these modifications
+from the balance. and connections. On request, Sartorius
+will be happy to provide information on
+!If you operate the equipment under operating specifications (in accordance
+ambient conditions that require higher with the Standards for defined immunity
+safety standards, you must comply with to interference).
+the installation regulations applicable
+in your country. $ Do not open the balance. If the seal
+is broken, this will result in forfeiture
+When cleaning your balance, make of all claims under the manufacturer's
+sure that no liquid enters the balance warranty.
+housing; use only a slightly moistened
+cloth to clean the balance. $ If you have any problems with your
+balance, please contact your local
+Installation Sartorius office, dealer or service center.
+!Make sure the voltage rating printed
+on the AC adapter is identical to your
+local line voltage.
+– Proceed with extreme caution when
+using pre-wired RS-232 connecting
+cables, as the pin assignments may
+not be compatible with Sartorius
+equipment. Check all pin assignments
+against the cabling diagrams and dis-
+connect any lines that do not match.
+3
+
+--- Page 4 ---
+Equipment Supplied
+The equipment supplied includes the
+components listed below:
+CPA2P, CPA2P-F CPA Balances with a Readability of
+– Balance with display and control unit <0.1 mg; CPA…-DS, GCA Scales
+– Kit of standard accessories – Balance/scale with display and
+– AC adapter control unit
+– Dust cover – Electronics box (model CPA225D only)
+– Filter pan and lid (model CPA2P-F only) – Draft shield with base plate
+– Spacer (model CPA2P-F only) (not available for the CPA64-WDS)
+The kit of standard accessories contains – AC adapter
+the following: – Weighing pan
+– Weighing pan – Shield disk
+– Interior draft shield – Centering plate (only for CPA…DS)
+– Hanger for below-balance weighing – In-use dust cover
+– 1 brush – Gem tray (GCA scales only)
+– 1 pair of forceps
+– 1 piece of lint-free cloth CPA Balances with a Readability of 1 mg
+(except for the CPA…-DS models)
+– Balance with display and control unit
+– Draft shield with cover
+– AC adapter
+– Weighing pan
+– Pan support
+– Base plate
+– In-use dust cover
+CPA-Balances with a Readability of
+0.01 g/0.1 g, GPA Scales
+– Balance/scale with display and
+control unit
+– AC adapter
+– Weighing pan
+– Gem tray (GPA scales only)
+– In-use dust cover
+CPA34001S, CPA34001P, CPA16001S,
+CPA12001S, CPA34000
+– Balance with display and control unit
+– AC adapter
+– Weighing pan
+– In-use dust cover
+4
+
+--- Page 5 ---
+Getting Started
+Storage and Shipping Conditions Installation
+– Do not expose the balance to Choose a location that is not subject
+extreme temperatures, moisture, shocks, to the following negative influences:
+blows or vibration. – Heat (heater or direct sunlight)
+– Drafts from open windows and doors
+Unpacking the Balance – Extreme vibrations during weighing
+§ After unpacking the equipment, – Excessive moisture
+please check it immediately for any
+external damage
+Conditioning the Balance
+$ If damage is evident, refer to the Moisture in the air can condense on
+instructions under “Safety Inspection" the surfaces of a cold balance whenever
+in the chapter entitled “Care and it is brought into a substantially warmer
+Maintenance." place. If you transfer the balance to
+a warmer area, make sure to condition it
+$ Save the box and all parts of the for about 2 hours at room temperature,
+packaging for any future transport. leaving it unplugged from AC power.
+Disconnect all cables before packing
+the balance for shipping!
+Seal on Balances Verified for Use
+in Legal Metrology in the EU*:
+EU legislation requires that a control
+seal be affixed to verified balances of
+accuracy class K. The control seal
+consists of a sticker with the “Sartorius"
+logo. If the seal is broken, the verifi-
+cation becomes null and void and the
+balance must be re-verified.
+* Including the Signatories of the Agree-
+ment on the European Economic Area
+5
+
+--- Page 6 ---
+Installation
+Model CPA2P
+§ Remove the adhesive tape from the chamber doors
+§ Place the components listed below inside the
+chamber in the order given:
+– Interior draft shield
+– Weighing pan
+Model CPA2P-F
+1) Weighing filters of up to 125 mm d:
+§ Lift the chamber lid gently and turn it to the
+left or right
+§ Place the components listed below inside
+the chamber in the order given:
+– Interior draft shield
+– Filter pan
+– Cover the sample (filter) with the lid
+or
+2) Weighing with the standard weighing pan
+(20 mm d):
+§ Lift the chamber lid gently and turn it to the
+left or right
+§ Place the components listed below inside
+the chamber in the order given:
+– Interior draft shield
+– Spacer ring
+– Weighing pan
+Balances with an Analytical Draft Shield
+!Check the sliding lock device on the back of the
+draft shield; make sure it is in the “open" position
+(to the right).
+§ Position the draft shield carefully on the balance
+6
+
+--- Page 7 ---
+§ Secure the draft shield by pressing lightly on
+the draft shield base and moving the sliding lock
+device to the left
+Triangular weighing pan shape
+§ Place components inside the chamber in the
+following order:
+– Base plate
+– Shield ring
+– Pan support
+– Weighing pan
+– Gem tray (GCA scales only)
+Round weighing pan shape
+§ Place components inside the chamber in the
+following order:
+– Base plate
+– Centering plate
+– Shield ring
+– Pan support
+– Weighing pan
+7
+
+--- Page 8 ---
+Connecting Model CPA26P, CPA225D (-0CE)
+to the Electronics Box
+– Plug the male connector on the cable into the
+female connector on the electronics box
+!Do not exchange the balance or electronics box with
+a component of a different balance!
+Balances with a 3-Sided Draft Shield
+1
+§ Place draft shield on the balance with the cover
+opening in front on the right
+§ Turn the draft shield clockwise until it is firmly
+2
+in position
+§ Place components inside the chamber in the
+following order:
+– Base plate
+– Weighing pan receptor
+– Weighing pan
+$ To access the weighing chamber from the side,
+remove side panels as desired
+8
+
+--- Page 9 ---
+Balances/Scales with a Rectangular Weighing Pan
+and a Weighing Capacity up to 10 kg
+§ Place the components listed below on the
+balance/scale in the order given:
+– Weighing pan
+– Gem tray (GPA scales only)
+Balances with a Rectangular Weighing Pan and
+a Weighing Capacity over 10 kg
+§ Place the weighing pan on the balance
+9
+
+--- Page 10 ---
+Connecting the Balance to AC Power/
+Safety Precautions
+$ Use only original Sartorius equipment.
+The AC adapter meets the requirements of IP20 in
+accordance with EN 60529.
+$ For AC adapters with higher protection ratings
+or for an external rechargeable battery pack, please
+see “Accessories."
+CPA26P, CPA225D:
+(cid:2) Insert the right-angle plug from the AC adapter into
+the jack on the electronics box.
+All other balances with a weighing capacity
+up to 10 kg:
+(cid:2) Insert the right-angle plug from the AC adapter
+into the jack on the balance.
+(cid:2) Connect the AC adapter to an electrical outlet
+(mains supply)
+AC Adapter with Country-specific Power Cord
+Some models come with separate country-specific
+power cords for the AC adapter. In Europe, use only
+original Sartorius AC adapter part no. 6971983.
+§ Connect the angle plug to the balance/scale
+§ Select the power cord for your area and connect it to
+the AC adapter
+§ Plug the power cord into the wall outlet (mains)
+Connect the power cord to the AC adapter
+(on balances with weighing capacities up to 10 kg)
+$ Use an original Sartorius AC adapter with a wide input
+voltage range (100 to 240 V~), order no. 6971966,
+and replaceable power cord:
+6900900 (Europe)
+6900901 (US/CDN)
+6971945 (UK)
+6900905 (AUS)
+6900902 (ZA)
+10
+
+--- Page 11 ---
+Balances with a Weighing Capacity over 10 kg:
+(cid:2) Insert the right-angle plug into the jack and
+tighten the screw.
+(cid:2) Connect the AC adapter to an electrical outlet
+(mains supply)
+Safety Precautions
+Plug-in AC Adapter:
+The balance/scale is intended to be supplied by a
+listed direct plug-in power unit marked “Class 2."
+Universal AC Adapter 6971966:
+The AC adapter rated to Class 1 can be plugged
+into any wall outlet without additional safety
+precautions.
+The ground terminal is connected to the balance
+housing, which can be additionally grounded
+for operation. The data interface is also electrically
+connected to the balance housing (ground).
+Note:
+This equipment has been tested and found to
+comply with the limits pursuant to part 15 of FCC
+Rules. These limits are designed to provide reason-
+able protection against harmful interference. This
+equipment generates, uses and can radiate radio
+frequency energy and, if not installed and used in
+accordance with these instructions, may cause
+harmful interference to radio communications.
+For information on the specific limits and class
+of this equipment, please refer to the Declaration
+of Conformity. Depending on the particular class,
+you are either required or requested to correct the
+interference.
+11
+
+--- Page 12 ---
+If you have a Class A digital device, you need
+to comply with the FCC statements as follows:
+“Operation of this equipment in a residential area
+is likely to cause harmful interference in which case
+the user will be required to correct the interference
+at his own expense.”
+If you have a Class B digital device, please read and
+follow the FCC information given below:
+However, there is no guarantee that interference
+will not occur in a particular installation. If this
+equipment does cause harmful interference to radio
+or television reception, which can be determined
+by turning the equipment off and on, the user
+is encouraged to try to correct the interference by
+one or more of the following measures:
+– Reorient or relocate the receiving antenna.
+– Increase the separation between the equipment
+and receiver.
+– Connect the equipment into an outlet on
+a circuit different from that to which the receiver
+is connected.
+– Consult the dealer or an experienced radio/TV
+technician for help.
+Before you operate this equipment, check which
+FCC class (Class A or Class B) it has according
+to the Declaration of Conformity included. Be sure
+to observe the information of this Declaration.
+12
+
+--- Page 13 ---
+Connecting Electronic Peripheral Devices
+§ Make sure to unplug the balance from AC power
+before you connect or disconnect a peripheral device
+(printer or PC) to or from the interface port.
+Warmup Time
+To deliver exact results, the balance must warm up
+as listed below after initial connection to AC power
+or after a relatively long power outage.
+– Model CPA2P…, CPA26P…: at least 4 hours
+– All other precision and analytical models:
+at least 30 minutes
+Only after this time will the balance have reached
+the required operating temperature.
+Using Verified Balances in Legal Metrology:
+$ Allow the equipment to warm up for at least
+24 hours after initial connection to AC power.
+Antitheft Locking Device on Balances with
+a Weighing Capacity of up to 10 kg
+(cid:2) To secure the balance at the place of installation,
+fasten a chain or a lock to the lug located on the
+rear panel of the balance (order no.: LC1).
+13
+
+--- Page 14 ---
+Leveling the Balance
+Purpose:
+– To compensate for unevenness at the place
+of installation
+Leveling Balances with a Weighing Capacity
+of up to 10 kg
+Only the 2 front feet are adjusted to level the
+balance.
+§ Retract the two rear feet (only on models with
+a rectangular weighing pan).
+§ Turn the 2 front feet as shown in the diagram
+until the air bubble is centered within the circle of
+the level indicator.
+> In most cases this will require several adjustment
+steps.
+§ For weighing heavy samples: Extend the 2 rear
+feet until they touch the surface on which the
+balance rests (only on models with a rectangular
+weighing pan).
+Leveling Balances with a Weighing Capacity
+of over 10 kg
+§ Adjust the leveling feet until the air bubble
+is centered within the circle on the level indicator.
+14
+
+--- Page 15 ---
+Operation
+Overview of Display and Operating Elements
+15 1
+2 2
+14 3
+13 4
+12 5
+11 6
+10 7
+9 8
+PositionDesignation PositionDesignation
+1 Weight units 10 Delete (Clear Function)
+2 Tare key This key is generally used to
+3 Symbol: “GLP printing mode cancel functions.
+active" – Quit application program
+4 Symbol: “Printing mode active" – Cancel calibration/
+5 Display: Data in memory for adjustment routine
+net-total formulation program 11 On/off
+6 Data output: Press this key 12 Display: Calibration/adjustment
+to output readout values to the function
+built-in data interface. 13 Display: Animal weighing with
+7 Function key: automatic start
+Start application program 14 Symbols for stand-by mode
+8 Symbols for active application or zero range
+9 Start calibration/adjustment 15 Weight value displayed in selected
+routine weight unit
+15
+
+--- Page 16 ---
+Basic Weighing Function
+Purpose Working with CPA2P, CPA26P…
+The basic weighing function can Models:
+be used alone or in combination with Working with the microbalance
+an application program (counting, requires a steady hand and a smooth,
+weighing in percent, etc.). uninterrupted technique.
+Features Use forceps or other suitable utensil to
+– Taring the balance place the sample on the weighing pan.
+– Assigning IDs to weights (as needed)
+– Printing weights Perform a number of test measurements
+before you begin weighing, to allow the
+Using Verified Balances as Legal temperature inside the weighing chamber
+Measuring Instruments in the EU*: to adjust to the ambient temperature
+The type-approval certificate for veri- outside the chamber. Otherwise, if the
+fication applies only to non-automatic chamber door was closed for a longer
+weighing instruments. For automatic period of time prior to beginning
+operation with or without auxiliary weighing, the sudden change in tem-
+measuring devices, you must comply perature inside the chamber when you
+with the regulations applicable to open the door might affect the weight
+the place of installation. readout. This is why a series of test
+measurements is recommended; the
+(cid:2) Before using the balance as a legal repeated opening and closing of the
+measuring instrument, calibrate and weighing chamber door, at the same
+adjust it at the place of use using the rate of speed as will be used during the
+built-in motorized calibration weight; actual weighing sequence, will both
+for details, see “Calibration and compensate this difference in tempera-
+Adjustment" in the next chapter. ture to some extent and help you
+$ The temperature range (°C) indicated develop a smooth working rhythm.
+on the verification label may not be
+exceeded during operation. Place the sample gently on the weighing
+pan. The weight readout should stabilize
+Example: within 15 to 20 seconds. The degree of
+BD BL 200 precision attained increases in propor-
++10°C to +30°C tion as the weighing operations become
+0°C to +40°C isoCAL more consistent.
+K
+* Including the Signatories of the Agree-
+ment on the European Economic Area
+16
+
+--- Page 17 ---
+Preparation
+A circle in the upper right-hand corner of the display
+indicates that the balance was disconnected from
+power. This symbol is shown, for example, the first
+time the balance is put into operation, or after a
+power outage.
+(cid:2) Switch on the balance: Press (E)
+> All symbols on the display light up briefly.
+> The balance performs a display test.
+$ Tare the balance, if necessary: Press (TARE)
+When you turn on the balance, the bsymbol is
+displayed until you press a key.
+If the bsymbol is displayed during operation,
+this indicates that the processor is performing
+a function and cannot receive further commands
+at the moment.
+Additional Functions
+(cid:2) Switching off the balance: Press (E)
+A circle in the lower left-hand corner of the display
+indicates that the balance has been switched off and
+is in stand-by mode.
+Filter Weighing with Model CPA2P-F
+The CPA2P-F filter microbalance comes with
+a filter pan that has a utilizable diameter of 125 mm
+as standard equipment. Place the filter on the pan
+and close the lid.
+17
+
+--- Page 18 ---
+Analytical and precision balances: Below-Balance Weighing
+A port for a below-balance weighing hanger
+is located on the bottom of the balance (for models
+with a weighing capacity of 12 kg or more, see
+chapter on “Accessories.”
+$ Below-balance weighing is not permitted in
+legal metrology.
+(cid:2) Open cover plate on the bottom of the balance.
+(cid:2) Using the built-in hanger 1: Attach the sample
+(e.g., using a suspension wire) to the hanger.
+$ If necessary, install a shield for protection against
+drafts.
+1
+Microbalance CPA2P..:
+(cid:2) Remove the brass screw
+(cid:2) Suspend the below-balance weighing hook
+supplied from the hanger
+(cid:2) If necessary, install a shield for protection against
+drafts
+18
+
+--- Page 19 ---
+Example
+Simple Weighing
+Step Key (or instruction) Display/Data Output
+1. Switch on the balance. (E) + 0.0 g
+Self-test is performed,
+followed by automatic
+initial tare function.
+2. Place container on the balance + 11.5 g
+(in this example, 11.5 g).
+3. Tare the balance. (TARE) + 0.0 g
+4. Place sample in container + 132.0 g
+on balance
+(in this example, 132 g).
+6. Print weight. (A) N + 132.0 g
+19
+
+--- Page 20 ---
+Calibration and Adjustment
+Purpose – The weight displayed for the sample
+Calibration is the determination of the on the balance must not differ from the
+difference between the weight readout nominal weight by more than 2%.
+and the true weight (mass) of a sample.
+Calibration does not entail making any – You can use any of the following
+changes within the balance. weight units to calibrate/adjust the
+balance: g, kg, lb
+Adjustment is the correction of any (1 11 1 to 3, factory setting: 1 11 1)
+difference between the measured value
+displayed and the true weight (mass) You can block calibration/adjustment
+of the sample, or the reduction of the of the balance as follows:
+difference to an allowable level within – Select menu code1 9 7, or
+the maximum permissible error limits. – Close the menu access switch on the
+back of the balance
+Using Verified Balances as Legal
+Measuring Instruments in the EU*: – You can have calibration/adjustment
+Before using your balance as a legal start automatically when a specified
+measuring instrument, you must perform time or temperature limit is reached
+“internal calibration/adjustment" at the (isoCAL function; 1 15 3).
+place of installation after the warmup
+period. – You can have calibration and
+adjustment results documented as
+Features an ISO/GLP-compliant printout;
+Calibration/adjustment can be performed see the chapter on ISO/GLP-compliant
+only when: Printout/Record.
+– there is no load on the balance,
+– the balance is tared, and External Calibration/Adjustment
+– the internal signal is stable. in Verified Balances of Accuracy
+Class K
+If these conditions are not met, – When the balance is used in legal
+an error message is displayed (Err 02). metrology, external calibration/adjust-
+ment is blocked by a seal over the menu
+Adjustment can be performed access switch.
+– automatically following calibration
+(1 10 1) or
+– manually, at operator discretion,
+after calibration (1 10 2)
+* Including the Signatories of the Agree-
+ment on the European Economic Area
+20
+
+--- Page 21 ---
+Internal Calibration/Adjustment Calibration and Adjustment Sequence
+The menu code setting 1 9 3 In the Setup menu, you can configure
+must be selected in the Setup menu. whether:
+– Calibration is always followed auto-
+Inside the balance housing is a matically by adjustment (1 10 1; factory
+motorized calibration weight which setting), or
+is applied and removed automatically
+for internal calibration. – You have the choice of ending the
+sequence or starting adjustment after
+(cid:2) Activate calibration: Press (CAL) calibration (1 10 2)
+> The built-in calibration weight is If no difference is determined between
+applied automatically. nominal and actual weights, you can
+end the calibration/adjustment routine
+> The balance is calibrated. following calibration.
+Two keys are active at this point:
+> If “Calibrate, then auto adjust in one
+operation" is selected in the Setup – (CAL) = start calibration/adjustment
+menu, the balance is now adjusted
+automatically. – (CF) = end the sequence
+> The internal calibration weight is
+removed.
+!
+Important note for calibration/adjust-
+ment of the CPA2P-F model: position
+the cover before calibration/adjust-
+ment
+21
+
+--- Page 22 ---
+isoCAL*: When these requirements are met,
+Automatic Calibration and Adjustment the following symbols are displayed:
+The menu code setting 1 15 3must be – Cin the measured value line
+selected in the Setup menu. – AUTOCAL flashes in the symbol display
+– Temperature range with isoCAL:
+0°C to +40°C In the Setup menu, you can configure
+The “AUTOCAL" display automatically the balance to display the adjustment
+begins flashing if the ambient temperature prompt only, without performing
+has changed in relation to the tempera- calibration/adjustment automatically
+ture at the time of the last calibration/ (menu code 1 15 2).
+adjustment, or after a defined time inter-
+!
+val has elapsed. The balance is telling you Important note for calibration/adjust-
+that it wants to self-calibrate and adjust. ment of the CPA2P-F model: position
+the cover before calibration/adjustment.
+This adjustment prompt is activated when: This is necessary to enable automatic
+– The change in temperature or the elapsed calibration (isoCAL) to take place.
+time interval is greater than that shown in
+the table below isoCAL Deactivated on Verified
+– The load on the pan has not been Balances:
+changed within the last 2 minutes The permitted operating temperature
+– The balance has not been operated within range for balances used in applications
+the last 2 minutes subject to legal metrology (legal for
+– The weight on the pan is no more than 2% trade) is restricted as follows:
+of the maximum capacity of the balance – Balances of accuracy class k:
++15°C to 25°C (+59 to +77°F)
+*=CPA64-WDS models: – Balances of accuracy class K:
+factory setting isoCAL off (Code 1 15 1) +10°C to +30°C (+50 to 86°F)
+Fully automatic adjustment is initiated under the following conditions:
+Model When the After a time
+temperature interval of
+changes by
+CPA2P, CPA2P-F, CPA26P, CPA225D, CPA324S, CPA224S,
+CPA124S, CPA64, CPA1003S, CPA1003P, GCA1603, GCA803 1.5 Kelvin 4 hours
+CPA623S, CPA423S, CPA6202S, CPA5202S-DS, CPA6202P,
+CPA4202S, CPA523S-PCE, GPA5202, GPA3202 2 Kelvin 6 hours
+CPA323S, CPA2202S…, CPA34001P, CPA34001S,
+CPA223S, CPA3202S, GCA2502 4 Kelvin 12 hours
+CPA5201, CPA2201-0CE, CPA10001, CPA16001S
+CPA12001S, CPA34000, CPA8201 4 Kelvin 24 hours
+These values are also set in the corresponding verified balances
+(CPA…-0CE/-PCE models with the -0CE designation).
+22
+
+--- Page 23 ---
+Internal Calibration
+Step Key (or instruction) Display
+0.0
+1. Zero the balance. (TARE) g
+CPA2P-F model:
+Either position the standard pan
+(8 g) or the filter pan (5 g) along
+with the cover (3 g) beforehand.
+C
+2. Start calibration. (CAL)
+The internal weight is CAL
+applied automatically.
+3. The balance is calibrated – 0.2 g
+(displayed only if menu CAL ± G
+code 1 10 2is set).
+4. If the “Calibrate, then auto
+Adjust*
+adjust" setting is selected CAL
+(1 10 1), the balance is
+now adjusted automatically.
+CC
+5. The calibration sequence
+is completed. CAL
+0.0
+6. The internal weight is removed. g
+* = Adjustdisplayed only if menu item 1 10 2is selected.
+23
+
+--- Page 24 ---
+External Calibration
+Settings:
+Calibration/adjustment mode: External calibration/adjustment (menu code 1 9 1)
+The weight required for calibration/adjustment is defined in the factory settings
+(see “Specifications").
+Step Key (or instruction) Display
+0.0
+1. Zero the balance. (TARE) g
+2. Start calibration. (CAL)
++5000.0
+g
+CAL G
+3. Apply the prompted calibration
+weight (in this example, 5000 g).
+4. The balance is calibrated – 0.2 g
+(displayed only if menu CAL ± G
+code 1 10 2is set).
+Adjust
+5. If the “Calibrate, then auto *
+adjust" setting is selected CAL
+(1 10 1), the balance is now
+adjusted automatically.
+CC
+6. The calibration/adjustment
+sequence is completed. CAL
+7. After calibration/adjustment, the
++5000.0
+g
+weight is displayed with weight unit.
+0.0
+8. Remove the calibration weight. g
+* Adjustshown only if menu code 1 10 2is set.
+Important note: Afterwards, do not perform internal calibration/adjustment again.
+24
+
+--- Page 25 ---
+Configuration
+Purpose (cid:2) Printing the Parameter Settings
+To adapt the balance to individual – At the 3rdmenu level (lowest level;
+requirements by choosing from see also the next page): Press and hold
+parameters options in the Setup menu. (A) (> 2 sec.).
+Features > Printout (Example)
+To open the Setup menu, switch the Menu 7 1 1
+balance off and then on again by
+pressing (E). While all segments are lit, – At the 2nd menu level:
+press (TARE) briefly. Press and hold (A) (> 2 sec.).
+Scroll upward ↑: > Printout (Example)
+Press (CAL) Menu 7 1 1
+Scroll to the right →: Menu 7 2 1
+Press (A) Menu 7 3 1
+Confirm input:
+Press (TARE) – All current menu settings are printed
+Save settings and exit menu: when the 1stmenu level (highest level)
+Press and hold (TARE) (> 2 sec.) is displayed: Press and hold (A)
+(> 2 sec.).
+25
+
+--- Page 26 ---
+Setting the Parameters (Menu Codes)
+Example: Adapting the balance to “very unstable" ambient conditions (menu code 1 1 4).
+Step Key (or instruction) Display
+1. Switch off the balance. (E)
+2. Switch the balance on; (E)
+while all segments
+1
+are displayed: (TARE) briefly
+2
+$ Scroll upward within a (CAL)
+menu level; after the last repeatedly ...
+9
+menu code, the first
+1
+code is displayed again.
+1 1
+3. Select menu level 2 (A)
+(scroll to the right).
+1 1 2
+4. Select menu level 3 (A) o
+(scroll to the right).
+5. Menu level 3: (CAL)
+1 1 4
+Scroll until the desired repeatedly
+number is shown.
+1 1 4
+6. Confirm change; (TARE) o
+“o” on display indicates
+active setting.
+1
+$ Return to higher menu level (A)
+(from the third level).
+$ Set other codes as desired. (A), (CAL)
+7. Save changes and exit Press and hold
+the menu (TARE) (> 2 sec.)
+or
+$ Exit menu without saving
+changes. (E)
+26
+
+--- Page 27 ---
+Parameter Settings (Overview)
+o Factory setting
+√User-defined setting
+Menu
+level1
+Menu
+level2
+Menu
+level3
+Factory
+setting
+Menu
+item
+Setup 1 Weighing 1 1 Adapt filter 1 11 Very stable conditions
+1 12 o Stable conditions
+1 13 Unstable conditions
+1 14 Very unstable conditions
+1 2 Application filter 1 21 o Final readout
+1 22 Filling mode
+1 3 Stability range 1 31 4digit
+The stability symbol is 1 32 1digit
+displayed when the 1 33 1 digit
+value is stable within 1 34 o 2 digits
+this number of digits. 1 35 4 digits
+1 36 8 digits*
+1 5 Tare function* 1 51 Without stability
+1 52 o After stability
+1 6 Auto zero 1 61 o On
+1 62 Off
+1 7 Weight unit 1 1 71 Grams (display: o)*
+1 72 o Grams (display: g)
+1 73 Kilograms 1)
+1 74 Carats
+1 75 Pounds*
+1 76 Ounces*
+1 77 Troy ounces*
+1 78 Hong Kong taels*
+1 79 Singapore taels*
+1 710 Taiwanese taels*
+1 711 Grains*
+1 712 Pennyweights*
+1 713 Milligrams 2)
+1 714 Parts per pound*
+1 715 Chinese taels*
+1 716 Mommes*
+1 717 Austrian carats*
+1 718 Tola*
+1 719 Baht*
+1 720 Mesghal*
+1 8 see next page
+2 through 9 see following pages
+* = Not available in balances verified for use in legal metrology
+1)= Not available for models with a readability <0.1 mg
+2)= Not available for verified balances of accuracy class K
+27
+
+--- Page 28 ---
+Menu
+level1
+Menu
+level2
+Menu
+level3
+Factory
+setting
+Menu
+item
+Menu 1 Weighing 1 1 through 1 7 see previous page
+1 8 Display accuracy 1 * 1 81 o All digits
+1 85 Reduced by 1 digit*
+1 9 (CAL) key function 1 91 External cal./adj. 1)
+1 93 o Internal cal./adj.
+1 96 CPA225D model:
+Internal linearization
+1 97 (CAL) key blocked
+1 10 Calibration/ 1 101 o Calibrate, then auto adjust
+adjustment sequence in one operation
+1 102 Calibrate, then manual
+adjust
+1 11 Weight unit for 1 111 o Grams
+calibration weight * 1 112 Kilograms
+1 113 Pounds
+1 15 isoCAL function 1 151 Off 2)
+1 152 Only adjustment prompt
+1 153 o On
+2 Application 2 1 Program selection 2 11 o Weighing
+programs 2 12 Toggle weight units
+2 14 Counting
+2 15 Weighing in percent 3)
+2 16 Net-total formulation
+2 17 Animal weighing 3)
+3 through 9 see next page
+* = Setting cannot be changed on verified balances
+1)= Not available for verified balances of accuracy class K
+2)= Factory setting for CPA64-WDS
+3)= Not available for CPA…-PCE models
+28
+
+--- Page 29 ---
+Menu
+level1
+Menu
+level2
+Menu
+level3
+Factory
+setting
+Menu
+item
+Menu 1 through 2 see previous page
+3 Application 3 1 Weight unit 2 3 11 Grams (display: o)*
+parameters 3 12 o Gramm (Anzeige: g)
+3 13 Kilograms 1)
+3 14 Carats
+3 15 Pounds*
+3 16 Ounces*
+3 17 Troy ounces*
+3 18 Hong Kong taels*
+3 19 Singapore taels*
+3 110 Taiwanese taels*
+3 111 Grains*
+3 112 Pennyweights*
+3 113 Milligrams 2)
+3 114 Parts per pound*
+3 115 Chinese taels*
+3 116 Mommes*
+3 117 Austrian carats*
+3 118 Tola*
+3 119 Baht*
+3 120 Mesghal*
+3 2 Display accuracy 2* 3 21 o All digits
+3 25 Reduced by 1 digit
+3 5 Storage parameter 3 51 Internal resolution
+for Counting and
+Weighing in Percent 3 52 o Display accuracy with
+higher stability
+3 6 Decimal places for 3 61 None
+calculations 3 62 o 1 decimal place
+3 63 2 decimal places
+3 64 3 decimal places
+3 7 Animal activity 3 71 Calm
+3 72 o Normal
+3 73 Strong vibration
+3 8 Start Animal weighing 3 81 Manual start
+3 82 o Automatic start
+4 Application 4 1 Autom. reference 4 11 o Off
+parameters sample updating 4 12 On
+Counting
+5 through 9 see next page
+* = Setting cannot be changed on verified balances
+1)= Not available for models with a readability <0.1 mg
+2)= Not available for verified balances of accuracy class K
+29
+
+--- Page 30 ---
+Menu
+level1
+Menu
+level2
+Menu
+level3
+Factory
+setting
+Menu
+item
+Menu 1 through 3 see previous page
+5 Data interface 5 1 Baud rate 5 11 150 baud
+5 12 300 baud
+5 13 600 baud
+5 14 o 1,200 baud
+5 15 2,400 baud
+5 16 4,800 baud
+5 17 9,600 baud
+5 18 19,200 baud
+5 2 Parity 5 21 Mark
+5 22 Space
+5 23 o Odd
+5 24 Even
+5 3 Number of stop bits 5 31 o 1 stop bit
+5 32 2 stop bits
+5 4 Handshake mode 5 41 Software
+5 42 o Hardware,
+2 char. after CTS
+5 43 Hardware,
+1 char. after CTS
+5 5 Communication mode 5 51 SBI (ASCII) 1)
+5 52 o Universal printer
+6 Print for 6 1 Manual/auto/mode 6 11 Manual without stability
+weighing with (A) key
+6 12 o Manual after stability
+with (A) key
+6 13 Manual at stability
+with (A) key
+6 14 Automatic without stability
+6 15 Automatic at stability
+6 16 Automatic when load
+is changed 1)
+6 2 Stop automatic 6 21 Manual with (A) key
+printing 6 22 o Not stoppable
+6 3 Time-dependent 6 31 o 1 display update
+autom. printing 6 32 2 display updates
+6 4 Tare the balance 6 41 o Off
+after ind. printout 6 42 On
+7 through 9 see next page
+1) = Note concerning balances verified for legal metrology:
+In the “SBI” setting, the non-verified digit indicated is not automatically identified.
+Be sure to take the steps or make the settings on the auxiliary device so that these digits are properly identified.
+See also the “Interface Port” chapter.
+2) = Auto print when load change is > 10 d and stability is reached: no printout until residual difference in load
+value is < 5 d
+30
+
+--- Page 31 ---
+Menu
+level1
+Menu
+level2
+Menu
+level3
+Factory
+setting
+Menu
+item
+Menu 1 through 6 see previous page
+7 Printing with 7 1 Print 7 11 Off
+application application 7 12 o On; all parameters
+programs parameters 7 13 On; main
+parameters only
+7 2 Line format 7 21 For raw data
+of printout (16 characters)
+7 22 o For other apps.
+(22 characters)
+7 3 Printout with 7 31 o Autom. printout
+Net-total of last net value
+program 7 32 Autom. printout
+of tare value
+8 Extra 8 1 Menu* 8 11 o Parameter settings
+functions alterable
+8 12 Parameters “read only"
+8 2 Acoustic signal 8 21 o On
+8 22 Off
+8 3 Keypad 8 31 o Accessible
+8 32 Blocked
+8 4 External switch 8 41 o ( A) key
+function 8 42 (TARE) key
+8 43 (CAL) key
+8 44 (F) key
+8 45 (CF) key
+8 5 Power-on mode 8 51 o Off/on/standby
+for balance 8 53 Standby/on
+8 54 Auto on
+8 8 Reference balance 8 81 o Off
+for Counting 8 82 On for QC scale
+8 83 On for FB /FC /LA /LP
+balances/scales
+8 84 On for isi terminal
+8 10 ISO/GLP-compliant 8 101 o No ISO/GLP printout
+printout 8 102 For calibration/adjustment only
+8 103 Always on
+9 Reset menu 9 – Factory settings 9 – 1 Restore
+9 – 2 Do not restore
+*= Setting cannot be changed on verified balances
+31
+
+--- Page 32 ---
+Setting IDs, Time, Date
+and Display Brightness
+Purpose
+Configuring measurement environment parameters
+for ISO/GLP-compliant data records.
+Setting date and time (for ISO/GLP-compliant
+records only).
+Adapting display to ambient lighting conditions.
+Features
+– Enter up to 8 characters to identify a measurement
+series. Permissible characters include the numbers
+0 through 9 and the dash or minus sign (“–").
+A dash is output as a space on printouts. Leading
+zeroes are not output.
+– Date and time at beginning and end of ISO/GLP-
+printouts.
+– Display brightness 1):
+0 = off; levels of brightness: 1 through 9
+Key functions during configuration:
+Activate input of IDs, time and date:
+Switch the balance off and then on again by
+pressing (E); while all segments are displayed,
+press the (F) key briefly
+Scroll upward ↑: Press (CAL)
+Scroll to the right →: Press (A)
+Confirm input and toggle between IDs,
+time and date: Press (TARE)
+Save settings and exit menu:
+Press and hold (TARE) (> 2 sec.)
+1) No display backlighting on models CPA2P…,
+CPA26P(-0CE) and CPA225D(-0CE)
+32
+
+--- Page 33 ---
+Example: Setting the time, date and display brightness
+Step Key (or instruction) Display
+1. Switch off the balance. (E)
+2. Switch the balance on; (E)
+while all segments
+--------
+are displayed: (F) briefly
+--------
+$ To move the cursor within (A)
+ID number: repeatedly
+-3------
+$ ITo set or change ID: (CAL)
+repeatedly
+H10.14.11
+3. Confirm ID and activate (TARE)
+time setting.
+4. Select 24-hour clock (“H") or
+112-hour clock (“P"). (CAL) H10.14.19
+H10.15.19
+5. Toggle between hours, (A)
+minutes, seconds and 12-hour
+or 24-hour time mode.
+6. Synchronize seconds with
+H10.15.00
+a reference clock. (CAL)
+29.jan.01
+7. Confirm time and activate date. (TARE)
+8. Set date (CAL) repeatedly,
+01.jan.01
+“Day," (A)
+“Month," and, (CAL) repeatedly
+22.apr.01
+(A)
+if desired, “Year." (CAL) repeatedly
+Confirm date and activate
+22.apr.01
+display brightness. (TARE)
+33
+
+--- Page 34 ---
+Step Key (or instruction) Display
+lamp 7
+9. Set display brightness. (CAL) repeatedly
+10.Save changes and exit Press and hold
+the menu (TARE) (2 sec.)
+or
+$ Exit menu without
+saving changes. (E)
+34
+
+--- Page 35 ---
+Application Programs
+Function Keys
+(F) key: Start application program/
+store component
+(F) key Toggle between component
+press and weight and total weight
+hold for (net-total formulation);
+2 seconds change reference quantity
+(counting), reference percentage
+(weighing in percent) or number
+of measurements (animal weighing)
+(CF) key: End application program; delete
+Using Verified Balances as Legal Measuring
+Instruments in the EU*:
+All application programs can be selected on balances
+used as legal measuring instruments.
+Calculated values are alternately indicated with the
+following symbols:
+– Percent = %
+– Piece count (Counting) = pcs
+– Computed value = o, G
+* Including the Signatories of the Agreement
+on the European Economic Area
+35
+
+--- Page 36 ---
+Net-total Formulation
+Menu code: 2 1 6*
+Display symbol: R
+Purpose
+With this application program you can weigh in
+different components up to a defined total.
+Features
+– Weigh up to 99 components from “0" to a defined
+total component weight.
+– Store component weights (“Store xx comp."), with
+–display zeroed automatically after value is stored,
+and
+– automatic printout
+– Clear component memory following cancellation
+of the weighing sequence [by pressing (CF)] and
+printout of the total weight.
+– Toggling between component weight and total
+weight by pressing and holding (F) (2 sec.).
+– Printout of the total of the individual component
+weights (T COMP)
+* = Factory setting on CPA…-PCE models
+36
+
+--- Page 37 ---
+Preparation
+Set parameters for net-total formulation:
+§ Set parameters for automatic printout when
+component stored
+2 Application programs
+2 1 Program selection
+2 1 6* Net-total
+7 Print for application
+7 1 Print application parameters
+7 1 1 Off
+7 1 2ο On; all parameters
+7 1 3 On; main parameters only
+7 3 Printout of net-total formulation data
+7 3 1ο Autom. print of last net value
+7 3 2 Autom. print of tare value
+ο = Factory setting
+* = Factory setting on CPA…-PCE models
+Printout of Net-total Formulation Data
+COMP2 + 278.1 g: Second component
+T COMP+ 2117.5 g: Sum of components
+T1 + 1821.5 g: Tare weight (2ndtare memory)
+N1 + 278.1 g: Net weight = Gross – tare
+2ndtare memory
+N + 2099.6 g: Net weight = Gross – tare
+37
+
+--- Page 38 ---
+Example:Counting parts into a container
+Settings: Application program: Net-total formulation 2 1 6;
+Print application parameters: On, print all 7 1 2; Automatic printout of last net value 7 3 1
+Step Key (or instruction) Display/Data output
+1. Place empty container + 65.0 g
+on the balance.
+0.0
+2. Tare the balance. (TARE) g
+3. Add first component. + 120,5 g
+0.0
+4. Store component data. (F) g
+NET
+COMP1 + 120.5 g
+5. Add next component. + 70,5 g
+0.0
+6. Store component data. (F) g
+NET
+COMP2 + 70.5 g
+7. Weigh in further components Repeat steps
+as desired. 5 and 6.
+8. Continue filling to target press and hold (F) + 191,0 g
+(view total). (2 sec.) G
+38
+
+--- Page 39 ---
+Step Key (or instruction) Display/Data output
+9. Add last component. + 203,5 g
+G
+0.0
+10.Store component data. (F) g
+NET
+COMP 3+ 12.5 g
+11.Display total weight. (CF) + 203,5 g
+T COMP+ 203.5 g
+39
+
+--- Page 40 ---
+Counting
+Menu code: 2 1 4 – Long-term storage of the last reference
+sample quantity “nRef" entered.
+Display symbol: Z
+– Toggling between piece count and
+Purpose weight by pressing (F).
+With the Counting program you can
+determine the number of parts that
+each have approximately equal weight. Function Keys
+To do this, a known number of parts (F):
+(the reference sample quantity) is Begin determination of piece weight
+weighed first, and the individual piece
+weight (reference weight) is calculated > Application program initialized with
+from this result. Thus the number predefined reference sample quantity.
+of parts subsequently placed on the
+balance can be determined from (CF):
+their weight. End application program; clear
+initialization data
+Features
+– The minimum load is equal to one digit, Changing the reference sample
+defined according to the resolution of quantity:
+the active weight unit. § Press and hold (F) (2 sec.)
+> Current reference sample quantity
+– Press and hold the (F) key (2 seconds) to is displayed.
+set the reference sample quantity. $ Press (F) briefly to change the value;
+press repeatedly until the desired refer-
+– Configure the resolution used when ence sample quantity is displayed.
+reference sample quantity is stored and Quantities to choose from: 1, 2, 5, 10,
+piece counts are calculated. 20, 50, 100.
+§ Store setting in long-term memory:
+– Optional automatic output of the piece Press and hold (F).
+count and average piece weight to the
+data interface port when the menu
+code 7 1 2(print application parame-
+ters) is set.
+40
+
+--- Page 41 ---
+Reference Sample Updating § Please order the required connecting
+Automatic reference sample updating cables directly from Sartorius.
+optimizes the counting accuracy.
+You can activate or deactivate this The following settings must have
+function in the Setup menu. the same configurations in both bal-
+ances/scales:
+When this function is active, automatic – Counting program
+reference sample updating is performed – Weight units
+when the criteria of the factory-set – Settings in the CPA balance:
+parameters are met. Menu codes 7 1 2and 7 2 2
+– All data interface parameters:
+> The abbreviation opt, for “optimizing," – Baud rate
+is displayed briefly with the new – Parity
+reference sample quantity. – Number of stop bits
+– Handshake mode
+Reference Balance/Scale
+(Counting with two balances/scales) Transferring the Reference Value from
+the CPA Reference Balance:
+Purpose: – Press the (F) key
+Use of a reference balance/scale affords > The reference value is passed to the
+higher precision in counting large counting balance/scale
+amounts of parts. The CPAbalance is
+used to determine the reference weight. Counting Balance/Scale:
+The following weighing instruments or $ Refer to the operating manual of
+terminals can be used for sample the particular weighing instrument for
+weighing in conjunction with a refer- further instructions
+ence balance/scale:
+– For a QC scale: set menu code 8 8 2
+– For an FB/FC/LA/LP balance/scale:
+set menu code 8 8 3
+– For an isi terminal:
+set menu code 8 8 4
+41
+
+--- Page 42 ---
+Preparation
+Set parameters for the Counting program:
+$ Select the application program in the Setup menu
+§ Set the following parameters:
+2 Application programs
+2 1 Program selection
+2 1 4 Counting
+3 Application parameters
+3 5 Storage parameter
+3 5 1 Standard resolution
+(internal resolution)
+3 5 2ο 10+higher resolution
+4 Application parameters for Counting
+4 1 Autom. ref. sample updating
+4 1 1ο Off
+4 1 2 On
+8 Extra functions
+8 8 Reference balance/scale
+8 8 1ο Off
+8 8 2 On for QC scales
+8 8 3 On for FB-/FC-/LA-/LP models
+8 8 4 On for isi terminals
+ο= Factory setting
+Printout: Counting
+nRef + 10 : Reference sample quantity
+wRef + 21.14 g : Reference weight
+Qnt + 500 pcs: Calculated quantity
+42
+
+--- Page 43 ---
+Example:Counting parts of equal weight
+Settings:
+Menu: Counting program (menu code 2 1 4)
+Step Key (or instruction) Display/Data output
+1. Place empty container + 22.6 g
+on the balance/scale.
+0.0
+2. Tare the balance. (TARE) g
+3. Add reference sample quantity
+to container
+(in this example: 10 pcs).
+ref 10
+4. Initialize the balance. (F) (briefly)
++ 2.14 g
++ 10 pcs
+nRef + 10 pcs
+wRef + 2.14 g
+5. Add uncounted parts + 500 pcs
+as desired.
+6. Print piece count, if desired. (A) Qnt + 500 pcs
+7. Display weight. (F)
++1070.0
+g
+8. Display piece count. (F) + 500 pcs
+9. Unload the balance. – 0 pcs
+10.Repeat as necessary,
+starting from Step 5.
+11.Delete reference
+0.0
+sample quantity (CF) g
+43
+
+--- Page 44 ---
+Weighing in Percent
+Menu code: 2 1 5* – Long-term storage of the last reference
+Display symbol: % percentage “pRef” entered.
+Purpose – Toggling between percentage and
+This application program allows you to weight by pressing (F).
+obtain weight readouts in percent which
+are in proportion to a reference weight. Function Keys
+(F):
+Features Begin calculation of percentage
+– The minimum load is equal to one digit,
+defined according to the resolution of > Current weight value stored as
+the active weight unit. reference weight “Wxx%” to be
+loaded at initialization.
+– Press and hold the (F)key (2 seconds)
+to set the reference percentage (CF):
+End application program;
+– Storage parameter (rounding-off factor) clear initialization data
+for storing the reference weight
+to calculate the percentage can be Changing the reference percentage:
+configured. § Press and hold (F) (2 sec.)
+> Current reference percentage is
+– Configuration of decimal places dis- displayed.
+played with a percentage.
+$ Press (F)briefly to change the value;
+– Optional automatic output of the press repeatedly until the desired
+reference weight “Wxx%” and reference reference percentage is displayed.
+percentage to the data interface port Quantities to choose from: 1, 2, 5, 10,
+when the menu code 7 1 2(print 20, 50, 100.
+application parameters) is set.
+§ Store setting in long-term memory:
+Press and hold (F).
+*=not available for CPA…-PCE models
+44
+
+--- Page 45 ---
+Preparation
+Set parameters for the Weighing in
+Percent program:
+$ Select the application program in the
+Setup menu
+§ Set the following parameters:
+2 Application programs
+2 1 Program selection
+2 1 5 Weighing in percent*
+3 Application parameters
+3 5 Storage parameter
+3 5 1ο Standard resolution
+(internal resolution)
+3 5 2 10+higher resolution
+3 6 Decimal places for calc.
+3 6 1 None
+3 6 2ο 1 decimal place
+3 6 3 2 decimal places
+3 6 4 3 decimal places
+ο = Factory setting
+* = Not in CPA…-PCE models
+Printout: Weighing in Percent
+pRef + 100 %: Reference percentage
+Wxx% + 111.6 g: Reference weight net xx%
+Prc + 94.7 %: Calculated percentage
+45
+
+--- Page 46 ---
+Example:Determining residual weight in percent
+Settings:
+Menu: Weighing in percent program (menu code 2 1 5),
+Print application parameters: On; all parameters (menu code 7 1 2),
+Reference percentage: ref 100% (Code )
+Step Key (or instruction) Display/Data output
+1. Place empty container + 22.6 g
+on balance
+0.0
+2. Tare the balance. (TARE) g
+3. Place sample equal to 100%
+of reference percentage on the
+balance (in this example:
+111.6 g).
+ref 100
+4. Initialize the balance. (F) (briefly)
++ 111.6 g
++ 100.0 %
+pRef + 100 %
+Wxx% + 111.6 g
+5. Remove container; e.g., to
+treat sample (in this example,
+the sample is now dried).
+6. Place container with sample + 94.9 %
+on the balance again
+(after treatment).
+7. Optional: print percentage. (A) Prc + 94.9 %
+8. Display residual weight and (CF) + 105.9 g
+delete reference value.
+9. Optional: print net (A) N + 105.9 g
+residual weight.
+46
+
+--- Page 47 ---
+Animal Weighing/Averaging
+Menu code: Code 2 1 7* – Number of remaining weighing
+Display symbol: V operations in the current series is shown
+during weighing.
+Purpose
+Use this program to determine the – Arithmetic average displayed as a result
+weights of unstable samples (e.g., live in the pre-set weight unit (identified by
+animals) or to determine weights under G). The Vsymbol flashes during this
+unstable ambient conditions. With this time.
+program, the balance calculates the
+weight as the average of a defined – Toggling between weighed and
+number of individual weighing opera- calculated results by pressing (F)
+tions (also referred to as “subweighing (after initialization)
+operations").
+– Unload threshold is one-half of the
+Features minimum load.
+– Animal weighing started manually
+or automatically – Balance/scale returns to the basic
+weighing mode when unloaded;
+– Minimum load threshold for starting i.e., when the load is below the unload
+animal weighing: threshold
+– for automatic start:
+100 display intervals Function Keys
+– for manual start: (F):
+50 display intervals Activate animal weighing program
+– Automatic start: (CF):
+Begin the averaging operation by End application program; delete result;
+pressing (F). “AUTO” is displayed interrupt measuring operation.
+during weighing to indicate that
+the following values will be averaged Changing the number of subweighing
+automatically. operations:
+Animal activity: Averaging begins § Press and hold (F) (2 sec.)
+automatically once two subweights are > Current number of subweighing
+measured within a predefined tolerance operations is displayed.
+range (calm = 2%, normal = 5%, $ Press (F)briefly to change the value;
+active = 20%). press repeatedly until the desired
+number is displayed.
+– Number of weighing operations for Quantities to choose from: 5, 10, 20,
+calculation of an average mDefcan be 50, 100.
+set before the beginning of each series. § Store setting in long-term memory:
+Press and hold (F).
+*=not available for CPA…-PCE models
+47
+
+--- Page 48 ---
+Preparation
+Set parameters for the
+Animal Weighing program:
+$ Select the application program
+in the Setup menu
+§ Set the following parameters:
+2 Application programs
+2 1 Program selection
+2 1 7 Animal weighing*
+3 Application parameters
+3 7 Animal activity
+3 7 1 Calm (2% of the
+animal/object)
+3 7 2ο Normal (5% of the
+animal/object)
+3 7 3 Strong vibration (20%
+of the animal/object)
+3 8Start
+3 8 1 Manual
+3 8 2ο Automatic
+ο = Factory setting
+* = Not in CPA…-PCE models
+Printout: Animal Weighing
+mDef 20 : Number of subweighing operations
+x-Net + 401.1 g: Calculated average
+48
+
+--- Page 49 ---
+Example:Determining animal weight with automatic start of 20 subweighing operations
+Settings:
+Menu: Animal weighing program (menu code 2 1 7),
+Print application parameters: On; all parameters (menu code 7 1 2)
+Step Key (or instruction) Display/Data output
+1. Switch on the balance. (E)
+2. Place animal weighing bowl + 22.6 g
+on the balance.
+0.0
+3. Tare the balance. (TARE) g
+4. Place the first animal Weight value fluctuates due
+in bowl. to animal activity.
+888
+5. Start automatic animal (F)
+20
+weighing. The balance delays
+19
+starting the subweighing
+18
+operation until successive
+subweights lie within the ...
+1
+range defined.
+6. After 20 subweighing operations + 410.1 gG
+the arithmetic average “x-Net" mDef 20
+is displayed. x-Net + 410.1 g
+0.0
+7. Unload the balance. g
+8. Weigh next animal (if applicable).
+Next weighing series begins
+automatically.
+49
+
+--- Page 50 ---
+Toggling between Weight Units
+Menu code: 2 1 2
+With this application program you can switch the display of a weight value back and
+forth between two weight units.
+Configure the “Toggle Weight Units" application in the Setup menu:
+see “Configuration" Menu code: 2.1. 2
+(Factory setting on GCA and GPA models)
+Menu code Unit Conversion Display Print-
+Weight unit 1 Weight unit 2 out
+1 7 1 3 1 1ο Grams 1) 1.00000000000 o o
+1 7 2ο 3 1 2ο Grams 2) 1.00000000000 g g
+1 7 3 3 1 3 Kilograms 3) 0.00100000000 kg kg
+1 7 4ο 3 1 4 Carats 5.00000000000 ct ct
+1 7 5 3 1 5 Pounds* 0.00220462260 lb lb
+1 7 6 3 1 6 Ounces* 0.03527396200 oz oz
+1 7 7 3 1 7ο Troy ounces* 0.03215074700 ozt ozt
+1 7 8 3 1 8 Hong Kong taels* 0.02671725000 tl tlh
+1 7 9 3 1 9 Singapore taels* 0.02645544638 tl tls
+1 7 10 3 1 10 Taiwanese taels* 0.02666666000 tl tlt
+1 7 11 3 1 11 Grains* 15.4323583500 GN GN
+1 7 12 3 1 12 Pennyweights* 0.64301493100 dwt dwt
+1 7 13 3 1 13ο Milligrams 4) 1000.00000000 mg mg
+1 7 14 3 1 14 Parts per pound* 1.12876677120 o /lb
+1 7 15 3 1 15 Chinese taels* 0.02645547175 tl tlc
+1 7 16 3 1 16 Mommes* 0.26670000000 m mom
+1 7 17 3 1 17 Austrian carats* 5.00000000000 K K
+1 7 18 3 1 18 Tola* 0.08573333810 t tol
+1 7 19 3 1 19 Baht* 0.06578947437 b bat
+1 7 20 3 1 20 Mesghal* 0.21700000000 m MS
+o = Factory setting, depends on model
+* = Not available in verified balances
+1)= GPA5202/GPA3202: readability with Taiwanese taels reduced by one decimal place
+2)= GCA1603P, GCA803S: readability 0.0002 g; GCA2502: readability 0.001 g
+3)= Not available in the CPA64-0CE
+4)= Not available in verified balances/scales of accuracy class K
+Function
+(cid:2) Press (F) to toggle between weight unit 1 and weight unit 2
+50
+
+--- Page 51 ---
+Generating a Printout
+Purpose Factory settings:
+You can generate printouts that include Print manual/automatic: Individual
+weights, other measured values and printout dependent on stability:
+identification codes for documentation Manual at stability (menu code: 6 1 2)
+purposes. You can format the printout
+to meet individual requirements. Line format:
+Up to 6 characters at the beginning
+Features of each line to identify the weight
+Printouts generated automatically or or calculated value: Print net, tare, or
+manually (at the press of a key): weight gross value, reference sample quantity,
+or calculated value is output. or average piece weight with ID
+(menu code 7 2 2).
+Line format: Values printed with up
+to 6 preceding characters for identifi- Print application parameters:
+cation. Printout of one or more initialization
+values for the active application
+Print application parameters: program: On (menu code 7 1 2)
+Printout of initialization values before
+printing measurement results. ISO/GLP-compliant printout:
+No ISO/GLP-compliant printout
+ISO/GLP-compliant printout: (menu code 8 10 1)
+Printout of ambient characteristics.
+Auto print:
+Printouts generated automatically Automatic printout of weight values:
+or by pressing (A), dependent on or No default setting; see print manual/
+independent of stability. automatic (menu code 6 1 2)
+Auto print cannot be interrupted by
+You can have the following values pressing (A)(menu code 6 2 2).
+output automatically when using the Auto print after each display update
+application programs if menu code (menu code 6 3 1)
+7 1 2is configured (printout with data
+ID codes): § Setting menu codes for the printout:
+– Net-total: Component or total weight see “Configuration"
+– Counting:
+Reference sample quantity (nRef)
+Reference weight for one piece (wRef)
+– Weighing in percent:
+Reference percentage (pRef)
+Reference weight (Wxx%)
+– Animal weighing/averaging:
+Number of subweighing operations
+(mDef)
+Calculated average (x-Net)
+51
+
+--- Page 52 ---
+Printout without Data ID Codes: Examples
+The value currently + 1530.0 g Weight in grams
+displayed is printed (weight + 58.562 ozt Weight in Troy ounces
+or calculated value with unit) + 253 pcs Piece count
++ 88.2 % Percentage
+Printout with Data ID Codes:
+The current value displayed ID 12345678 Identification*
+can be printed with a data N + 153.0 g Current net weight
+ID code of up to 6 characters T1 + 23.4 g Value in 2nd tare memory
+at the beginning of the line. Qnt + 253 pcs Piece count
+Prc + 88.23 % Percentage
+* = on ISO/GLP records only
+Print Application Parameters:
+You can generate a print- Comp7 + 278.1 g Net-total:
+out of one or more of the 7thcomponent weight
+values configured for T COMP+ 21.14 g Net-total: Total
+initialization of an appli- nRef + 10 Counting: Reference
+cation as soon as you sample quantity
+initialize the balance/scale. wRef + 21.14 g Counting: Reference weight
+Wxx% + 1200.0 g Weighing in percent:
+Reference weight
+Auto Print:
+You can have the weight N + 153.0 g Net weight
+readout printed automatically. Stat Display blank
+Stat L Display underload
+Stat H Display overload
+52
+
+--- Page 53 ---
+ISO/GLP-compliant Printout/Record
+Features Settings
+You can have the parameters pertaining
+to the ambient weighing conditions (cid:2) Setting menu codes for the printout
+printed before (GLP header) and after (see “Configuration"):
+(GLP footer) the values of a weighing
+series. These parameters include: – ISO/GLP-compliant record after
+calibration/adjustment only: menu
+GLP header: code 8 10 2; or ISO/GLP-compliant
+– Date record always on: menu code 8 10 3
+– Time at beginning of measurement
+– Balance manufacturer – Line format for printout:
+– Balance model With data ID codes - 22 characters:
+– Balance serial number menu code 7 2 2
+– Software version number
+– Identification number of the current !No ISO/GLP-compliant record is output
+sampling operation if any of the following settings are
+configured: menu code 6 1 4, 6 1 5,
+GLP footer: 6 1 6 (automatic printout) or 7 2 1
+– Date
+– Time at end of measurement Function Keys
+– Field for operator signature Press (A) to output header and first
+measured value.
+The record is output to a Sartorius data
+printer or a computer. > Header is output the first time (A)
+is pressed
+Press (F) to include output header and
+reference data on automatic printouts
+when an application program is active
+Close the application:
+1) Output GLP footer:
+Press (CF)
+2) End application program:
+Press (CF)
+53
+
+--- Page 54 ---
+The ISO/GLP-compliant printout can contain the following lines:
+-------------------- Dotted line
+17-Jan-2007 10:15 Date/time (beginning of measurement)
+SARTORIUS AG Balance manufacturer
+Mod. CPA10001 Balance model
+Ser. no. 10105355 Balance serial number
+Ver. no. 00-13-47 Software version
+ID 2690 923 ID
+-------------------- Dotted line
+L ID Measurement series no.
+nRef + 10 pcs Counting: Reference sample quantity
+wRef + 21.14 g Counting: Reference weight
+Qnt + 235 pcs Counting result
+Qnt + 567 pcs Counting result
+-------------------- Dotted line
+17-Jan-2007 10:20 Date/time (end of measurement)
+Name: Field for operator signature
+Blank line
+-------------------- Dotted line
+ISO/GLP-compliant printout for external calibration/adjustment:
+-------------------- Dotted line
+17-Jan-2007 10:30 Date/time (beginning of measurement)
+SARTORIUS AG Balance manufacturer
+Mod. CPA10001 Balance model
+Ser. no. 10105355 Balance serial number
+Ver. no. 00-13-47 Software version
+ID 2690 923 ID
+-------------------- Dotted line
+Cal. Ext. Calibration/adjustment mode
+Set + 5000.0 g Calibration weight
+Diff. + 0.2 g Difference determined in calibration
+Cal. Ext. Complete Confirmation of completed calibration procedure
+Diff. + 0.0 g Difference from target following adjustment
+-------------------- Dotted line
+17-Jan-2007 10:32 Date/time (end of measurement)
+Name: Field for operator signature
+Blank line
+-------------------- Dotted line
+54
+
+--- Page 55 ---
+Interface Port
+Purpose Factory settings:
+Your balance is equipped with an interface
+port for connection to a computer or other Transmission rate: 1200 baud (5 1 4)
+peripheral device. Parity: Odd (5 2 3)
+Stop bits: 1 stop bit (5 3 1)
+You can connect a computer to change, Handshake: Hardware, 2 characters
+start and/or monitor the functions of the after CTS (5 4 2)
+balance and the application programs. Operating mode:
+Standard Sartorius interface SBI (5 5 1)
+Features Print manually/automatically:
+Type of interface: Serial interface Manual after stability (6 1 2)
+Operating mode: Full duplex
+Standard: RS-232 Preparation
+Transmission rates: § see “Pin Assignments" and
+150, 300, 600, 1200, 2400, 4800, 9600 “Pin Assignment Chart"
+and 19,200 baud
+Parity: Mark, space, odd, even Identification of Non-Verified Digits
+Character format: Non-verified digits when “e#d”
+1 start bit, 7-bit ASCII, parity, are automatically identified on the
+1 or 2 stop bits printout:
+Handshake: Select universal printer:
+2-wire interface: menu code 5 5 2.
+via software (XON/XOFF) Brackets are used to identify
+4-wire interface: non-verified digits.
+Hardware via handshake lines (CTS/DTR)
+Operating mode: SBI
+Data output format of the balance:
+16 or 22 characters
+55
+
+--- Page 56 ---
+Output Format with 16 Characters
+Display segments that are not activated are output as spaces.
+The following characters can be output, depending on the characters displayed on the
+balance:
+Normal Operation
+Position 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
++ D D D D D D * U U U CR LF
+or – . . . . . . . . * * *
+or * * * * * * * * *
+*: Space CR: Carriage return
+D: Digit or letter LF: Line feed
+U: Unit symbol
+Special Codes
+Position 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+* * * * * * * * * * CR LF
+or H *
+or L *
+or C *
+*: Space H: Overload
+C: Calibration/adjustment L: Underload
+Error Codes
+Position 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+E r r * # # # * * * * CR LF
+*: Space
+# # #: Error code number
+56
+
+--- Page 57 ---
+Data output example: +123.56 g
+Position 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
++ 1 2 3 . 5 6 g CR LF
++ 1 2 3 . 5 [ 6 ]* g CR LF
+Position 1: Plus or minus sign or space
+Position 2: Space or brackets*
+Positions 3–10: Weight with a decimal point; leading zeros = space
+Position 11: Space or brackets*
+Positions 12–14: Unit symbol or space
+Position 15: Carriage return
+Position 16: Line feed
+Output Format with 22 Characters
+When data is output with an ID code, the ID code (consisting of 6 characters) precedes
+the 16-character string described above.
+These 6 characters identify the subsequent value.
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22
+I I I I I I + * D D D D D D D D * U U U CR LF
+* * * * * – . . . . . . . . * * *
+* * * * * * * * *
+I: ID code character U: Unit symbol1)
+*: Space CR: Carriage return
+D: Digit or letter LF: Line feed
+Example:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22
+N + 1 2 3 . 5 6 g CR LF
+N + 1 2 3 . 5 [ 6 ] g CR LF
+1) Depends on balance type; for example, not all units or characters are available on balances verified for use in legal
+metrology.
+*) Identification of non-verified digits:
+Non-verified digits where e=d are identified by brackets (square) if you select the following setting:
+Parameter settings: Communication mode: Universal printer (menu code 5 5 2); “SBI” menu setting
+In the“SBI” setting (menu code 5 5 1), non-verified digits displayed are not automatically identified as such.
+Be sure to take the steps or make the settings on the auxiliary device for this purpose.
+57
+
+--- Page 58 ---
+Special Codes
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22
+S t a t * * * * * * * * * * * * * * * * CR LF
+H *
+L *
+*: Space H: Overload
+L: Underload
+Error Codes
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22
+S t a t * * * * * E r r * # # # * * * * CR LF
+*: Space # # #: Error code number
+ID code
+characters I Meaning
+Stat Status
+T1 Tare T1
+N Net N
+N1 Net N1
+COMPxx Net-total: Component no.
+T COMP Net-total: Total weighed in
+Qnt Counting: Quantity
+wRef Counting: Reference weight
+nRef Counting: Reference sample quantity
+Prc Weighing in percent: Percentage
+Wxx% Weighing in percent: Reference weight
+pRef Weighing in percent: Reference percentage
+mDef Animal weighing: No. of measurements remaining
+x-Net Animal weighing: Calculated average
+58
+
+--- Page 59 ---
+Data Input Format
+You can connect a computer to your balance to send commands via the balance interface
+port to control balance functions and applications.
+The commands sent are control commands and may have different formats.
+Each character must be transmitted according to the settings configured in the operating
+menu for data transmission.
+Format for Control Commands
+Format 1: Esc ! CR LF
+Format 2: Esc ! # _ CR LF
+Esc: Escape CR: Carriage return (optional) ! #: Letters (characters) and numbers
+!: Command LF: Line feed (optional) _: Underline
+character
+Command character Format 1:
+! Meaning
+K Weighing mode 1 (very stable conditions)
+L Weighing mode 2 (stable conditions)
+M Weighing mode 3 (unstable conditions)
+N Weighing mode 4 (very unstable conditions)
+O Block keys
+P (A)key (print, auto print; activate or block)
+R Unblock keys
+S Restart/self-test
+T (TARE) key
+Z Internal calibration/adjustment
+Command character Format 2:
+!# Meaning
+f0 Function key (F)
+f1 Function key (CAL)
+s3 (CF) key
+x0 Perform internal calibration
+x1 Print balance mode
+x2 Print weigh cell serial number
+59
+
+--- Page 60 ---
+Synchronization Handshake
+During data communication between the The balance interface (Sartorius Balance
+balance and a connected device (computer), Interface = SBI) has transmit and receive
+messages consisting of ASCII characters are buffers. You can define the handshake
+transmitted via the interface. For error-free parameter in the Setup menu:
+data communication, the parameters for
+baud rate, parity, handshake mode and – Hardware handshake (CTS/DTR)
+character format must be the same for both – Software handshake (XON, XOFF)
+units.
+You can set these parameters in the Hardware Handshake
+Setup menu so that they match those of
+the connected device. You can also define With a 4-wire interface, 1 more
+parameters in the balance to make data character can be transmitted after CTS
+output dependent on various conditions. (Clear to Send).
+The conditions that can be configured are
+listed in the descriptions of the application
+programs.
+If you do not connect a peripheral device
+to the balance interface port, this will not
+generate an error message.
+60
+
+--- Page 61 ---
+Software Handshake If you select the auto print setting, data
+will be transmitted immediately the
+The software handshake is controlled via moment you turn on the balance. In the
+XON and XOFF. When a device is switched operating menu, you can define whether
+on, XON must be transmitted to enable automatic printing can be stopped by
+any connected device to communicate. pressing (A).
+Data Output by Print Command Faster Output Speeds
+The print command can be transmitted If you require output speeds faster
+by pressing (A) or by a software command than 10 Hz, please contact Sartorius for
+(Esc P). information.
+Automatic Data Output
+In the “auto print" operating mode, data
+is output to the interface port without
+a print command. You can have data out-
+put automatically at defined print intervals,
+with or without the stability parameter.
+The length of a print interval depends on
+the settings for “Adapting the filter"
+(1 1 x) and “Time-dependent automatic
+printing" (6 3 x).
+61
+
+--- Page 62 ---
+Pin Assignment Charts
+Female Interface Connector:
+25-contact D-Submini (DB25S) with screw lock hardware
+Male connector used (please use connectors with the same specifications):
+25-pin D-Submini DB25S with integrated shielded cable clamp assembly
+(Amp 826 985-1C) and fastening screws (Amp 164 868-1)
+!Warning When Using Pre-wired RS-232 Connecting Cables:
+RS-232 cables purchased from other manufacturers often have incorrect pin assignments
+for use with Sartorius weighing systems. Be sure to check the pin assignments against
+the chart below before connecting the cable, and disconnect any lines identified differently
+from those specified by Sartorius (e.g., pin 6).
+Failure to do so may damage or even completely ruin your weighing system and/or
+peripheral device.
+Pin Assignment Chart:
+Pin 1: Signal ground
+Pin 2: Data output (T+D)
+Pin 3: Data input (R+D)
+Pin 4: Internal ground (GND)
+Pin 5: Clear to send (CTS)
+Pin 6: Internally connected
+Pin 7: Internal ground (GND)
+Pin 8: Internal ground (GND)
+Pin 9: Reset _ In*)
+Pin 10: Not connected
+Pin 11: + 12 V
+Pin 12: Reset _ Out *) For remote switch
+Pin 13: + 5 V
+Pin 14: Internal ground (GND)
+Pin 15: Universal remote switch
+Pin 16: Not connected
+Pin 17: Not connected
+Pin 18: Not connected
+Pin 19: Not connected
+Pin 20: Data terminal ready (DTR)
+Pin 21: Ground input for external voltage supply
+Pin 22: Not connected
+Pin 23: Not connected
+Pin 24: Ext. supply voltage input +12 to 30 V
+Pin 25: +5 V
+*) = Hardware restart
+62
+
+--- Page 63 ---
+Cabling Diagram
+– For connecting a computer or other peripheral device to the balance using the
+RS-232C/V24 protocol and cables up to 15 m (50 ft.) long.
+V24
+Balance (female connector) Peripheral device
+(male connector)
+PC PC
+25-pin or 9-pin
+2 3
+20 4
+3 2
+5 8
+7
+6 6
+1
+7 5
+Cable type: AWG 24 specification
+63
+
+--- Page 64 ---
+Troubleshooting Guide
+Error codes are shown on the main display for 2 seconds. The program then returns
+automatically to the previous mode (e.g., weighing).
+Display Cause Solution
+No segments appear No AC power is available Check the AC power supply
+on the display
+The power supply is not Plug in the power supply
+plugged in
+h The load exceeds the balance Unload the balance
+capacity
+lor Err 54 Something is touching Move the object that is
+the weighing pan touching the weighing pan
+CPA2P-F model: To calibrate/adjust, position either
+calibration/adjustment not the standard pan (8 g) or the
+possible without cover filter pan (5 g) along with the
+cover (3 g)
+err 01 Display overrun (data output Change the configuration in
+incompatible with output format the operating menu
+err 02 Calibration parameter Calibrate only when zero
+not met; e.g.: is displayed
+– balance not zeroed – Press (TARE) to zero the balance
+– load on weighing pan – Unload the balance
+err 10 The tare keys are blocked Press (CF) to clear the tare
+when there is data in the memory and release the tare keys
+second tare memory (net-
+total); only 1 tare function
+can be used at a time
+err 11 Tare memory not allowed Press (TARE)
+err 22 Weight is too light or, Increase the weight on the
+when using an application balance
+program, there is no sample
+on the balance
+err 30 Interface port for printer Reset the menu factory settings,
+output is blocked or
+Contact your local Sartorius
+Service Center
+err 235 Connecting cable not Plug in the cable correctly
+on CPA26P, correctly plugged in
+CPA225D Electronics unit of Connect the units that belong
+a different balance used to one another
+64
+
+--- Page 65 ---
+Display Cause Solution
+The weight readout Unstable ambient conditions Set up the balance
+changes constantly (excessive vibration or draft) in another area
+at the place of installation
+A foreign object is caught between Remove the foreign object
+weighing pan and balance housing
+The weight readout The balance was not calibrated/ Calibrate/adjust the balance
+is obviously wrong adjusted before weighing
+The balance was not zeroed Zero the balance before
+before weighing weighing
+If any other errors occur, contact your local Sartorius Service Center!
+Contact information: Please point your Internet browser to: http://www.sartorius.com
+Preparing CPA2P.. Models
+for Transport
+Model CPA2P:
+§ Remove the weighing pan
+§ Remove the interior draft shield from the chamber:
+Use your fingers to raise the draft shield carefully
+until it is free
+$ Place these parts in the accessory kit
+§ Fasten the chamber doors by placing a rubber band
+around the door handles.
+Model CPA2P-F:
+§ Remove the filter pan cover from the chamber
+§ Use forceps to remove the filter weighing pan
+carefully from the chamber
+§ Remove the interior draft shield from the chamber:
+Use your fingers to raise the draft shield carefully
+until it is free
+$ Place these parts either in the accessory kit or in
+the original packaging
+The balance/scale must be acclimated again any
+time it is set up in a new location (see “Installation”
+chapter).
+65
+
+--- Page 66 ---
+Care and Maintenance
+Service Cleaning
+On request, Sartorius can offer you an § Unplug the AC adapter from the wall
+individual service contract. outlet (mains supply). If you have an
+interface cable connected to the
+Repairs balance port, unplug it from the port.
+Repair work must be performed by
+trained service technicians. Any attempt § Clean the balance using a piece of
+by untrained persons to perform repairs cloth which has been wet with a mild
+may lead to hazards for the user. detergent (soap).
+Caution § After cleaning, wipe down the balance
+Risk of explosion if battery is replaced with a soft, dry cloth.
+by an incorrect type. Dispose of used
+batteries according to the instructions. !Make sure that no liquid or other
+foreign objects or dust (powder) enters
+the balance housing.
+!Do not use any aggressive cleaning
+agents (solvents or similar agents).
+Cleaning Stainless Steel Surfaces
+Clean all stainless steel parts regularly.
+Remove the stainless steel weighing
+pan and thoroughly clean it separately.
+Use a damp cloth or sponge to clean
+any stainless steel parts on the balance
+by wiping them down. You can use
+any commercially available household
+cleaning agent that is suitable for use
+on stainless steel. Then wipe down the
+equipment to rinse thoroughly, making
+sure to remove all residues. Afterwards,
+allow the balance to dry. If desired, you
+can apply oil to the cleaned surfaces as
+additional protection.
+Solvents are permitted for use only on
+stainless steel parts.
+66
+
+--- Page 67 ---
+Cleaning the Weighing Chamber and Draft Shield
+§ Open the draft shield cover and take out the
+removable parts.
+§ Use a hand-held vacuum cleaner and mini-hose
+to remove any powdered sample material carefully.
+§ Use blotting paper to remove any liquid sample
+material.
+§ On models with a 3-sided draft shield, pull the
+3 draft shield walls upwards to remove, if necessary.
+Safety Inspection
+If there is any indication that safe operation of the
+balance is no longer warranted:
+§ Turn off the power and disconnect the equipment
+from AC power immediately.
+> Lock the equipment in a secure place to ensure
+that it cannot be used for the time being.
+Notify your nearest Sartorius Service Center.
+Repair work must be performed by trained service
+technicians.
+We recommend having the power supply inspected
+by a certified electrician at regular intervals,
+according to the checklist given below:
+– Insulating resistance: > 7 megaohms measured
+with a constant voltage of at least 500 volts at
+a 500 K-ohm load
+– Leakage current: < 0.05mA measured with
+a properly calibrated multimeter
+67
+
+--- Page 68 ---
+Instructions for Recycling
+Information and Instructions on In countries that are not members of the
+Disposal and Repairs European Economic Area (EEA) or where
+Packaging that is no longer required no Sartorius affiliates, subsidiaries, dealers
+must be disposed of at the local waste or distributors are located, please contact
+disposal facility. The packaging is made your local authorities or a commercial
+of environmentally friendly materials disposal operator.
+that can be used as secondary raw
+materials. Prior to disposal and/or scrapping of the
+equipment, any batteries should be
+The equipment, including removed and disposed of in local collection
+accessories and batteries, boxes.
+does not belong in your
+regular household waste. Sartorius AG, its affiliates, subsidiaries,
+The EU legislation requires dealers and distributors will not take back
+its Member States to collect equipment contaminated with hazardous
+electrical and electronic equipment materials (ABC contamination) – either
+and dispose of it separately from other for repair or disposal. Please refer to the
+unsorted municipal waste with the accompanying leaflet/manual or visit our
+aim of recycling it. Internet website (www.sartorius.com) for
+comprehensive information that includes
+In Germany and many other countries, our service addresses to contact if you
+Sartorius AG takes care of the return plan to send your equipment in for repairs
+and legally compliant disposal of its or proper disposal.
+electrical and electronic equipment
+on its own. These products may not
+be placed in household waste or
+brought to collection centers run by
+local public disposal operations – not
+even by small commercial operators.
+For disposal in Germany and in the
+other Member States of the European
+Economic Area (EEA), please contact
+our service technicians on location
+or our Service Center in Goettingen,
+Germany:
+Sartorius AG
+Service Center
+Weender Landstrasse 94–108
+37075 Goettingen, Germany
+68
+
+--- Page 69 ---
+Overview
+Specifications
+Model CPA2P CPA2P-F
+Electronic weighing range mg 500/1,000/2,000 500/1,000/2,000
+Weighing capacity mg approx. 2,000 approx. 2,000
+Readability mg 0.001/0.002/0.005 0.001/0.002/0.005
+Tare range (subtractive) mg approx. –2,000 approx. –2,000
+Repeatability (std. deviation) <±mg 0.001/0.002/0.003 0,002/0.003/0.004
+Linearity <±mg 0.002/0.004/0.005 0.002/0.004/0.005
+Response (average) s 10 10
+Operating temperature range °C +15 to +30°C (59°F to 86°F)
+Allowable ambient
+operating temperature °C +5 to +40°C (41°F to 104°F)
+Sensitivity drift within
++15… +30°C <±/K 5 ·10–6
+External calibration weight g 2 (E2) 2 (E2)
+(of at least accuracy class…)
+Weighing pan diameter mm 20 d 125 dor 20 d
+Dimensions (W+D+H) mm 213+342+151 213+342+115
+Weighing chamber (W+D+H) mm 54+49,5+55,5 Height: 12
+Net weight, approx. kg 4.35 5.0
+AC power source/ V~ AC adapter, 230 V or 115 V, +15%…–20%
+Power requirements (protection rating IP20)
+Frequency Hz 48 – 60
+Power consumption (average) VA maximum 16; typical 8
+Approx. hours of operation
+with the YRB08Z
+rechargeable battery pack h 22 22
+Selectable weight units Grams, carats, pounds, ounces, Troy ounces, Hong Kong taels,
+Singapore taels, Taiwanese taels, grains, pennyweights, milligrams,
+parts per pound, Chinese taels, mommes, Austrian carats, tola,
+baht and mesghal
+Built-in interface RS-232/V24-V28
+Format: 7-bit ASCII, 1 start bit, 1 or 2 stop bits
+Parity: Mark, odd, even or space
+Transmission rates: 150 to 19,200 baud
+Handshake mode: Software or hardware
+69
+
+--- Page 70 ---
+Model CPA26P CPA225D CPA324S CPA224S CPA124S CPA64 CPA64-WDS
+Weighing capacity g 5/21 40/100/220 320 220 120 64 64
+Readability mg 0.002/0.010.01/0.01/0.1 0.1 0.1 0.1 0.1 0.1
+Tare range (subtractive) g –21 –220 –320 –220 –120 –64 -64
+Repeatability <±mg 0.004 0.02/0.05/0.1 0.2 0.1 0.1 0.1 0.11)
+(std. deviation)
+Linearity <±mg 0.008 0.03/0.1/0.2 0.3 0.2 0.2 0.2 0.21)
+Response time (average) s 10 <6/3 <3 <2 <2 <2 <21)
+Operating temperature
+range °C +10 to +30°C (50° to 86°F)
+Allowable ambient
+operating temperature °C +5 to +40°C (41°F to 104°F)
+Sensitivity drift within
++10… +30°C <±/K 1 ·10–6
+External calibration weight g 20 200 (E2) 200 + 200 (E2) 100 (E2) 50 (E2) 50 (E2)
+(of at least accuracy class…) (E2) 100 (E2)
+Net weight, approx. kg 7.6 7.6 6.5 6.5 6.5 6.5 4.1
+Pan size (inner diameter)* mm 50 d 80 d 80 d 80 d 80 d 80 d 80 d
+Pan area* cm2 20 64 64 64 64 64 64
+Weighing chamber height mm 162 232 232 232 232 232 –
+(from pan to cover)
+Dimensions (W+D+H)
+– Balance mm 213+ 213+342+340 213+342+340 213+342+92
+342+270
+– Electronics box mm 134+51+155 – – – – –
+AC power source/ V~ AC adapter, 230 V or 115 V, +15%…–20%
+Power requirements (protection rating IP20)
+Frequency Hz 48 – 60
+Power consumption VA maximum 16; typical 8
+(average)
+Approx. hours of operation
+with the YRB05Z
+rechargeable battery pack h 20 20 22 22 22 22 22
+Selectable weight units Grams, carats, pounds, ounces, Troy ounces, Hong Kong taels,
+Singapore taels, Taiwanese taels, grains, pennyweights, milligrams,
+parts per pound, Chinese taels, mommes, Austrian carats, tola, baht and mesghal
+Built-in interface RS-232/V24-V28
+Format: 7-bit ASCII, 1 start bit, 1 or 2 stop bits
+Parity: Mark, odd, even or space
+Transmission rates: 150 to 19,200 baud
+Handshake mode: Software or hardware
+* Three-sided weighing pan: d= diameter of inner circle.
+The cross-hatched section can be fully utilized.
+1) These specifications were determined with the draft shield in place.
+70
+
+--- Page 71 ---
+Model GCA1603P GCA803S GCA2502
+Weighing capacity ct 800/1,600 800 2,500 (500 g)
+Readability ct 0.001/0.01 0.001 0.01 1)
+Tare range (subtractive) ct –1,600 –800 –2,500
+Repeatability (std. deviation) <± ct 0.001/0.01 0.001 0.01
+Linearity <± ct 0.002 0.001 0.01
+Response time (average) s < 2
+Operating temperature range °C +10.… +30°C (50°F to 86°F)
+Allowable ambient
+operating temperature °C +5.… +40°C (41°F to 104°F)
+Sensitivity drift within
++10… +30°C <±/K 1 ·10–6 1 ·10–6 2 ·10–6
+External calibration weight g 200 + 100 (E2) 200 (F1)
+(of at least accuracy class…) 100 (E2)
+Net weight, approx. kg 6.1
+Pan size (inner diameter)* mm 80 d 80 d 110 d
+Pan surface* cm2 64 64 120
+Weighing chamber height
+(from pan to cover) mm 162
+Dimensions (W+D+H) mm 213+342+270
+AC power source/ V~ AC adapter, 230 V or 115 V, +15%…–20%
+Power requirements (protection rating IP20)
+Frequency Hz 48 – 60
+Power consumption (average) VA maximum 16; typical 8
+Approx. hours of operation
+with the YRB08Z
+rechargeable battery pack h 22 22 27
+Selectable weight units Grams, carats, pounds, ounces, Troy ounces, Hong Kong taels,
+Singapore taels, Taiwanese taels, grains, pennyweights, milligrams,
+parts per pound, Chinese taels, mommes, Austrian carats, tola,
+baht and mesghal
+Built-in interface RS-232/V24-V28
+Format: 7-bit ASCII, 1 start bit, 1 or 2 stop bits
+Parity: Mark, odd, even or space
+Transmission rates: 150 to 19,200 baud
+Handshake mode: Software or hardware
+1) For readability 0.005 ct, select menu code 1 8 1 or 3 2 1 (see “Configuring the Balance/Scale”)
+* Three-sided weighing pan: d= diameter of inner circle.
+The cross-hatched section can be fully utilized.
+71
+
+--- Page 72 ---
+Model CPA1003S CPA1003P CPA623S CPA423S, CPA323S CPA223S
+CPA423S-DS
+Weighing capacity g 1,000 500/1,010 620 420 320 220
+Readability g 0.001 0.001/0.01 0.001 0.001 0.001 0.001
+Tare range (subtractive) g –1,000 –1,010 –620 –420 –320 –220
+Repeatability <±g 0.001 0.001/0.01 0.001 0.001 0.001 0.001
+(std. deviation)
+Linearity <±g 0.002 0.002/0.02 0.002 0.002 0.002 0.002
+Response time (average) s <2 <2 <1.5 <1.5 <1.5 <1.5
+Operating temperature range °C 10° to 30° (50° to 86°F)
+Allowable ambient
+operating temperature °C 0° to 40° (32° to 104°F)
+Sensitivity drift
+within +10 to +30°C <±/K 2 ·10–6
+External calibration weight g 1,000 (E2) 1,000 (E2) 500 (E2) 200 (F1) 200 (F1) 200 (F1)
+(of at least accuracy class…)
+Net weight, approx. kg 6.5 6.5 4.6 4.6 4.6 4.6
+Weighing pan size mm 110 d
+(inner diameter)*
+Weighing pan area* cm2 120
+Weighing chamber height
+(weighing pan to draft shield
+cover) mm 240 240 50 50 50 50
+Dimensions (W+D+H) mm 213+342+340 213+ 213+342+153
+342+153 CPA423S-DS:
+213+342+340
+AC power source/ V~ AC adapter STNG6, 230 V or 115 V,
+power requirements +15% to – 20% (protection rating IP20)
+Frequency Hz 48 – 60
+Power consumption (average) VA maximum 16; typical 8
+Approx. hours of operation
+with the YRB05Z
+rechargeable battery pack h 27
+Selectable weight units Grams, carats, pounds, ounces, Troy ounces,
+Hong Kong taels, Singapore taels, Taiwanese taels, grains, pennyweights,
+milligrams, parts per pound, Chinese taels, mommes, Austrian carats,
+tola, baht and mesghal
+Built-in interface RS-232C-S/V24-V28; 7-bit; parity: even, odd, mark,
+or space; transmission rates: 150 to 19,200 baud;
+1 or 2 stop bits; software/hardware handshake
+* Three-sided weighing pan: d= diameter of inner circle.
+The cross-hatched section can be fully utilized.
+72
+
+--- Page 73 ---
+Model CPA6202S CPA6202PGPA5202/ CPA4202SCPA3202S/ CPA2202S/
+CPA5202S-DS GPA3202 CPA2202S-DS
+Weighing capacity g 6,200 1,500/ 5,200 4,200 3,200 2,200
+3,000/6,200
+Readability g 0.01 0.01/0.02/ 0.01 0.01 0.01 0.01
+0.05
+Tare range (subtractive) g –6,200 –6,200 –5,200 –4,200 –3,200 –2,200
+Repeatability <±g 0.01 01/0.01/ 0.01 0.01 0.01 0.01
+(std. deviation) 0.03
+Linearity <±g 0.02 0.02/0.02/ 0.02 0.02 0.02 0.02
+0.05
+Response time (average) s <1.5
+Operating temperature range °C 10° to 30° (50° to 86°F)
+Allowable ambient
+operating temperature °C 0° to 40° (32° to 104°F)
+Sensitivity drift
+within +10 to +30°C <±/K 2 ·10–6
+External calibration weight g 5,000 (E2) 5,000 (F1) 5,000 (E2) 2,000 (E2) 2,000 (F1) 2,000 (F1)
+(of at least accuracy class...)
+Net weight, approx. kg 4.7 4.7 6 4.7 4.7 4.7/6
+Weighing pan size mm 190+204 190+204 190+204/ 190+204 190+204 190+204/
+d130 d130
+Weighing pan area cm2 388 388 388/133 388 388 388/133
+Dimensions (W+D+H) mm 213+ 213+ 213+ 213+ 213+ 213+
+342+ 342+ 342+ 342+ 342+ 342+
+88 88 88/340 88 88 88/340
+AC power source/ V~ AC adapter STNG6, 230 V or 115 V,
+power requirements +15% to – 20% (protection rating IP20)
+Frequency Hz 48 – 60
+Power consumption (average) VA maximum 16; typical 8
+Approx. hours of operation
+with the YRB05Z
+rechargeable battery pack h 27
+Selectable weight units Grams, kilograms, carats, pounds, ounces, Troy ounces,
+Hong Kong taels, Singapore taels, Taiwanese taels, grains,
+pennyweights, milligrams, parts per pound, Chinese taels, mommes,
+Austrian carats, tola, baht and mesghal
+Built-in interface RS-232C-S/V24-V28; 7-bit; parity: even, odd, mark, or space;
+transmission rates: 150 to 19,200 baud;
+1 or 2 stop bits; software/hardware handshake
+73
+
+--- Page 74 ---
+Model CPA CPA CPA CPA CPA CPA CPA CPA
+10001 8201 5201 34001S 34001P 16001S 12001S 34000
+Weighing capacity kg 10 8.2 5.2 34 8/16/34 16 12 34
+Readability (scale interval) g 0.1 0.1 0.1 0.1 0.1/0.2/0.5 0.1 0.1 1
+Tare range (subtractive) kg –10 –8.2 –5.2 –34 –34 –16 –12 –34
+Repeatability <±g 0.1 0.1 0.1 0.1 0.1/0.2/0.5 0.1 0.1 0.5
+(std. deviation)
+Linearity <±g 0.2 0.2 0.2 0.2 0.3/0.3/0.3 0.2 0.2 1
+Response time (average) s <1 <1 <1 <2 <2 <2 <2 <1.5
+Operating temperature range°C 10° to 30° (50° to 86°F)
+Allowable ambient
+operating temperature °C 0° to 40° (32° to 104°F)
+Sensitivity drift
+within 10° to 30°C <±/K4 · 10–6 4 · 10–6 4 · 10–6 2 · 10–6 2 · 10–6 2 · 10–6 2 · 10–6 2 · 10–6
+External calibration weight kg 5 (F1) 5 (F2) 5 (F2) 10 (F1) 10 (F2) 10 (F1) 10 (F1) 10 (F2)
+(of at least accuracy class...)
+Net weight, approx. kg 4.7 4.7 4.7 16 16 16 16 16
+Weighing pan size mm 190+204190+204300+400 300+400 300+400 300+400 300+400
+Dimensions (W+D+H) mm 213+ 213+ 213+ 313+ 313+ 313+ 313+ 313+
+342+ 342+ 342+ 532+ 532+ 532+ 532+ 532+
+90 90 90 120 120 120 120 120
+AC power source/ V~ AC adapter STNG6, 230 V or 115 V,
+power requirements +15% to – 20% (protection rating IP20)
+Frequency Hz 48 – 60
+Power consumption (average)VA maximum 16; typical 8
+Approx. hours of operation
+with a rechargeable
+battery pack h 40 40 40 22 22 22 22 22
+Selectable weight units Grams, kilograms, carats, pounds, ounces, Troy ounces,
+Hong Kong taels, Singapore taels, Taiwanese taels, grains,
+pennyweights, milligrams, parts per pound, Chinese taels, mommes,
+Austrian carats, tola, baht and mesghal
+Cable length between display
+unit/weighing platform m – – – 1.2 1.2 1.2 1.2 1.2
+Built-in interface RS-232C-S/V24-V28; 7-bit; parity: even, odd, mark, or space;
+transmission rates: 150 to 19,200 baud; 1 or 2 stop bits;
+software/hardware handshake
+* Three-sided weighing pan: d= diameter of inner circle.
+The cross-hatched section can be fully utilized.
+74
+
+--- Page 75 ---
+Model CPA26P CPA225D CPA324S CPA224S CPA124S CPA64
+-0CE -0CE -0CE -0CE, -0CE, -0CE
+CPA224 CPA124S
+-PCE -PCE
+Type BC BL 100 BC BL 100 BC BL 100 BC BL 100 BC BL 100 BC BL 100
+Accuracy class1) k k k k k k
+Maximum capacity, Max1) g 5/21 100/220 320 220 120 64
+Scale interval d1) mg 0.002/0.01 0.01/0.1 0.1 0.1 0.1 0.1
+Tare range (subtractive) g < 100% of the maximum capacity
+Verification scale interval, e1) g 0.001 0.001 0.001 0.001 0.001 0.001
+Minimum capacity, Min1) g 0.0002 0.001 0.01 0.01 0.01 0.01
+Response time (average) s 10 <6/3 <3 <2 <2 <2
+Range of use according to CD1) g 0.0002–21 0.001–220 0.01-320 0.01–220 0.01–120 0.01–64
+Allowable ambient operating
+temperature:
+– with “isoCAL” function °C +10° to +30° (+50° to +86°F)
+– without “isoCAL” function °C +15° to +25° (+59° to +77°F)
+External calibration weight g 20 (E2) 200 (E2) 200 + 200 (E2) 100 (E2) 50 (E2)
+(of at least accuracy class…) 100 (E2)
+Net weight, approx. kg 7.6 7.6 6.5 6.5 6.5 6.5
+Weighing pan size mm 50 d 80 d* 80 d* 80 d* 80 d* 80 d*
+(inner diameter)
+Weighing pan area cm2 20 64* 64* 64* 64* 64*
+Weighing chamber height (weigh-
+ing pan to draft shield cover) mm 162 232 232 232 232 232
+Dimensions (W+D+H)
+– Balance mm 213+342 213+342 213+342 213+342 213+342 213+342
++270 +340 +340 +340 +340 +340
+– Electronics box mm 134+51 134+51 – – – –
++155 +155
+AC power source/ V~ AC adapter STNG6, 230 V or 115 V,
+power requirements +15%…– 20% (protection rating IP20)
+Frequency Hz 48 – 60
+Power consumption (average) VA maximum 16; typical 8
+Approx. hours of operation
+with the YRB05Z reachargeable
+battery pack h 20 20 22 22 22 22
+Selectable weight units Grams, carats, milligrams
+Built-in interface RS-232C-S/V24-V28; 7-bit; parity: even, odd, mark, or space; transmission
+rates: 150 to19,200 baud; 1 or 2 stop bits; software/hardware handshake
+1) CD= Council Directive 90/384/ECC for non-automatic weighing instruments;
+applicable to the European Economic Area
+* Three-sided weighing pan: d= diameter of inner circle.
+The cross-hatched section can be fully utilized.
+75
+
+--- Page 76 ---
+Model CPA1003S-0CE CPA623S-0CE CPA523S-PCE CPA423S-0CE
+Type BD BL 100 BD BL 200 BD BL 200 BD BL 200
+Accuracy class1) k K K K
+Maximum capacity, Max1) g 1,000 620 520 420
+Scale interval, d1) g 0.001 0.001 0.001 0.001
+Tare range (subtractive) g <100% of the maximum capacity
+Verification scale interval, e1) g 0.01 0.01 0.01 0.01
+Minimum capacity, Min1) g 0.1 0.02 0.02 0.02
+Response time (average) s <1.5
+Range of use according g 0.1–1,000 0.02–620 0.02–520 0.02–420
+to CD1)
+Allowable ambient operating
+temperature:
+– with “isoCAL” function +10 to +40°C +0° to +40°C +0° to +40°C +0° to +40°C
+(+50° to +104°F) (+32° to +104°F) (+32° to +104°F) (+32° to +104°F)
+– without “isoCAL” function +15 to +25°C +10° to +30°C +10° to +30°C +10° to +30°C
+(+50° to +77°F) (+50° to +86°F) (+50° to +86°F) (+50° to +86°F)
+Net weight, approx. kg 6.5 4.6 4.6 4.6
+Weighing pan size mm 110 d
+(inner diameter)*
+Weighing pan surface* cm2 120
+Weighing chamber height
+(weighing pan to draft shield
+cover) mm 240 50 50 50
+Dimensions (W+D+H) mm 213+342+340 213+342+153 213+342+153 213+342+153
+AC power source/ V~ AC adapter STNG6 230 V or 115 V,
+power requirements +15% to – 20% (protection rating IP20)
+Frequency Hz 48 – 60
+Power consumption (average) VA maximum 16; typical 8
+Approx. hours of operation
+with the YRB05Z reachargeable
+battery pack h 27
+Selectable weight units Grams, carats
+Built-in interface RS-232C-S/V24-V28; 7-bit; parity: even, odd, mark,
+or space; transmission rates: 150 to19,200 baud;
+1 or 2 stop bits; software/hardware handshake
+1) CD= Council Directive 90/384/ECC for non-automatic weighing instruments;
+applicable to the European Economic Area
+* Three-sided weighing pan: d= diameter of inner circle.
+The cross-hatched section can be fully utilized.
+76
+
+--- Page 77 ---
+Model CPA323S-0CE CPA223S-0CE GC1603S-0CE GC803S-0CE
+Type BD BL 200 BD BL 200 BC BL 100 BC BL 100
+Accuracy class1) K K k k
+Maximum capacity, Max1) 320 g 220 g 1,600 ct 800 ct
+Scale interval, d1) 0.001 g 0.001 g 0.001 ct 0.001 ct
+Tare range (subtractive) <100% of the maximum capacity
+Verification scale interval, e1) 0.01 g 0.01 g 10 mct 10 mct
+Minimum capacity, Min1) 0.02 g 0.02 g 0.1 ct 0.1 ct
+Response time (average) s <1.5 <1.5 <2 <2
+Range of use according 0.02–320 g 0.02–220 g 0.1–1,600 ct 0.1–800 ct
+to CD1)
+Allowable ambient operating
+temperature:
+– with “isoCAL” function °C +0° to +40° (+32° to +104°F) +10° to +30° (+50° to +86°F)
+– without “isoCAL” function °C +10° to +30° (+50° to +86°F) +15 to +25 (59°F to 77°F)
+External calibration weight g 200 + 100 (E2)
+(of at least accuracy class) 100 (E2)
+Net weight, approx. kg 4.6 4.6 6.1 6.1
+Weighing pan size mm 110 d 110 d 80 d 80 d
+(inner diameter)*
+Weighing pan area* cm2 120 120 64 64
+Weighing chamber height
+(weighing pan to draft shield
+cover) mm 50 50 162 162
+Dimensions (W+D+H) mm 213+342+153 213+342+153 213+342+270 213+342+270
+AC power source/ V~ AC adapter STNG6 230 V or 115 V,
+power requirements +15% to –20% (protection rating IP20)
+Frequency Hz 48 – 60
+Power consumption (average) VA maximum 16; typical 8
+Approx. hours of operation
+with the YRB05Z reachargeable
+battery pack h 27 27 22 22
+Selectable weight units Grams, carats Grams, milligrams, carats
+Built-in interface RS-232C-S/V24-V28; 7-bit; parity: even, odd, mark,
+or space; transmission rates: 150 to19,200 baud;
+1 or 2 stop bits; software/hardware handshake
+1) CD= Council Directive 90/384/ECC for non-automatic weighing instruments;
+applicable to the European Economic Area
+* Three-sided weighing pan: d= diameter of inner circle.
+The cross-hatched section can be fully utilized.
+77
+
+--- Page 78 ---
+Model CPA6202S CPA6202P GPA5202 CPA4202S CPA3202S CPA2202S
+-0CE -0CE -0CE -0CE, -0CE, -0CE
+CPA4202S CPA3202S
+-PCE -PCE,
+GPA3202
+-0CE
+Type BD BL 200 BD BL 200 BD BL 200 BD BL 200 BD BL 200 BD BL 200
+Accuracy class1) K K K K K K
+Maximum capacity, Max1) g 6,200 1,500/3,000/ 5,200 4,200 3,200 2,200
+6,200
+Scale interval, d1) g 0.01 0.01/0.02/ 0.01 0.01 0.01 0.01
+0.05
+Tare range (subtractive) g < 100% of the maximum capacity
+Verification scale interval, e1)g 0.1 0.1 0.1 0.1 0.1 0.1
+Minimum capacity, Min1) g 0.5 0.5 0.5 0.5 0.5 0.5
+Response time (average) s <1.5
+Range of use according g 0.5–6,200 0.5–6,200 0.5–5,200 0.5–4,200 0.5–3,200 0.5–2,200
+to CD1)
+Allowable ambient operating
+temperature:
+– with “isoCAL” function °C +0° to +40° (+32° to +104°F)
+– without “isoCAL” function °C +10° to +30° (+50° to +86°F)
+Net weight, approx. kg 4.7
+Weighing pan size mm 190+204
+Weighing pan area* cm2 388
+Dimensions (W+D+H) mm 213+342+88
+AC power source/ V~ AC adapter STNG6 230 V or 115 V,
+power requirements +15% to – 20% (protection rating IP20)
+Frequency Hz 48 – 60
+Power consumption (average)VA maximum 16; typical 8
+Approx. hours of operation
+with the YRB05Z reachargeable
+battery pack h 27
+Selectable weight units Grams, kilograms, carats
+Built-in interface RS-232C-S/V24-V28; 7-bit; parity: even, odd, mark,
+or space; transmission rates: 150 to19,200 baud;
+1 or 2 stop bits; software/hardware handshake
+1) CD= Council Directive 90/384/ECC for non-automatic weighing instruments;
+applicable to the European Economic Area
+78
+
+--- Page 79 ---
+Model CPA10001-0CE CPA8201-0CE CPA5201-0CE CPA2201-0CE
+Type BD BL 200 BD BL 200 BD BL 200 BD BL 200
+Accuracy class1) K K K K
+Maximum capacity, Max1) g 10,000 8,200 5,200 2,200
+Scale interval, d1) g 0.1 0.1 0.1 0.1
+Tare range (subtractive) g < 100% of the maximum capacity
+Verification scale interval, e1) g 1 1 1 0.1
+Minimum capacity, Min1) g 5 5 5 5
+Response time (average) s <1
+Range of use according g 5–10,000 5–8,200 5–5,200 5–2,200
+to CD1)
+Allowable ambient operating
+temperature:
+– with “isoCAL” function °C 0° to +40° (+32° to +104°F)
+– without “isoCAL” function °C +10° to +30° (+50° to +86°F)
+Net weight, approx. kg 4.7
+Weighing pan size mm 190+204 190+204
+Weighing pan area* cm2 388 388
+Dimensions (W+D+H) mm 213+342+90 213+342+90
+AC power source/ V~ AC adapter STNG6 230 V or 115 V,
+power requirements +15% to – 20% (protection rating IP20)
+Frequency Hz 48 – 60
+Power consumption (average) VA maximum 16; typical 8
+Approx. hours of operation
+with the YRB05Z
+reachargeable battery pack h 40
+Selectable weight units Grams, kilograms, carats
+Built-in interface RS-232C-S/V24-V28; 7-bit; parity: even, odd, mark, or space;
+transmission rates: 150 to19,200 baud;
+1 or 2 stop bits; software/hardware handshake
+1) CD= Council Directive 90/384/ECC for non-automatic weighing instruments;
+applicable to the European Economic Area
+* Three-sided weighing pan: d= diameter of inner circle.
+The cross-hatched section can be fully utilized.
+79
+
+--- Page 80 ---
+Model CPA34001S CPA34001P CPA16001S CPA12001S CPA34000
+-0CE -0CE -0CE -0CE -0CE
+Type BF BL 500 BF BL 500 BF BL 500 BF BL 500 BF BL 500
+Accuracy class1) K K K K K
+Maximum capacity, Max1) kg 34 8/16/34 16 12 34
+Scale interval, d1) g 0.1 0.1/0.2/0.5 0.1 0.1 1
+Tare range (subtractive) g < 100% of the maximum capacity
+Verification scale interval, e1) g 1 1 1 1 1
+Minimum capacity, Min1) g 5 5 5 5 50
+Response time (average) s <2 <2 <2 <2 <1.5
+Range of use according g 5–34,000 5–34,000 5–16,000 5–12,000 50–34,000
+to CD1)
+Allowable ambient operating
+temperature:
+– with “isoCAL” function °C +0° to +40° (+32° to +104°F)
+– without “isoCAL” function °C +10° to +30° (+50° to +86°F)
+Net weight, approx. kg 16
+Weighing pan size mm 300+400
+Dimensions (W+D+H) mm 313+532+120
+AC power source/ V~ AC adapter STNG6, 230 V or 115 V,
+power requirements +15% to –20% (protection rating IP20)
+Frequency Hz 48 – 60
+Power consumption (average) VA maximum 16; typical 8
+Approx. hours of operation
+with the YRB06Z reachargeable
+battery pack h 220
+Selectable weight units Grams, kilograms, carats
+Cable length between display
+unit and weighing platform 1.20 m
+Built-in interface RS-232C-S/V24-V28; 7-bit; parity: even, odd, mark, or space;
+transmission rates: 150 to19,200 baud;
+1 or 2 stop bits; software/hardware handshake
+1) CD= Council Directive 90/384/ECC for non-automatic weighing instruments;
+applicable to the European Economic Area
+80
+
+--- Page 81 ---
+Accessories (Options)
+Product Order No.
+Data printer YDP03-0CE
+with date, time, statistics evaluation
+and transaction counter functions
+and LCD
+Remote display1)reflective
+(data interface required) YRD02Z
+External rechargeable battery pack
+– for models with weighing capacities
+under 10 kg YRB05Z
+– for models with weighing capacities
+over 10 kg YRB06Z
+With battery-level indicator (LED);
+can be recharged using the AC adapter
+(time it takes to charge the discharged
+battery pack: 15 hours); see
+“Specifications" for hours of operation
+To recharge the battery pack:
+– Unplug the AC adapter from the balance
+and plug it into the battery pack
+Carrying case
+– for models with analytical
+draft shield chamber YDB01CP
+– for models with weighing capacities
+up to 10 kg and without analytical
+draft shield chamber YDB02CP
+1) Not available for verified balances 81
+
+--- Page 82 ---
+Product Order No.
+SartoConnect,1)software for direct transfer of weighing data YSC01L
+to an application program (e.g. Excel) from the CPA balance to
+a computer
+– with RS-232C adapter cable; length: 1 m YSC01L
+– with RS-232C adapter cable; length: 5 m YSC01L5
+– with RS-232C adapter cable; length: 15 m YSC01L15
+Density determination kit1)
+– for CPA225D, CPA324S, CPA224S, CPA124S YDK01
+Antistatic weighing pan1)
+– for CPA225D, CPA324S, CPA224S, CPA124S, CPA64 YWP01CP
+Calibration weights
+for all CPA balances; extensive assortment, optionally available Information
+with DKD certificate available
+on request
+Standard Operating Procedure
+optimum use of your balance in quality management systems YSL07E
+Industrial AC adapter, model ING1
+for balances with weighing capacities up to 10 kg; protection rating:
+IP65 in accordance with DIN VDE 0470/DIN EN 60529
+– for 230 V 69 71476
+– for 120 V 69 71480
+Industrial AC adapter, model ING2
+for balances with weighing capacities over 10 kg; protection rating:
+IP65 in accordance with DIN VDE 0470/DIN EN 60529
+– for 230 V 69 71899
+– for 120 V 69 71500
+Analytical draft shield chamber
+– for CPA623S, CPA423S, CPA323S, CPA223S, GCA2502 YDS01CP
+1) Not available for verified balances
+82
+
+--- Page 83 ---
+Product Order No.
+Draft shield cover with opening (d30 mm)
+– for CPA623S, CPA423S, CPA323S, CPA223S, GCA2502 YDS02CP
+Data cable
+– for PC connection, 25-pin 7357312
+– for PC connection, 9-pin 7357314
+Adapter:
+D-Sub 25-pin male connector to D-Sub 9-position, length: 0.25 m 6965619
+Universal remote control switch
+for remote control of the following functions
+(configured in the balance menu): (A), (TARE), (CF) or (F)
+(see “Configuration" for details):
+Foot switch with T-connector YFS01
+Hand switch with T-connector YHS02
+T-connector YTC01
+!The T-connector is not intended for use with multiple intelligent
+peripheral devices, such as PCs or YDP03-0CE printers.
+Hanger for below-balance weighing1)
+– for models CPA34001S, CPA34001P, CPA16001S,
+CPA12001S, CPA34000 69EA0040
+Weighing bowl, nickel chromium steel, with pouring spout;
+– Weighing capacity: >300 g; volume: 1,000 ml 641211
+– volume 500 ml 641212
+– volume 3,000 ml 641213
+Dust cover
+– for display unit on models CPA34001S, CPA16001S, CPA34001P,
+CPA12001S, CPA34000 6960CP01
+– for models CPA623S, CPA323S, CPA423S, CPA223S 6960CP02
+– for models CPA6202S, CPA4202S, CPA2202S, CPA6202P, CPA10001,
+CPA8201, CPA5201, CPA2201-0CE 6960CP03
+– for display and control unit on models CPA225D, CPA324S, CPA224S,
+CPA1003S, CPA1003P, CPA…-DS, CPA124, CPA64 6960CP04
+1) Not available for verified balances
+83
+
+--- Page 84 ---
+Declaration of Conformity
+Weighing Instruments for Use in “New Installation“ Service
+Legal Metrology: Initial verification is covered in our “New
+Council Directive 90/384/EEC Installation” service package. In addition
+“Non-automatic weighing instruments” to initial verification, this package provides
+This Directive regulates the determination you with a series of important services
+of mass in legal metrology. which will guarantee you optimal results in
+working with your weighing instrument:
+For the respective Declaration of Type – Installation
+Conformity for weighing instruments that – Startup
+have been verified by Sartorius for use as – Inspection
+legal measuring instruments and that have – Training
+an EC Type-Approval Certificate, see the – Initial verification
+page after next.
+“EC Verification“ – A Service Offered
+This Directive also regulates the by Sartorius
+performance of the EC verification by the Our service technicians authorized to
+manufacturer, provided that an EC Type- perform the verification* of your weighing
+Approval Certificate has been issued and instruments that are acceptable for legal
+the manufacturer has been accredited metrological verification can inspect and
+by an officer of a Notified Body registered verify the metrological specifications at the
+at the Commission of the European Com- place of installation within the Member
+munity for performing such verification. States of the European Union and the
+Signatories of the Agreement on the
+Sartorius complies with EC Directive European Economic Area.
+No. 90/384/EEC for non-automatic weigh-
+ing instruments, which has been in effect Subsequent Verifications
+since January 1, 1993, within the Single within the European Countries
+European Market, as well as the accredita- The validity of the verification will become
+tion of the Quality Management System of void in accordance with the national regu-
+Sartorius AG by Lower Saxony’s Regional lations of the country in which the weigh-
+Administrative Department of Legal Metrol- ing instrument is used. For information on
+ogy (Niedersächsisches Landesverwal- verification and legal regulations currently
+tungsamt – Eichwesen) on February 15, applicable in your country, and to obtain
+1993. the names of the persons to contact, please
+contact your local Sartorius office, dealer
+For additional information on the Cmark or service center.
+on Sartorius equipment, see Sartorius
+Publication No. W--0052-e93081. For more information on the verification of
+weighing instruments for use in legal
+metrology, contact the Sartorius Service
+Center.
+* = in accordance with the accreditation
+certificate received by Sartorius AG
+84
+
+--- Page 85 ---
+85
+
+--- Page 86 ---
+86
+
+--- Page 87 ---
+87
+
+--- Page 88 ---
+88
+
+--- Page 89 ---
+89
+
+--- Page 90 ---
+
+
+--- Page 91 ---
+
+
+--- Page 92 ---
+Sartorius AG
+Weender Landstrasse 94–108
+37075 Goettingen, Germany
+Phone +49.551.308.0
+Fax +49.551.308-3289
+www.sartorius-mechatronics.com
+Copyright by Sartorius AG,
+Goettingen, Germany.
+All rights reserved. No part
+of this publication may
+be reprinted or translated in
+any form or by any means
+without the prior written
+permission of Sartorius AG.
+The status of the information,
+specifications and illustrations
+in this manual is indicated
+by the date given below.
+Sartorius AG reserves the
+right to make changes to the
+technology, features,
+specifications and design of the
+equipment without notice.
+Stand:
+October 2008, Sartorius AG,
+Goettingen, Germany
+Printed in Germany on paper that has
+been bleached without any use of chlorine.
+W1A000 · KT
+Publication No.: WCP6007-e08107

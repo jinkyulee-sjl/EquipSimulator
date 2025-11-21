@@ -1,0 +1,3460 @@
+
+--- Page 1 ---
+GP SERIES 
+GP-12K/GP-20K /GP-30K/GP-32K 
+GP-40K/GP-60K/GP-61K 
+GP-100K/GP-102K 
+GP-30KS/GP-32KS  
+GP-60KS/ GP-61KS/GP-100KS 
+ 
+PrecisionBalance 
+INSTRUCTION MANUAL 
+WM+PD4000273D 
+--- Page 2 ---
+   
+ 
+© 2006 A&D Company Ltd. All rights reserved. 
+No part of this publication may be reproduc ed, transmitted, transcr ibed, or translated 
+into any language in any form by any means  without the written permission of A&D 
+Company Ltd.   The contents of this manual an d the specifications of the instrument covered by this 
+manual are subject to change fo r improvement without notice. 
+ 
+--- Page 3 ---
+ 
+ 1CONTENTS 
+Basic operation 
+1. INTROD UCTION ................................................................................................................ ............ 3 
+1-1 About This Manual .......................................................................................................... ....................3 
+1-2 Feat ures ................................................................................................................... ...........................3 
+1-3 Comp liance ................................................................................................................. ........................5 
+2. UNPACKING THE BALANCE ....................................................................................................... .7  
+2-1 Unpacking .................................................................................................................. .........................7 
+2-2 Installing the Bala nce..................................................................................................... .....................8 
+3. PRE CAUTIO NS................................................................................................................. ............. 9 
+3-1 Before  Use ................................................................................................................. .........................9 
+3-2 Duri ng Use ................................................................................................................. .........................9 
+3-3 Afte r Use.................................................................................................................. ..........................10 
+3-4 Power Supply............................................................................................................... .....................10 
+3-5 Display Symbols and Key Operation .......................................................................................... ...... 11 
+3-6 Smart Ra nge Function ....................................................................................................... ...............12 
+4. WEIGHI NG UNI TS.............................................................................................................. .......... 13 
+4-1 Units ...................................................................................................................... ............................13 
+4-2 Changing the Un its......................................................................................................... ...................16 
+5. WEIG HING .................................................................................................................... ............... 17 
+5-1 Basic Operatio n (Kilogram  Mode)............................................................................................ .........17 
+5-2 Counting Mode (P CS)........................................................................................................ ...............18 
+5-3 Percent Mode (% ) ........................................................................................................... ..................20 
+5-4 Animal Weighing Mode (Hold Function)....................................................................................... .....20 
+5-5 Accumulati on Function...................................................................................................... ................21 
+Adapting to the environment 
+6. RESPONSE ADJUSTMENT / SELF CHECK F UNCTION ........................................................... 23 
+6-1 Automatic Response Adjustm ent / Self Che ck Function...................................................................23 
+6-2 Manual Respon se Adjustment ................................................................................................. .........24 
+7. CALI BRATI ON................................................................................................................. ............. 25 
+7-1 Calibrati on Group.......................................................................................................... ....................25 
+7-2 Automatic Self Calibration (Calibrati on due to changes in temperature)..................................................26 
+7-3 Calibration Using the Internal mass (One-Touch Calibrati on)...........................................................27 
+7-4 Calibration Using an External Weight ....................................................................................... ........28 
+7-5 Calibration Test Us ing an Exter nal Weight.................................................................................. ......30 
+7-6 Correcting the In ternal Mass Value......................................................................................... ..........32 
+8. FUNCTION SWITCH AND INITIALIZA TION ................................................................................ 34 
+8-1 Permit or  Inhibit.......................................................................................................... .......................34 
+8-2 Initializing  the Balance ................................................................................................... ...................35 
+9. FUNCTIO N TABL E.............................................................................................................. ......... 36 
+9-1 Structure and Sequence of the Func tion Table............................................................................... ..36 
+9-2 Display and Keys ........................................................................................................... ...................36 
+9-3 Details of the Function Table.............................................................................................. ...............37 
+9-4 Description of the Cla ss “Environment, Display” ............................................................................ ..40 
+9-5 Description of the Item “Data out put mode”................................................................................. .....42 
+9-6 Description of the Item “Data format”...................................................................................... ..........43 
+9-7 Description of the Data Fo rmat Added to the Weighing Data ..................................................................45 
+--- Page 4 ---
+ 
+ 29-8 Data Form at Examples ....................................................................................................... ..............46 
+9-9 Clock and Calendar Function................................................................................................ ............48 
+9-10 Comparat or Function ....................................................................................................... ...............50 
+9-11 Adding the Co mparison Results............................................................................................. .........52 
+9-12 Main Display Comparison Function .......................................................................................... ......52 
+10. ID NUMBER AND GLP REPO RT............................................................................................... 54 
+10-1 Setting the ID Number..................................................................................................... ................54 
+10-2 GLP Report ................................................................................................................ .....................55 
+11. DATA MEMORY................................................................................................................ .......... 58 
+11-1 Notes on Us ing Data Memory ................................................................................................ .........58 
+11-2 Memory for Weighing Data.................................................................................................. ............59 
+11-3 Memory for Calibratio n and Calibration Test Data .......................................................................... 62 
+11-4 Memory for Unit Mass in the C ounting Mode................................................................................. .63 
+11-5 Memory for Co mparator Settings ............................................................................................ ........65 
+11-6 Memory fo r Tare Value ..................................................................................................... ...............67 
+11-7 Data Memory: Qu ick Selection Mode......................................................................................... .....71 
+11-8 Data Memory: Confir mation and Stor age Mode..............................................................................72  
+12. PROGRAMM ABLE-UNI T.......................................................................................................... . 73 
+13. DENSITY ME ASUREMEN T ....................................................................................................... 7 4 
+RS-232C serial interface 
+14. I/O UNIT SPECIFICAT IONS (Sta ndard) .................................................................................... 77 
+14-1 RS-232C//External Contact Input........................................................................................... ...............77 
+15. CONNECTION TO PERI PHERAL EQUI PMENT........................................................................ 79 
+15-1 Connection to t he AD-8121B Printer........................................................................................ .......79 
+15-2 Connection to  a Computer .................................................................................................. ............79 
+15-3 Using Windows Communi cation Tools (WinCT) .............................................................................80 
+15-4 Using the WinCT software, the balance can do t he followi ng:........................................................80 
+16. CO MMANDS ................................................................................................................... ........... 81 
+16-1 Command List.............................................................................................................. ...................81 
+16-2 Acknowledge Code and Error Codes.......................................................................................... ....82 
+16-3 Control Usi ng CTS and RTS................................................................................................. ..........82 
+16-4 Settings Relat ed to RS-232C............................................................................................... ...........82 
+Maintenance 
+17. MAIN TENANCE ................................................................................................................ ......... 83 
+18. TROUBL ESHOOTING............................................................................................................ .... 83 
+18-1 Checking the Balance Performance and En vironm ent................................................................... 83 
+18-2 Erro r Codes............................................................................................................... ......................84 
+18-3 Asking Fo r Repair......................................................................................................... ...................86 
+19. SPECIFIC ATIONS ............................................................................................................. ......... 87 
+20. EXTERNAL DIMENS IONS ........................................................................................................ . 89 
+21. OPTI ONS.................................................................................................................... ................ 91 
+22. TERMS/ INDEX ................................................................................................................ ........... 92 
+ 
+--- Page 5 ---
+ 
+ 31. INTRODUCTION 
+This manual describes how the GP series balance works and how to get the most out of it in terms 
+of performance.  
+Read this manual thoroughly befor e using the balance and keep it at  hand for future reference. 
+ 
+1-1 About This Manual 
+This manual consists of the following five parts:  
+Basic operation .............................. Describes pr ecautions on handling the balance, balance 
+construction and basic balance operation.  
+Adapting to the envir onment .......... Describes response adjustm ent, calibration and calibration 
+test. 
+Functions ....................................... Describes various func tions of the balance. 
+RS-232C serial interface................... Describes RS- 232C serial interface out put and external contact 
+input. The RS-232C serial interface outputs weighing data and 
+controls the balance. The exter nal contact input commands the 
+balance re-zeroing and data output. 
+Maintenance ................................... Describes ma intenance, error co des, troubleshooting, 
+specifications  and options. 
+ 
+1-2 Features 
+z Large Vacuum Fluorescent Display, easy to read. 
+z Dust-tight and Protected Against Water Jets (Complying with IP65), allows washing with water. 
+z Built-in Calibration Weight (hereinafter referred to as internal mass), allows easy calibration, 
+adjustment and maintena nce of the balance. 
+z Automatic Self Calibration, using the inter nal mass, adapting to changes in temperature. 
+z Self Check Function, provided to self-c heck the balance using the internal mass. 
+z Automatic Response Adjustment, adapting to  vibration and drafts in the environment. 
+z High Response Speed, the time to read a displa yed value after a sample is placed on the pan 
+has been shortened by using the Super Hybrid Sensor (SHS). (Approx. 1.5 seconds when 
+FAST is selected for the response rate.) 
+z Data Memory Function, storing weighing data,  calibration data or unit mass in the counting 
+mode. It can also store tare values or upper and lower limit values for t he comparator function. 
+Interval Memory Mode is provided to store the weighing data periodically. 
+z Good Laboratory Practice (GLP) data output us ing the standard RS-232C serial interface. 
+z Clock and Calendar Function, adding the time and date to the output data. 
+z Comparator Indicators, displaying the comparison results, H I, OK or LO. 
+z Capacity Indicator, displaying the weight value in percentage relative to the weighing capacity. 
+--- Page 6 ---
+ 
+ 4z Hold Function, provided for weighing  a moving object such as an animal. 
+z Multiple Weighing Units, with most of the common units used around the world. 
+z Density Mode, for calculat ing the density of a solid. 
+z Accumulation Function, adding the we ight values and outputting the sum. 
+z Adjustable Display Position, the standard type balance has a swing-arm to adjust the display 
+position for optimum viewing.    
+ Separate display type balances (GP-30KS/32KS/60KS/61KS/100KS) are also available.  
+z Windows Communication Tools (WinCT), a llows easy communication with Windows.  
+Windows is a registered trademark of Microsoft Corporation. 
+z Reference Card, provided for a quick reference to the balance operation. 
+z Underhook, available as an opti on, for measuring density and we ighing magnetic materials. 
+z Comparator Output (OP-04) and Analog Voltage Output (OP-06) are av ailable as options. 
+ 
+                          
+--- Page 7 ---
+ 
+ 51-3 Compliance 
+Compliance  with FCC Rules 
+Please note that this equi pment generates, uses and can radi ate radio frequency energy. This 
+equipment has been tested and has been found to comply with the limits of a Class A 
+computing device pursuant to Subpart J of Part 15 of FCC rules.  These rules are designed to 
+provide reasonable protection against interf erence when equipment is operated in a 
+commercial environment. If this unit is operated in a residential area, it may cause some interference and under these circumstances the user would be required to take, at his own expense, whatever measures are nece ssary to eliminate the interference. 
+(FCC = Federal Communications Commission in the U.S.A.) 
+ 
+Compliance with EMC Directives 
+This device features radio interference suppression in compliance with valid 
+EC Regulation 89/336/EEC.  
+ 
+  
+                       
+--- Page 8 ---
+ 
+ 6 
+                                    
+   
+--- Page 9 ---
+ 
+ 72. UNPACKING THE BALANCE 
+2-1 Unpacking 
+z The balance is a precision instrument. Unpack the balance carefully. Keep the packing 
+material to be used for transporting the balance in the future. 
+z The packing contents depend on t he balance model. See the illust rations to confirm that 
+everything is contained. 
+Standard type: GP-12K/20K/3 0K/32K/40K/60K/61K/100K/102K 
+ 
+                                 
+ 
+Note 
+Please confirm that the AC adapter type is correct  
+for your local voltage and receptacle type. 
+--- Page 10 ---
+ 
+ 8Separate display type: GP -30KS/32KS/60KS /61KS/100KS  
+ 
+                                
+Note 
+Please confirm that the AC adapter type is correct  
+for your local voltage and receptacle type.  
+ 
+2-2 Installing the Balance 
+Install the balance as follows: 
+1. Refer to “3. PRECAUTIONS”  for installing the balance.  
+2. Adjust the leveling feet to level the balance. Confirm it using the bubble spirit level. 
+3. Confirm that the adapter type is correct fo r the local voltage and power receptacle type. 
+4. Connect the AC adapter to the balance. Warm  up the balance for at least 30 minutes with 
+nothing on the weighing pan. 
+--- Page 11 ---
+ 
+ 93. PRECAUTIONS 
+To get the optimum performance from the balance and acquire accurate weighing data, note the 
+following: 
+ 
+3-1 Before Use 
+z Install the balance in an environment where the 
+temperature and humidity are not excessive. The best 
+operating temperature is about 20°C / 68°F at about 
+50% relative humidity. 
+z Install the balance where it is not exposed to direct sunlight 
+and it is not affected by heaters or air conditioners. 
+z Install the balance where it is free of dust. 
+z Install the balance away  from equipment which 
+produces magnetic fields. 
+z Install the balance in a st able place avoiding vibration 
+and shock. Corners of rooms on the first floor are best, 
+as they are less prone to vibration. 
+z The weighing table should be solid and free from 
+vibration, drafts and as level as possible. 
+z Level the balance by adju sting the leveling feet and 
+confirm it using the bubble spirit level. 
+z Ensure a stable power source when using the AC adapter. 
+z Plug in the AC adapter and warm up the balance for at 
+least 30 minutes. 
+z Calibrate the balance periodically for accurate weighing. 
+z When the balance is installed fo r the first time or has been 
+moved, warm up the balance for at least 12 hours to allow 
+the balance to reach equilib rium with the ambient 
+temperature, and then perfor m calibration before use.  
+Caution 
+Please confirm that the AC adapter type is correct for your local voltage and receptacle type. Do not install the balance where flammable or corrosive gas is present. 
+ 
+3-2 During Use 
+z Discharge static electricity from the material to be 
+weighed (hereinafter referred to as sample). When a 
+sample could have a static charge, the weighing data 
+is influenced. Try to keep the ambient humidity above 
+45%RH or use the metal shield case. 
+ 
+ 
+ 
+--- Page 12 ---
+ 
+ 10z This balance uses a str ong magnet as part of the 
+balance assembly, so please use caution when 
+weighing magnetic materials such as iron. If there is a 
+problem, use the underhook on the bottom of the balance to suspend the material away from the 
+influence of the magnet.
+ 
+z Cancel the temperature difference between a sample 
+and the environment. When a sample is warmer 
+(cooler) than the ambient temperature, the sample will be lighter (heavier) than the true weight. This error is 
+due to a rising (falling) draft around the sample.
+ 
+z Make each weighing gently and quickly to avoid errors 
+due to changes in the environmental conditions.  
+z Do not drop things upon t he weighing pan, or place a 
+sample on the pan that is beyond the balance weighing 
+capacity. Place a sample in the center of the weighing pan.  
+z Do not use a sharp instru ment such as a pencil to 
+press the keys. Use your finger only.  
+z Press the RE-ZERO key before each weighing to 
+prevent possible errors. 
+z Calibrate the balance periodically so as to cancel 
+possible errors.  
+z Take into consideration the affect of air buoyancy on a 
+sample when more a ccuracy is required. 
+z Keep the balance interior  free of dust and foreign 
+materials. 
+ 
+3-3 After Use 
+z Avoid mechanical s hock to the balance. 
+z Do not disassemble the balance. Contact the local A&D dealer if the balance needs service or repair. 
+z Do not use organic solvents to clean the balance.  Clean the balance with a lint free cloth that 
+is moistened with warm water and a mild detergent. 
+z Do not allow the balance to be immersed in water. Even though the balance complies with 
+IP65 (Dust-tight and Protected Against Water Jets), the balance will not withstand being 
+completely immersed in water. 
+ 
+3-4 Power Supply 
+z Do not remove the AC adapter while the internal  mass is in motion, for example, right after the 
+AC adapter is connected, or during ca libration using the internal mass.  
+ If the AC adapter is removed under the condi tions described above, the internal mass will be 
+left unsecured, that may cause mechani cal damage when the balance is moved. 
+ Before removing the AC adapter, press the ON:O FF key and confirm that zero is displayed. 
+z When the AC adapter is connected,  the balance is in the standby mode if the standby indicator 
+is on (refer to “3-5 Display Symbols and Key Operation”). This is a normal state and does not 
+harm the balance. For accurate weighing, keep the AC adapter c onnected to the balance and AC 
+power unless the balance is not to be used for a long period of time. 
+--- Page 13 ---
+ 
+ 113-5 Display Symbols and Key Operation 
+Key operation 
+Key operation affects how the balance func tions. The basic ke y operations are: 
+z “Press and release the key immediately” or “Press the key”  
+   = normal key operation during measurement 
+z “Press and hold the key” 
+     
+Display symbols 
+ 
+           
+           Each key, when pressed or when pre ssed and held, functions as follows: 
+Key When pressed When pressed and held 
+ Turns the display ON and OFF. The standby i ndicator is displayed when the display is 
+turned off. The weighing mode is enabled when the display is turned on. 
+This key is available anytime. Pressing the key during operation will interrupt the 
+operation and turn the display OFF. 
+ In the weighing mode, turns the minimum 
+weighing value ON and OFF. 
+In the counting or percent mode, enters 
+the sample storing mode. Enters the function table mode. Refer to 
+“9. FUNCTION TABLE”. 
+ Switches the weighing units stored in the 
+function table. Refer to “4. WEIGHING UNITS”.
+ Performs response ad justment and self 
+check. 
+ Performs calibration of the balance using 
+the internal mass. Displays other items of the calibration menu.  
+ Stores the weighing data in memory or outputs to a printer or personal computer depending on the function table settings. (Factory setting = output) No function at the factory setting 
+By changing the function table: 
+Outputs “Title block” and “End block” for GLP report. 
+Displays the data memory menu. 
+ Sets the display to zero. 
+--- Page 14 ---
+ 
+ 123-6 Smart Range Function 
+The GP-32K, GP-32KS and GP-102K are equipped wi th two ranges. The precision range has a 
+higher resolution. The standard range has normal resolution. 
+The range is switched automatically, depending on the value displayed. Pressing the RE-ZERO key 
+allows weighing in the precision range, regardle ss of the tare value. (Smart range function) 
+The range can be fixed to the standard range, by pressing the SAMPLE key. 
+Note 
+Once the range is switched to the standard range , it will not switch to the precision range 
+automatically even when the displayed value becomes within the precision range value. Use 
+the RE-ZERO or SAMPLE key to ac tivate the precision range again. 
+ 
+Below is a description of how the Smart R ange actually functions, using the GP-102K  
+(Precision range=61 kg ×1 g, Standard range=101 kg ×10 g) 
+ 
+1 Press the RE-ZERO key.  
+ The balance will start weighing, using the 
+precision range. 
+2 Place a container, on the weighing pan, to be 
+used as a tare. 
+ The value displayed exceeds the precision 
+range value. So, the range will be switched to 
+the standard range. 
+3 Press the RE-ZERO key.  
+ The balance will be swit ched to the precision 
+range. 
+4 Place a sample on the pan.  
+ The value displayed is within the precision 
+range value. So, the balance will perform a weighing, using the precision range. 
+ 
+Precision range/standard range value 
+ GP-32K/GP-32KS GP-102K 
+Precision range  
+(after RE-ZERO is pressed) Up to 6.1009 kg Up to 61.009 kg 
+Standard range 6.101 to 31.008 kg 61.01 to 101.08 kg 
+  
+ 
+--- Page 15 ---
+ 
+ 134. WEIGHING UNITS 
+4-1 Units 
+With the GP series balance, the following wei ghing units and weighing modes are available : 
+ 
+        
+ 
+A unit or mode can be selected and stored in the function table as described in “4-2 Changing the Units”. 
+If a weighing mode (or unit of we ight) has been turned off, that mode or unit will be missing in the 
+sequence. Tael has four varietie s, one of which can be selected and installed at the factory. 
+For details about the units and modes, see the table below: 
+Name (unit, mode) Abbrev. Display Function table
+(Storing mode)Conversion factor 
+1 g = 
+Gram g  G 1 g 
+kilogram kg   1000 g 
+Counting mode PCS           
+Percent mode            
+Ounce (Avoir) OZ   28.349523125 g 
+Pound Lb   453.59237 g 
+Pound/Ounce L  OZ  l0 1Lb=16 oz,  1 oz=28.349523125 g
+Troy Ounce OZt   31.1034768 g 
+Metric Carat ct   0.2 g 
+Momme mom   3.75 g 
+Pennyweight dwt   1.55517384 g 
+Tael (HK general, Singapore) 37.7994 g 
+Tael (HK jewelry) 37.429 g 
+Tael (Taiwan) 37.5 g 
+Tael (China)  
+TL   
+31.25 g 
+Tola (India) t   11.6638038 g 
+Messghal MS    4.6875 g 
+Density mode   DS  
+   is used to 
+show the density.          
+Programmable-unit (Multi-unit)  Mlt           
+Note: The units, g, ct and dwt are not available for the GP-102K.  
+--- Page 16 ---
+ 
+ 14The tables below indicate the weighing capaci ty and the minimum display for each unit, depending 
+on the balance model.  
+ 
+GP-12K GP-20K GP-30K 
+GP-30KS GP-61K 
+GP-61KS GP-40K Unit 
+Capacity Minimum 
+display 
+Capacity Minimum 
+display
+Gram 12000.0 21000.0 31000.0 61000.0 0.1 41000.0 0.5
+Kilogram 12.0000 21.0000 31.00 00 61.0000 0.0001 41.0000 0.0005
+Ounce (Avoir) 423.290 740.755 109 3.495 2151.710 0. 005 1446.24 0.02
+Pound 26.4555 46.2970 68.3435 134.4820 0.0005 90.390 0.002
+Pound/Ounce 26L  7.29 46L  4.75 68L  5.49 134L  7.7 0.01 90L  6.24 0.02
+Troy Ounce 385.810 675.165 996. 675 1961.195 0.005 1318.18 0.02
+Metric Carat 60000.0 105000.0 155000.0 305000.0 0.5 205000 5
+Momme 3200.00 5600.00 8266. 65 16266.65 0.05 10933.4 0.2
+Pennyweight 7716.2 13503.3 19933.5 39223.9 0.1 26363.5 0.5
+Tael (HK general, 
+Singapore) 317.465 555.565 820.120 1613.780 0.005 1084.68 0.02
+Tael (HK jewelry) 320.605 561.06 0 828.235 1629.750 0.005 1095.40 0.02
+Tael (Taiwan) 320.000 560.000 826.665 1626.665 0. 005 1093.34 0.02
+Tael (China) 384.000 672.000 992.000 1952.000 0. 005 1312.00 0.02
+Tola (India) 1028.82 1800.44 2657.80 5229.85 0. 01 3515.15 0.05
+Messghal 2560.00 4480.00 6613. 35 13013.35 0.05 8746.6 0.2
+ 
+GP-60K 
+GP-60KS GP-100K 
+GP-100KSUnit 
+Capacity Minimum 
+display 
+Gram 61000 101000 1
+Kilogram 61.000 101.000 0.001
+Ounce (Avoir) 2151.70 3562.65 0.05
+Pound 134.480 222.665 0.005
+Pound/Ounce 134L  7.7 222L  10.7 0.1
+Troy Ounce 1961.20 3247.25 0.05
+Metric Carat 305000 505000 5
+Momme 16266.5 26933.5 0.5
+Pennyweight 39224 64945 1
+Tael (HK general, Singapore) 1613.80 2672.00 0.05
+Tael (HK jewelry) 1629.75 2698.45 0.05
+Tael (Taiwan) 1626.65 2693.35 0.05
+Tael (China) 1952.00 3232.00 0.05
+Tola (India) 5229.9 8659.3 0.1
+Messghal 13013.5 21546.5 0.5
+ 
+--- Page 17 ---
+ 
+ 15           
+GP-32K/ GP-32KS 
+Standard range Precision range Unit 
+Capacity Minimum display Capacity Minimum display 
+Gram 31000 1 6100.0 0.1
+Kilogram 31.000 0.001 6.1000 0.0001
+Ounce (Avoir) 1093.50 0.05 215.170 0.005
+Pound 68.345 0.005 13.4480 0.0005
+Pound/Ounce 68L  5.5 0.1 13L  7.17 0.01
+Troy Ounce 996.65 0.05 196.120 0.005
+Metric Carat 155000 5 30500.0 0.5
+Mom me 8266.5 0.5 1626.65 0.05
+Pennyweight 19933 1 3922.4 0.1
+Tael (HK general, 
+Singapore) 820.10 0.05 161.380 0.005
+Tael (HK jewelry) 828.25 0.05 162.975 0.005
+Tael (Taiwan) 826.65 0.05 162.665 0.005
+Tael (China) 992.00 0.05 195.200 0.005
+Tola (India) 2657.8 0.1 522.99 0.01
+Messghal 6613.5 0.5 1301.35 0.05
+ 
+ 
+GP-102K 
+Standard range Precision range Unit 
+Capacity Minimum display Capacity Minimum display 
+Gram － － － － 
+Kilogram 101.00 0.01 61.000 0.001
+Ounce (Avoir) 3562.5 0.5 2151.70 0.05
+Pound 222.65 0.05 134.480 0.005
+Pound/Ounce 222L  11 1 134L  7.7 0.1
+Troy Ounce 3247.0 0.5 1961.20 0.05
+Metric Carat － － － － 
+Momme 26935 5 16266.5 0.5
+Pennyweight － － － － 
+Tael (HK general, 
+Singapore) 2672.0 0.5 1613.80 0.05
+Tael (HK jewelry) 2698.5 0.5 1629.75 0.05
+Tael (Taiwan) 2693.5 0.5 1626.65 0.05
+Tael (China) 3232.0 0.5 1952.00 0.05
+Tola (India) 8659 1 5229.9 0.1
+Messghal 21545 5 13013.5 0.5
+ 
+ 
+--- Page 18 ---
+ 
+ 164-2 Changing the Units 
+The units or modes can be selected and stored in the function table. The sequence of displaying the 
+units or modes can be arranged so as to fi t the frequency of use in the function table.   
+ 
+Select a unit or mode and arrange t he sequence of display as follows: 
+1 Press and hold the SAMPLE key until ba5fnc  of the 
+function table is display ed, then release the key. 
+2 Press the SAMPLE key seve ral times to display  
+Unit . 
+3 Press the PRINT key to enter the unit selection mode. 
+4 Specify a unit or mode in the order to be displayed 
+using the following keys. 
+SAMPLE key To sequentially display the units. 
+RE-ZERO key To specif y a unit or mode. The 
+stabilization indicator appears when 
+the displayed unit or mode is specified. 
+5 Press the PRINT key to store the units or modes. 
+The balance displays  end  and then displays the 
+next menu item of the function table. 
+6 Press the CAL key to exit the function table. Then the 
+balance returns to the weighing mode with the selected unit. 
+ 
+                  
+--- Page 19 ---
+ 
+ 175. WEIGHING 
+5-1 Basic Operation (Kilogram Mode) 
+1 Place a container on the wei ghing pan, if necessary.  
+ Press the RE-ZERO key to c ancel the weight (tare). The 
+balance displays  0.0000 kg. (The decimal point position 
+depends on the balance model.) 
+2 Place a sample on the pan or in the container. 
+3 Wait for the stabilization indi cator to be displayed. Read 
+the value. 
+4 Remove the sample and container from the pan. 
+Notes 
+To use another unit, press the MODE key and select an 
+appropriate unit. 
+Press the SAMPLE key to turn on or off the minimum 
+weighing value. The weighing data can be st ored in memory. For details, 
+refer to “11. DATA MEMORY”. 
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+ 
+--- Page 20 ---
+ 
+ 185-2 Counting Mode (PCS) 
+This is the mode to determine t he number of objects in a sample based on the standard sample unit 
+mass. Unit mass means the mass of one sample. The smaller the variables in each sample unit 
+mass is, the more accurate the counting will be. The GP series balance is equipped with the 
+Automatic Counting Accuracy Improvement (ACAI)  function to improve the counting accuracy. 
+Note 
+If the sample unit mass variable, the difference fr om sample to sample, is  too large, it may 
+cause a counting error. 
+ 
+Selecting the counting mode 
+1 Press the MODE key to select pcs (counting mode).  
+ 
+Storing a sample unit mass (Weighing input mode) 
+2 Press the SAMPLE key to enter the sample unit mass 
+storing mode. 
+3 To select the number of samples, press the SAMPLE key 
+several times. It may be set to 10, 25, 50 or 100. 
+Note 
+A greater number of samples will yield more accurate 
+counting result. 
+4 Place a container on the weighing pan, if necessary. 
+Press the RE-ZERO key to canc el the weight (tare). The 
+number specified in step 3 appears. 
+ e.g.:   25 0  pcs  is displayed if 25 is selected in step 3. 
+5 Place the number of samples specified on the pan. In this 
+example, 25 pieces. 
+6 Wait for the stabilization indi cator to come on. Press the 
+PRINT key to calculate and store the unit mass. The 
+balance displays  25 pcs  (counting mode) and is set to 
+count samples with this unit mass. (The sample unit mass 
+stored, even if the AC adapter  is removed, is maintained 
+in non-volatile memory.) 
+ To improve the accuracy of the unit mass, proceed to step 8. 
+Notes 
+If the balance judges that th e mass of the samples is too 
+light and can not be stored as the unit mass, it displays  
+lo  .  
+If the balance judges that the mass of the samples is too light to aquire  accurate weighing, it 
+displays an error requiring the addition of mo re samples to the speci fied number. In the 
+example above, 150- pcs  appears, requiring 25 more samples. Add 25 samples and press 
+the PRINT key. When the unit mass is stored correctly, the balance proceeds to the counting mode. 
+Key entry of the unit mass value (digital input mode) is possible. For details, refer to “11-4 
+Memory for Unit Mass in the Counting Mode” 
+--- Page 21 ---
+ 
+ 19 
+Counting operation 
+7 Place the samples to be counted on the pan.  
+Note 
+ Up to 50 unit masses can be stored in memory fo r the multiple sample. For details, refer to  
+“11. DATA MEMORY”. 
+ 
+Counting mode using the ACAI function 
+The ACAI is a function that impr oves the accuracy of the unit 
+mass automatically by increas ing the number of samples as 
+the counting process proceeds. 
+8 If a few more samples are added, the processing indicator turns on. To prevent an error, add 
+three or more. The processing indicator does not  turn on if overloaded. Try to add the same 
+number of samples as displayed. 
+9 The balance re-calculates the unit mass while th e processing indicator is blinking. Do not 
+touch the balance or samples on the pan unt il the processing indicator turns off. 
+10 Counting accuracy is improved when the processing indicator turns off.  
+ Each time the above operation is performed,  a more accurate unit mass will be obtained. 
+There is no definite upper limit of ACAI range for the number of samples exceeding 100. Try 
+to add the same number of samples as displayed. 
+11 Remove all the samples used in ACAI and proceed with the counti ng operation using the 
+improved unit mass.  
+Note 
+ACAI will not function on the unit mass entered using the keys, or digital input mode.   
+                 
+--- Page 22 ---
+ 
+ 205-3 Percent Mode (%) 
+This is the mode to display t he weight value in percentage compared to a 100% reference mass and 
+is used for target weighing or checking the sample variable. 
+ 
+Selecting the percent mode 
+1 Press the MODE key to select  %  (percent mode). If 
+the percent mode can not be selected, refer to “4. 
+WEIGHING UNITS”. 
+ 
+Storing the 100% reference mass 
+2 Press the SAMPLE key to enter the 100% reference 
+mass storing mode. 
+ Even in the storing mode, pressing the MODE key will 
+switch to the next mode. 
+3 Place a container on the weighing pan, if necessary. 
+Press the RE-ZERO key to canc el the weight (tare). The 
+balance displays  100 0 % .  
+4 Place the sample to be set as the 100% reference mass 
+on the pan or in the container. 
+5 Press the PRINT key to store the reference mass. The 
+balance displays  100.00 % . (The decimal point position 
+depends on the reference value. The reference mass 
+stored, even if the AC adapter  is removed, is maintained 
+in non-volatile memory.)  
+Note 
+If the balance judges that the mass of the sample is too 
+light to be used as a reference, it displays  lo   .  
+6 Remove the sample. 
+ 
+Reading the percentage 
+7 Place a sample to be compared to the reference mass on 
+the pan. The displayed percentage is based on the 100% 
+reference mass. 
+  
+5-4 Animal Weighing Mode (Hold Function) 
+This is the mode to weigh a moving object such as  an animal, even when the display of the weighing 
+data fluctuates. The hold function allows the average weight of the animal to be displayed.  
+To use the hold function, set the function in the function table. For details, refer to “9. FUNCTION TABLE” and “9-4 Description of the Class “Environment, Display””. 
+ 
+ 
+--- Page 23 ---
+ 
+ 215-5 Accumulation Function 
+The accumulation function adds the weighi ng data and displays the total value. 
+To use the accumulation function,  set the “Accumulation function ( add)” parameter of the function 
+table as described below. 
+Note 
+While the accumulation function is in use, the data memory function is not available. When 
+using the accumulation function, make sure that the “Data memory ( data )” parameter of the 
+function table is set to “ 0”. 
+ 
+Selecting the unit 
+1 Press the MODE key to select a unit to be used for accumulation. 
+Note 
+While the accumulation function is in use, unit selection using the MODE key is not 
+available. 
+ 
+Setting the function table 
+2 Press and hold the SAMPLE key until ba5fnc  of the function table is  displayed, then release 
+the key. 
+3 Press the PRINT key. 
+4 Press the SAMPLE key seve ral times to display  add 0 . 
+5 Press the RE-ZERO key to display  add 1 . 
+Note 
+To disable the accumulation funciton, set the “Accumulation function ( add)” parameter to “0 ”. 
+6 Press the PRINT key to store the setting. 
+7 Press the CAL key to return to the weighing mode. 
+ 
+             
+--- Page 24 ---
+ 
+ 22Using the accumulation function 
+Use the keys below to operat e the accumulation function. 
+MODE key: Displays the weighing data and the tota l value alternately each time it is pressed. 
+ Will not change the unit while the a ccumulation function is in use. 
+RE-ZERO key: Sets the display to zero  while the weighing data is displayed. 
+ Deletes the total value while the total value is displayed. 
+PRINT key Outputs and adds the weighing data while the weighing data is displayed. 
+ Outputs the total value while the total value is displayed. 
+ 
+ 1 Press the RE-ZERO key to set the display 
+to zero. 
+2 Place a sample on the pan. The weight 
+value is displayed. 
+3 Press the PRINT key. The weight value is 
+added to the total and output.  
+ The accumulation number at the upper left 
+of the display increases by one. 
+4 Repeat steps 1-3 to accumulate more data. 5 Press the MODE key to display the total 
+value. 
+ 
+Outputting the value  
+6 Press the PRINT key to output the total 
+value. 
+7 Press the RE-ZERO key to delete the total 
+value. 
+  
+ 
+Notes 
+The output format depends on the function 
+table setting. 
+While the accumulation function is in use,  
+the data memory function is not available. 
+To disable the accumulation funciton, set the 
+“Accumulation function ( add)” parameter to “ 0”. 
+When the “Data number output ( d-no )” 
+parameter is set to “ 1”, the accumulation 
+number will be output before the weighing 
+data. 
+ 
+--- Page 25 ---
+ 
+ 236. RESPONSE ADJUSTMENT / SELF CHECK FUNCTION 
+This function detects the influence on weighing that is caused by drafts and/or vibrat ion at the place 
+where the balance is installed and sets the response characteristic automatica lly. When this function 
+is selected, the balance self-checks th e performance at the same time.  
+Two modes of response adjustment are availabl e: automatic and manual. 
+ 
+The function has three rates as follows:   Changing the response rate changes  the display refresh rate. 
+Indicator Parameter Response characteristic Display refresh rate  
+FAST Cond 0 
+MID. Cond 1 
+SLOW Cond 2 Fast response, Sensitive value 
+  Slow response, Stable value If the response rate is changed as follows:MID. or SLOW   FAST =10 times/secondFAST   MID. or SLOW = 5 times/second
+ 
+Note 
+To set the refresh rate of 5 times/second when the response rate is FAST or 10 times/second 
+when the response rate is MID. or SLOW , change the “Display refresh rate ( 5pd)” parameter 
+of “Environment, Display ( ba5fnc )” in the function table. For details, refer to “9.  FUNCTION 
+TABLE”. 
+ 
+6-1 Automatic Response Adjustment / Self Check Function 
+This function automatically updates the response adj ustment by analyzing t he influence of the 
+environment on the weighing data and also self-checks the balance performance using the internal 
+mass. 
+Operation 
+1 Press and hold the MODE key until RESPONSE is 
+displayed, then release the key. 
+2 The balance automatically starts to check the balance 
+performance and sets the re sponse characteristic.  
+Caution  
+Do not allow vibration or drafts to affect the balance 
+during adjustment. 
+3 After automatic adjustmen t, the balance displays the 
+updated response indicator and returns to the 
+weighing mode. The response indicator remains displayed for a while.
+ 
+ e.g. “ MID. OK  ” 
+ The example above indicates that the result of the self 
+check is good and MID. is selected as the response 
+rate. 
+ 
+--- Page 26 ---
+ 
+ 24Notes 
+If improper performance is found in the self check, the balance displays  CH  no . Contact the 
+local A&D dealer for repair. 
+If the automatic response adjustment fails, the balance displays  CH  ng . Check the ambient 
+conditions such as breeze and vibration, al so check the weigning pan. Then, perform the 
+adjustment again. To return to the weighing mode, press the CAL key. 
+If the automatic response adjustment is awkwar d, try to refine it using the manual response 
+adjustment. 
+ 
+6-2 Manual Response Adjustment 
+This function manually updates  the response adjustment. 
+ 
+Operation 
+1 Press and hold the MODE key until RESPONSE is 
+displayed, then release the key. 
+ And then, press the MODE key again quickly. 
+2 Press the MODE key to select a rate of the response 
+adjustment. Either FAST, MID. or SLOW can be 
+selected. 
+3 After a few seconds of inac tivity the balance displays 
+eend   . Then, it returns to the weighing mode and 
+displays the updated response indicator. The  
+response indicator remains displayed for a while.  
+Note 
+The response adjustment can be changed at “Condition 
+(Cond )” of “Environment, Display ( ba5fnc )” in the 
+function table. For details, refer to “9. FUNCTION TABLE”. 
+ 
+ 
+            
+--- Page 27 ---
+ 
+ 257. CALIBRATION 
+7-1 Calibration Group 
+The GP series balance has the follo wing modes as a calibration group.  
+Calibration z Automatic self calibration (calibra tion due to changes in temperature) 
+   z Calibration using the internal mass (one-touch calibration) 
+   z Calibration using an external weight 
+Calibration test z Calibration test using an external weight (Calibration test does not 
+perform calibration.) 
+Correction of the internal mass value 
+ 
+Terms 
+The following terms are defined as follows: 
+Internal mass  = Built-in calibration weight External weight  = A weight that you have. Referred to as a calibration weight when used for calibration. Calibration weight  = A weight used for calibration Target weight  =  An external weight used for calibration test  
+Caution 
+z Calibration adjusts the balance for accurate weighing.  
+ Besides periodic calibration and before each use, perform calibration when: 
+ • the balance is installed for the first time.  • the balance has been moved.  • the ambient environment has changed. 
+z Do not allow vibration or drafts to affect the balance during calibration. 
+z To output the data for GLP using the RS-232C interface, set “GLP output ( info)” of “Data 
+output (dout)”. For details, refer to “9. FUNCTION TABLE”. Time and date are added to the 
+GLP report. If the time or date is not correct, adj ust them. For details, refer to “9-9 Clock and 
+Calendar Function”.  
+z Calibration test is available only when “GLP output ( info)” of “Data output ( dout)” is set to “1 ” or “2 ”, 
+z The calibration and calibration test data can be stored in memory. To store them, set “Data 
+memory ( data)” to “ 3”. For details, refer to “11. DATA MEMORY”. 
+ 
+Caution on using an external weight 
+z The accuracy of an external weight will in fluence the accuracy of weighing. Select an 
+appropriate weight as listed below:                                            
+Model Usable calibration weight Adjustable range 
+GP-12K 5 kg, 10 kg  
+GP-20K 10 kg, 20 kg  
+GP-30K/GP-30KS 20 kg , 30 kg 
+GP-32K/ GP-32KS 20 kg , 30 kg 
+GP-40K 20 kg, 30 kg, 40 kg   
+ 
+-1.5 g  to  +1.5 g 
+ 
+  
+GP-60K/ GP-60KS 30 kg, 40 kg, 50 kg, 60 kg  -15 g  to  +15 g 
+GP-61K/ GP-61KS 30 kg, 40 kg, 50 kg, 60 kg  -1.5 g  to  +1.5 g 
+GP-100K/GP-100KS 60 kg, 80 kg, 100 kg  
+GP-102K 60 kg, 80 kg, 100 kg  -15 g  to  +15 g 
+The calibration weight in bold type: factory setting 
+The calibration weight value can be adjusted within the range above. 
+--- Page 28 ---
+ 
+ 26Display 
+z This indicator means “the balanc e is measuring calibration data”. 
+Do not allow vibration or drafts to affect the balance while this 
+indicator is displayed.  
+ 
+7-2 Automatic Self Calibration (Calibration due to changes in temperature)  
+This function automatically calib rates the balance when the balance detects an ambient temperature 
+change. If GLP output is selected in the function table, the balanc e outputs the calibration report or 
+stores the data in memory. Automatic self calibration functions even if t he display is turned off 
+(standby state). 
+Caution 
+If something is on the weighing pan, the balance judges that it is in use and does not perform 
+automatic self calibration. To maintain the calib rated state, keep the weighing pan clear while 
+not in use. 
+ 
+The displays shown below are related to the automatic self calibration. 
+Indicates that the balance detects a change in ambient 
+temperature and automatic self ca libration will start. If the balance 
+is not used for a few minutes wi th this indicator blinking, the 
+balance performs automatic self ca libration. The blinking duration 
+depends on the environment. 
+Indicates that the balance is m easuring calibration data. Do not 
+allow vibration or drafts to affect the balance while this indicator is 
+displayed. After calibration, the balance returns to indicate the 
+previous display. 
+Note 
+The balance can be used while the indicator blin ks. But, it is recommended that to maintain 
+the accuracy, stop using the balance and confirm that there is nothing on the pan and allow 
+the balance to perform self calibration. 
+ 
+            
+--- Page 29 ---
+ 
+ 277-3 Calibration Using the Internal mass (One-Touch  Calibration)   
+This function calibrates the balance using the internal mass. The only operation required is to press 
+the CAL key. 
+ 
+Operation 
+1  Plug in the AC adapter and warm up the balan ce for at least 30 minut es with nothing on the 
+weighing pan. 
+2  Press the CAL key. 
+3 The balance displays  Calin  and performs calibration using the internal mass. Do not allow 
+vibration or drafts to affect the balance 
+4  The balance displays  end  after calibration. If the “GLP output ( info)” parameter of the 
+function table is set to “ 1” or “2”, the balance displays  glp  and outputs “Calibration Report” 
+using the RS-232C interface or stores the data in memory. For details on the calibration report 
+format, refer to “10-2 GLP Report”. 
+5  The balance will automatically return to the weighing mode after calibration. 
+ 
+About the internal mass 
+The mass of the internal mass may change due to  corrosion or other damage caused by the 
+operating environment, or due to aging. Check the internal mass periodically. Correct the internal 
+mass value as necessary. For details, refer to  “7-6 Correcting the internal mass value”. 
+To maintain the weighing accuracy, perform the calibration using an external weight periodically, 
+as described below. 
+ 
+                
+--- Page 30 ---
+ 
+ 287-4 Calibration Using an External Weight 
+This function calibrates the balanc e using an external weight.  
+ 
+Operation 
+1 Plug in the AC adapter and warm up the balance 
+for at least 30 minutes  with nothing on the pan. 
+2 Press and hold the CAL key until  Calout  is 
+displayed, then release the key.  
+3 The balance displays  Cal  0 . 
+z  If you want to change the calibration weight (a 
+list of usable weights is shown on page 25), 
+press the SAMPLE key and proceed to step 4. 
+z  If you use the calibration weight value stored in 
+the balance, proceed to step 5. 
+4 Specify the calibration we ight value as follows: 
+SAMPLE key To switch the display 
+condition to: “All of the segments blinking” (calibration weight selection mode) or “The last two digits blinking” (value adjustment mode).  
+RE-ZERO key To select the calibration 
+weight or adjust the value. In the value adjustment mode, -15 digits appear after +15 digits. 
+PRINT key To store the new weight 
+value. Even if the AC adapter is removed, the data is maintained in non-volatile memory. 
+CAL key To cancel the operation and 
+return to Cal  0 .  
+Note 
+Digit, when used for the GP series balance, 
+indicates the smallest displayable weighing value.  
+ 
+     
+--- Page 31 ---
+ 
+ 29 
+  
+5 Confirm that there is nothing on the pan and press 
+the PRINT key. The balanc e measures the zero 
+point. Do not allow vibration or drafts to affect the 
+balance. 
+ The balance displays the calibration weight value. 
+6 Place the displayed calibration weight on the pan 
+and press the PRINT key. The balance measures 
+the calibration weight. Do not allow vibration or drafts to affect the balance. 
+7 The balance displays  end . Remove the weight 
+from the pan. 
+8 If the “GLP output ( info)” parameter, of the 
+function table, is set to “ 1” or “2”, the balance 
+displays  glp  and outputs “Calibration Report” 
+using the RS-232C interfac e or stores the data in 
+memory. For details on the calibration report format, refer to “10-2 GLP Report”. 
+9 The balance will automatically return to the 
+weighing mode. 
+10 Place the calibration we ight on the pan and confirm 
+that the value displayed is within ±2 digits of the 
+specified value. If it is not within the range, check the ambient conditions such as breeze and vibration, also check the weighing pan. Then, 
+repeat steps 1 to 10.  
+ 
+          
+ 
+--- Page 32 ---
+ 
+ 307-5 Calibration Test Using an External Weight 
+This function tests the balance weighing accura cy using an external mass and outputs the result. 
+This is available only when the “GLP output ( info)” parameter is set to “ 1” or “2”. (Calibration test 
+does not perform calibration.) 
+ 
+Operation 
+1 Connect the AC adapter and warm up the balance 
+for at least 30 minutes  with nothing on the pan. 
+2 Press and hold the CAL key until  CCout  is 
+displayed, then release the key.  
+3 The balance displays  CC  0 . 
+z  If you want to change the ta rget weight (a list of 
+usable weights is shown on page 25), press the 
+SAMPLE key and proceed to step 4. 
+z  If you use the target weight value stored in the 
+balance, proceed to step 5. 
+4 Specify the target we ight value as follows: 
+SAMPLE key To switch the display 
+condition to: “All of the segments blinking” (target weight selection mode) or “The last two digits blinking” (value adjustment mode).  
+RE-ZERO key To select the target weight or 
+adjust the value. In the value adjustment mode, -15 digits appear after +15 digits. 
+PRINT key To store the new weight 
+value. Even if the AC adapter is removed, the data is maintained in non-volatile memory. 
+CAL key To cancel the operation and 
+return to CC  0 .  
+Note 
+Digit, when used for the GP series balance, 
+indicates the smallest displayable weighing value 
+ 
+     
+--- Page 33 ---
+ 
+ 31 
+ 
+5 Confirm that there is not hing on the pan and press the 
+PRINT key. The balance meas ures the zero point and 
+displays the measured value. Do not allow vibration or 
+drafts to affect the balance. 
+ The balance displays the target weight value. 
+6 Place the displayed target weight on the pan and press 
+the PRINT key. The balance measures the target weight 
+and displays the measured val ue. Do not allow vibration 
+or drafts to affect the balance. 
+7 The balance displays  end . Remove the weight from the 
+pan. 
+8 The balance displays  glp  and outputs “Calibration 
+Test Report” using the RS-232 C interface or stores the 
+calibration test data in memory. For details on the 
+calibration test report format, refer to “10-2 GLP Report”. 
+9 The balance will automatically return to the weighing 
+mode. 
+ 
+ 
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+ 
+--- Page 34 ---
+ 
+ 327-6 Correcting the Internal Mass Value 
+The GP series balance can correct the internal  mass value within the range shown below. This 
+function corrects the internal mass value to confor m to an external weight. The corrected mass value 
+is maintained in non-volatile memory even if the AC adapter is removed. 
+The internal mass value is corrected as follows: 
+Model Correction reference value Correction range 
+GP-12K 10 kg 
+GP-20K 
+GP-30K/GP-30KS 
+GP-32K/ GP-32KS 
+GP-61K/ GP-61KS 20 kg 
+GP-40K 40 kg  
+ 
+-5.0 g to +5.0 g 
+GP-60K/ GP-60KS 60 kg -50 g to +50 g 
+GP-100K/GP-100KS 
+GP-102K 100 kg -50 g to +50 g 
+ 
+Example: Using the GP-20K 
+ 
+  
+                       
+--- Page 35 ---
+ 
+ 33Operation 
+1 Calibrate the balance using the internal mass. 
+(one-touch calibration) Then, place an external weight 
+and confirm the value to be corrected. 
+ In the example, the value is to be corrected by 
+0.6 gram in 20 kilograms. 
+2 Press the ON:OFF key to turn off the display. 
+3 While pressing and holding the PRINT key and the 
+SAMPLE key, press the ON:OFF key. The balance 
+displays   p5  .  
+4 Press the PRINT key. Then the balance 
+displays the function switches. 
+   
+ 
+ Set the function table switch and internal mass correction 
+switch to “ 1” as shown above using the following keys. 
+SAMPLE key To select the switch to change the 
+value. The selected digit blinks.  
+RE-ZERO key To change the parameter of the 
+switch selected. 
+5 Press the PRINT key to store the new setting. The 
+balance returns to the weighing mode. 
+6 Press and hold the SAMPLE key to enter the function 
+table and release the key when  ba5fnc  is displayed. 
+7 Press the SAMPLE key several times until  C5in   is 
+displayed, then release the key. 
+8 Press the PRINT key to enter the procedure for 
+correcting the internal mass value. 
+9 Correct the internal mass value using the following keys. 
+RE-ZERO key To select the value. 
+ (-50 digits appear after +50 digits.) 
+PRINT key To store the new value and display the 
+next menu item of the function table. 
+CAL key To cancel the correction and 
+display the next menu item of the function table. 
+10 Press the CAL key. The balance returns to the weighing mode. 
+11 Press the CAL key to calibrate the balance using the internal mass. 
+12 Place the external weight on the pan and confirm that the correction has been performed 
+properly. In this example, confirm that the value displayed is within ±2 digits of the correction 
+reference value or 20 kilograms.  If the value is not within ±2 digits of the correction value, 
+repeat the above procedure to correct it. 
+--- Page 36 ---
+ 
+ 348. FUNCTION SWITCH AND INITIALIZATION 
+8-1 Permit or Inhibit 
+The balance stores parameters t hat must not be changed unintenti onally (e.g. Calibration data for 
+accurate weighing, Data for adapting to the oper ating environment, Control data for the RS-232C 
+interface). There are five switches for the purpose of protecting these parameters. Each switch can 
+select either “permit” or “inhibit”. The “inhibit” protects parameters against unintentional operations. 
+ 
+Switches 
+ 
+                
+Operation 
+1 Press the ON:OFF key to turn off the display. 
+2 While pressing and holding the PRINT key and the SAMPLE key, press the ON:OFF key. The 
+balance displays  p5  . 
+3 Press the PRINT key. Then the balan ce displays the function switches. 
+4 Set the switches using the following keys. 
+SAMPLE key To select the swit ch to change the parameter. The selected switch blinks. 
+RE-ZERO key To change the paramet er of the switch selected. 
+ 0:To inhibit changes./ Can not be used.    
+ 1 :To permit changes./ Can be used. 
+PRINT key To store the new parameter  and return to the weighing mode.  
+CAL key To cancel the operation a nd return to the weighing mode. 
+--- Page 37 ---
+ 
+ 358-2 Initializing the Balance 
+This function returns the following parameters to factory settings. 
+z Calibration data 
+z Function table 
+z The sample unit mass value (counting mode) , 100% reference mass value (percent mode) 
+z The data that is stored in the balance using the data memory function 
+z External calibration weight and target weight value 
+z Function switch settings 
+z Liquid density and temperat ure in the density mode 
+ 
+Note 
+Be sure to calibrate the balance after initialization. 
+ 
+Operation 
+1 Press the ON:OFF key to turn off the display. 
+2 While pressing and holding the PRINT key and the  
+SAMPLE key, press the ON:OFF key. The balance 
+displays  p5  . 
+3 Press the SAMPLE key to display  Clr . 
+4 Press the PRINT key.  
+ To cancel this operati on, press the CAL key. 
+5 Press the RE-ZERO key. 
+6 Press the PRINT key to initialize the balance. 
+ The balance will automatically  return to the weighing 
+mode. 
+ 
+             
+--- Page 38 ---
+ 
+ 369. FUNCTION TABLE 
+The function table reads or rewrites  the parameters that are stored in the balance. These parameters 
+are maintained in non-volatile memory, even if the AC adapter is removed. 
+ 
+9-1 Structure and Sequence of the Function Table 
+The function table menu cons ists of two layers. The first layer is the “Class” and the second layer is 
+the “Item”. Each item stores a parameter.  
+ 
+Example 
+This example sets “Stores weighing data” for “Dat a memory” and “1 minute” for “Interval time”. 
+ 
+               
+9-2 Display and Keys 
+Display/Key Description 
+ The symbol “  ” indicates that the parameter displayed is in effect. 
+ 
+ When pressed and held in the weighing mode, enters the f unction table mode. 
+Selects the class or item in the function table mode. 
+ Changes the parameter. 
+ 
+ When a class is displayed, moves to an item in the class. 
+When an item is displayed, stores the new parameter and displays the next class. 
+ When an item is displayed, cancels the new parameter and displays the next 
+class. 
+When a class is displayed, exits the function table mode and returns to the 
+weighing mode. 
+  
+--- Page 39 ---
+ 
+ 379-3 Details of the Function Table 
+ 
+       P                 
+ 
+             
+               
+ 
+                     
+--- Page 40 ---
+ 
+ 38 
+                 
+ 
+ 
+                    
+--- Page 41 ---
+ 
+ 39 
+                  
+           
+ 
+ 
+                      
+Caution 
+The balance may not transmit the data complete ly at the specified refresh rate, depending on 
+the baud rate or data added to the weighi ng data such as time, date and ID number. 
+--- Page 42 ---
+ 
+ 409-4 Description of the Class “Environment, Display” 
+Condition ( Cond ) 
+Cond 0  This parameter is for sensitive response to the fluctuation of  a weight value. 
+Used for powder target weighing, weighing a very light sample or when 
+quick response weighing is required. 
+ After setting, the balance displays FAST. 
+ 
+Cond 2  This parameter is for stable weighing with slow response. Used to prevent a 
+weight value from drifting due to vibration or drafts. 
+After setting, the balance displays SLOW. 
+Notes 
+In automatic response adjustment, the response rate is selected 
+automatically.  
+With “Hold function ( Hold )” set to “ON (1 )”, this item is used to set the 
+averaging time. 
+ 
+Stability band width ( 5t-b  )  
+This item controls the width to  regard a weight value as a stabl e value. When the fluctuation per 
+second is less than the parameter, the balance di splays the stabilization indicator and outputs or 
+stores the data. The parameter influences the “Auto print mode” 
+5t-b 0  This parameter is for sensitive respon se of the stabilization indicator. Used 
+for exact weighing. 
+ 
+5t-b 2  This parameter ignores slight fluctuat ion of a weight value. Used to prevent 
+a weight value from drifting due to vibration or drafts. 
+Note 
+With “Hold function ( Hold )” set to “ON (1 )”, this item is used to set the 
+stabilization range. 
+ 
+Hold function ( Hold ) (Animal weighing mode) 
+This function is used to weigh a mo ving object such as an animal.  
+When the weighing data is over the weighing range from  zero and the display fluc tuation is within the 
+stabilization range for a fixed period of averaging time, the processing indicator illuminates and the 
+balance displays the average weight  of the animal. When the animal is removed from the weighing 
+pan, the display returns to zero automatically.  
+This function is available only when the hold function parameter is set to “ 1” (the animal mode 
+indicator ANIMAL illuminates) and any weighing unit other than the count ing mode is selected. 
+The stabilization range and averaging time are set in “Condition ( Cond)” and “Stability band width ( 5t-b)”. 
+Weighing range Averaging time Stabilization range
+GP-12K/20K Cond 0 5t-b 0 
+Cond 1 5t-b 1 GP-30K/30KS/32K/32KS/ 
+40K/61K/61KS 20 g 
+Cond 22 seconds     Faster 4 seconds        | 8 seconds  More accurate 5t-b 2 Small
+| 
+Big 
+GP-60K/60KS/100K/100KS     
+GP-102K 50 g     
+--- Page 43 ---
+ 
+ 41Zero tracking ( trc )  
+This function tracks zero point drift caused by changes in the env ironment and stabilizes the zero 
+point. When the weighing data is only a few digits , turn the function off for accurate weighing. 
+Note 
+Digit, when used for the GP series balance, in dicates the smallest displayable weighing value.  
+trc 0  The tracking function is not used. Used  for weighing a very light sample. 
+trc 1  The tracking function is used. Normal zero tracking. 
+trc 2  The tracking function is used. Strong zero tracking. 
+trc 3  The tracking function is used. Very strong zero tracking.  
+ 
+Display refresh rate ( 5pd )  
+Period to refresh the display. This parameter influences “Baud rate”, “Data output pause” and “Stream mode”. 
+Note 
+This item is selected automatically in the automatic response adjustment. 
+ 
+Decimal point ( pnt )  
+The decimal point form at can be selected. 
+ 
+Auto display-ON ( p-on  )  
+When the AC adapter is plugged in, the display is automatically turned on without the ON:OFF key 
+operation, to display the weighing  mode. Used when the balance is built into an automated system.  
+30-minute warm up is necessary for accurate weighing. 
+ 
+Auto display-OFF ( poff  )  
+When the AC adapter is connect ed and no operation is performed (ina ctivity state) for 10 minutes, 
+the display is automatically turned off and the standby indicator illuminates. 
+ 
+Capacity indicator ( g5i )  
+In the weighing mode, the indicator displays the weighing data relative to the weighing capacity in 
+percentage. (Zero = 0%, maximum capacity = 100%) 
+When the “Data memory ( data)” parameter is set to “1” (to store unit mass in the counting mode), 
+“2” (to store the weighing data), “ 4” (to store comparator settings) or “ 5” (to store tare value), the 
+indicator displays the information stored in memory, such as the amount of memory data or data 
+number. 
+ 
+Accumulation function ( add ) 
+The accumulation function adds the weighing data, displays and outputs the total value. For details, 
+refer to “5-5 Accumulation Function.”  
+Display at start (  rng ) 
+When the weighing accuracy is not so strict, the smallest displayable weighing value can be turned off 
+without any key operation at weighing start. Useful when the balance is built into an automated system. 
+--- Page 44 ---
+ 
+ 429-5 Description of the Item “Data output mode” 
+The parameter setting of “Data output mode ( prt)” applies to the performance when the “Data 
+memory ( data)” parameter is set to “2 ” (to store the weighing data) and when the data is transmitted 
+using the RS-232C interface. 
+ 
+Key mode 
+When the PRINT key is pressed with the stabili zation indictor turned on, the balance outputs or 
+stores the weighing data and the display blinks one time. 
+Required setting dout  prt 0 Key mode 
+ 
+Auto print modes A and B 
+When the displayed value is stable and the conditions of “A uto print polarity”, “Auto print difference” 
+and reference value are met, the balance out puts or stores the weighing data.  
+When the PRINT key is pressed with the stabili zation indictor turned on, the balance outputs or 
+stores the data and the display blinks one time. 
+Mode A: Required setting dout prt 1 Auto print mode A (reference = zero) 
+ dout ap-p Auto print polarity 
+ dout ap-b Auto print difference 
+Example “For weighing each time a sample is placed and removed,       
+with “ar-d” set to “ 1” (to adjust zero after the data is output).”  
+ 
+Mode B : Required setting dout prt 2 Auto print mode B (reference = 
+       last stable value) 
+ dout ap-p Auto print polarity 
+ dout ap-b Auto print difference 
+Example “For weighing while a sample is added.” 
+ 
+Stream mode 
+The balance outputs the weighing dat a continuously regardless of the display condition. The display 
+does not blink in this mode. This mode is not av ailable and the interval memory mode is used when 
+the “Data memory ( data)” parameter is set to “ 2” (to store the weighing data). 
+Required setting dout prt 3 Stream mode 
+ dout data 0 Data memory function is not used. 
+ ba5fnc 5pd Display refresh rate 
+ 5if bp5 Baud rate 
+Example “For monitoring data on a computer” 
+Caution 
+The balance may not transmit the data complete ly at the specified refresh rate, depending on 
+the baud rate or data added to the weighi ng data such as time, date and ID number. 
+ 
+   
+--- Page 45 ---
+ 
+ 43Interval memory mode 
+The weighing data is periodically stored in memory.  
+Required setting dout prt 3 Interval memory mode 
+ dout data 2 Data memory function is used. 
+   Stores weighing data. 
+ dout int Interval time 
+Optional setting dout  5-td1 , 2, or 3 Adds the time and date. 
+Example “For periodical weighing wit hout a computer command and to output 
+all of the data, to a computer, at one time” 
+ 
+9-6 Description of the Item “Data format” 
+A&D standard format  5if type 0  
+This format is used when the per ipheral equipment can receive the A&D format. If an AD-8121B is 
+used, set the printer to MODE 1 or 2. 
+z This format consists of fifteen characters excluding the terminator. 
+z A header of two characters i ndicates the balance condition. 
+z The polarity sign is placed before the data with the leading zeros. If the data is zero, the plus 
+sign is used.  
+z The unit, consisting of three characters, follows the data. 
+ 
+     
+DP (Dump print) format 5if type 1  
+This format is used when the per ipheral equipment can not receive the A&D format. If an AD-8121B 
+is used, set the printer to MODE 3. 
+z This format consists of sixteen c haracters excluding the terminator. 
+z A header of two characters indicates the bal ance condition. No over load header is used. 
+z The polarity sign is placed before t he data, with spaces in place of  leading zeros, if the data is 
+not zero or overloaded.  
+z The unit, consisting of three characters, follows the data. 
+     
+ 
+--- Page 46 ---
+ 
+ 44KF format 5if type 2 
+This is the Karl-Fischer moisture meter format  and is used when the perip heral equipment can only 
+communicate using this format. 
+z This format consists of fourteen characters excluding the terminator. 
+z This format has no header characters. 
+z The polarity sign is placed before t he data, with spaces in place of  leading zeros, if the data is 
+not zero or overloaded.  
+z This format outputs the un it only for a stable value. 
+ 
+   
+ 
+MT format 5if type 3  
+z A header of two characters i ndicates the balance condition. 
+z The polarity sign is used only for negative data.  
+z The weighing data uses spaces in  place of the leading zeros.  
+z The character length of this format changes dependent upon the unit 
+     
+ 
+NU (numerical) format  5if type 4  
+This format outputs only numerical data. 
+z This format consists of nine c haracters excluding the terminator. 
+z The polarity sign is placed before the data with the leading zeros. If the data is zero, the plus 
+sign is used.  
+ 
+ 
+CSV format 5if type 5  
+z Separates the data of A&D standard format and the unit by a comma ( , ). 
+z Outputs the unit even when the data is overloaded. 
+z When ID number, data number, time and date are added, outputs ID number, data number, 
+date, time and weighing data in this order and separates each item by a comma and treats all 
+the items as one group of data. 
+ 
+  
+--- Page 47 ---
+ 
+ 459-7 Description of the Data Format Added to the Weighing Data 
+ID number dout 5-id 1 
+The number to identify a specific balance. 
+z This format consists of seven characters excluding the terminator. 
+ 
+ 
+Data number  dout d-no 1  
+This format outputs the data number just before t he data is transmitted using the RS-232C interface. 
+z This format consists of six c haracters excluding the terminator. 
+z When CSV format ( 5if type 5) is selected, the period (  . ) is replaced with a comma (  , ). 
+ 
+ 
+ 
+Date dout 5-td 2 or 3 
+z The date output order can be changed in “Clock ( Cl adj)”. Outputs the year in four-digit 
+format. 
+ 
+ 
+Time dout 5-td 1 or 3 
+z Outputs time in 24-hour format. 
+ 
+ 
+Tare value 
+z When the tare value in memory is recalled, t he tare value is output bef ore the weighing data. 
+Tare value 
+Weighing data (Net value) 
+ 
+Comparison results 
+z By setting “Comparison results ( Cp-r)” of the function table to “ 1”, the comparison results can be 
+added to the data output using the RS-232C serial interface. Use A&D standard format ( type 0 ).  
+The comparison results are added after the header in A&D standard format as below. 
+ 
+   
+ Note 
+When the data described above is added to  the weighing data, the output is in the 
+following order: ID number, Data num ber, Date, Time and Weighing data. 
+--- Page 48 ---
+ 
+ 469-8 Data Format Examples 
+ 
+                                      
+--- Page 49 ---
+ 
+ 47 
+                            
+Note 
+When “Pound Ounce” is selected, the data is output with the unit of ounce (oz). 
+ 
+ 
+       
+--- Page 50 ---
+ 
+ 489-9 Clock and Calendar Function 
+The balance is equipped with a clock and calendar function. When the “GLP output ( info)” 
+parameter is set to “ 1” or “2” and the “Time/Date output ( 5-td)” parameter is set to “ 1”, “2” or “3”, the 
+time and date are added to the output data. Se t or confirm the time and date as follows: 
+ 
+Operation 
+1 Press and hold the SAMPLE key until ba5fnc  of the 
+function table is display ed, then release the key. 
+2 Press the SAMPLE key severa l times to display     
+Cl adj . 
+3 Press the PRINT key. The balance enters the mode to 
+confirm or set the time and date. 
+ 
+Confirming the time 
+4 The current time is displayed with all the digits 
+blinking.  
+z  When the time is corre ct and the date does not 
+need to be confirmed, press the CAL key and 
+proceed to step 8. 
+z  When the time is correct and the date is to be 
+confirmed, press the SAMPLE key and proceed to 
+step 6. 
+z  When the time is not corre ct and is to be changed, 
+press the RE-ZERO key and proceed to step 5. 
+ Setting the time (with part of the digits blinking) 
+5 Set the time in 24-hour format using the following 
+keys. 
+SAMPLE key To select the digits to change 
+the value. The selected digits 
+blink. 
+RE-ZERO key To increase the value by one. 
+MODE key To decrease the value by one. 
+PRINT key To store the new setting, 
+display end and go to step 6. 
+CAL key To cancel the new setting and 
+go to step 6. 
+ 
+    
+--- Page 51 ---
+ 
+ 49 
+Confirming the date 
+6 The current date is displayed with all the digits 
+blinking. 
+z  To change the display order of year ( y), month (n) 
+and day ( d), press the MODE key. The date is 
+output in the order as specified. 
+z  When the date is correct and the operation is to be 
+finished, press the CAL key and proceed to step 8. 
+z  When the time is to be confirmed again, press the 
+SAMPLE key and go back to step 4. 
+z  When the date is not corre ct and is to be changed, 
+press the RE-ZERO key and proceed to step 7. 
+Note 
+The year is expressed using a two-digit format. For 
+example, the year 2000 is expressed as “00”. 
+ 
+Setting the date (with part of the digits blinking) 
+7 Set the date using the following keys. 
+SAMPLE key To select the digits to change 
+the value. The selected digits 
+blink. 
+RE-ZERO key To increase the value by one. 
+MODE key To decrease the value by one. 
+PRINT key To store the new setting, 
+display end and go to step 8. 
+CAL key To cancel the new setting and 
+go to step 8. 
+ 
+Quitting the operation 
+8 The balance displays the next menu item of the 
+function table. Press the CAL key to exit the clock and 
+calendar function and return to the weighing mode. 
+Notes 
+Do not enter invalid values such as a non-exi sting date when setting the time and date. 
+When the clock backup battery has been  depleted, the balance displays  rtc  pf . Under 
+this condition, press any key and set the time and date. The dead battery only affects the 
+clock and calendar function. Even so, the function works normally as long as the AC 
+adapter is connected to the balance.   
+   
+   
+--- Page 52 ---
+ 
+ 509-10 Comparator Function 
+The results of the comparison are indicated by HI OK LO on the display. 
+Operating conditions: z  No comparison 
+ z  Comparison when the weighing data is stable or overloaded, excluding “near zero” 
+ z  Comparison when the weighing data is stable or overloaded, including “near zero”  
+ z  Continuous comparison, excluding “near zero”  
+ z  Continuous comparison, including “near zero”  
+To compare, use: z  Upper limit value and lower limit value 
+ z  Reference value and tolerance value 
+Input method: z  Digital input  
+ z  Weighing input 
+ 
+For a description of “Comparator mode ( Cp fnc)”, refer to “9-3 Details of the Function Table”.  
+“Near zero” means that the weighing data is  within ±10 digits from zero point.  
+Example: In case of GP-30K, the range of ±1.0 g is “near zero”. 
+  
+Setting example 1 
+(Comparison when the weighing data is stable or overloaded, excluding “near zero”, upper limit and lower limit) 
+ 
+Selecting a comparator mode 
+1 Press and hold the SAMPLE key until ba5fnc  of the function table is displayed, then release the key. 
+2 Press the SAMPLE key seve ral times to display  Cp fnc . 
+3 Press the PRINT key. 
+4 Press the RE-ZERO key several times to display  Cp 1 . 
+5 Press the SAMPLE key to display  Cp in . 
+6 Press the RE-ZERO key several times to display  Cp in 0 . 
+7 Press the PRINT key to store the selected mode. 
+ 
+Entering the upper and lower limit values  
+8  With  Cp Hi   displayed, press the PRINT key. The current setting of the upper limit value is 
+displayed with all of the digits blinking.  
+z When the current setting is not to be changed, pre ss the PRINT or CAL key to proceed to step 9. 
+z When the current setting is to be changed, pr ess the RE-ZERO key. The balance is now in 
+the digital input mode. To use the weighing input mode, press and hold the MODE key. 
+Digital input mode  
+Change the setting using the following keys. 
+SAMPLE key To select the digit to change the value. 
+RE-ZERO key To change the val ue of the digit selected.  
+MODE key To switch the polarity.  
+PRINT key To store the new setting and go to step 9. 
+CAL key To cancel the new setting and go to step 9.  
+--- Page 53 ---
+ 
+ 51Weighing input mode  
+ Press the RE-ZERO key. The balance displays  0.0 g. Place a sample, with a mass that  
+corresponds to the upper limit va lue, on the pan. Press the PRINT key to store the upper limit 
+value. Remove the sample. The balance displays  Cp lo . 
+9 With Cp lo  displayed, press the PRINT key. The cu rrent setting of the lower limit value is 
+displayed with all of the digits blinking.  
+z When the current setting is not to be changed, press the PRINT or CAL key to proceed to step 10. 
+z When the current setting is to be changed, pr ess the RE-ZERO key. The balance is now in 
+the digital input mode. To use the weighing input mode, press and hold the MODE key. 
+  Enter the lower limit value in the same wa y as described in step 8. Then, go to step 10. 
+10 Press the CAL key to exit the comparator  function and return to the weighing mode. 
+ 
+Setting example 2 
+(Continuous comparison, including “near zero ”, reference value and tolerance value) 
+ 
+Selecting a comparator mode 
+1 Press and hold the SAMPLE key until ba5fnc  of the function table is displayed, then release the key. 
+2 Press the SAMPLE key seve ral times to display  Cp fnc . 
+3 Press the PRINT key. 
+4 Press the RE-ZERO key several times to display  Cp 4 . 
+5 Press the SAMPLE key to display  Cp in . 
+6 Press the RE-ZERO key several times to display  Cp in 1 . 
+7 Press the PRINT key to store the selected mode. 
+ 
+Entering the reference and tolerance values  
+8  With  Cp ref  displayed, press the PRINT key. The current setting of the reference value is 
+displayed with all the digits blinking. 
+z When the current setting is not to be changed, pre ss the PRINT or CAL key to proceed to step 9. 
+z When the current setting is to be changed, pr ess the RE-ZERO key. The balance is now in 
+the digital input mode. To use the weighing input mode, press and hold the MODE key. 
+Digital input mode  
+Change the setting using the following keys. 
+SAMPLE key To select the digit to change the value. 
+RE-ZERO key To change the val ue of the digit selected.  
+MODE key To switch the polarity.  
+PRINT key To store the new setting and go to step 9. 
+CAL key To cancel the new setting and go to step 9. 
+Weighing input mode  
+ Press the RE-ZERO key. The balance displays  0.0 g. Place a sample, with a mass that  
+corresponds to the reference va lue, on the pan. Press the PRIN T key to store the reference 
+value. Remove the sample and go to step 9.  
+--- Page 54 ---
+ 
+ 529  With  Cp lnt  displayed, press the PRINT key. The current setting of the tolerance value is 
+displayed with all the digits blinking.  
+z When the current setting is not to be changed, pr ess the PRINT or CAL key to proceed to step10. 
+z When the current setting is to be changed, pr ess the RE-ZERO key. The balance is now in 
+the digital input mode. Change the setting using the following keys. 
+SAMPLE key To select the digit to change the value. 
+RE-ZERO key To change the val ue of the digit selected. 
+PRINT key To store the new setting and go to step 10. 
+CAL key To cancel the new setting and go to step 10. 
+Notes: Enter the tolerance value in percentage, with the reference value as 100%.  
+ Only the digital input mode is available for setting the tolerance value.  
+ The MODE key is not used to set the tolerance value.  
+10 Press the CAL key to exit the comparator  function and return to the weighing mode. 
+ 
+Notes 
+When Pound/Ounce is selected as a wei ghing unit, enter the values in ounces for 
+comparison. 
+In the density mode, comparison is performed to the density obtained. 
+ 
+9-11 Adding the Comparison Results 
+By setting “Comparison results (Cp-r)” of the function table to “ 1”, the comparison results can be 
+added to the data output using t he RS-232C serial interface. Use A&D standard format ( type 0).  
+ 
+The comparison results are added after the header in A&D standard format as below. 
+         
+9-12 Main Display Comparison Function 
+The main display comparison function displays th e comparison results in a magnified way, on the 
+main portion of the display in place of the weight value.   
+Selecting a unit 
+1 Press the MODE key to select a unit to be used for comparison. 
+Note 
+While the main display comparison function is in use,  unit selection using the MODE key is not available. 
+--- Page 55 ---
+ 
+ 53Setting the function table 
+2 Press and hold the SAMPLE key until ba5fnc  of the function table is displayed, then release the key. 
+3 Press the SAMPLE key seve ral times to display  Cp fnc . 
+4 Press the PRINT key. 
+5 Press the SAMPLE key seve ral times to display  Cp-b 0 . 
+6 Press the RE-ZERO key to display  Cp-b 1  . 
+Note 
+To disable the main display comparison f unciton, set the “Main display comparison ( Cp-b)” 
+parameter to “ 0”. 
+7 Press the PRINT key to store the setting. 
+8 Press the CAL key to return to the weighing mode. 
+ 
+Setting the comparator values 
+Setting the comparator values as described in 
+the previous section. Setting example ( Cp 3= Continuous comparison, 
+excluding “near zero”) 
+ 
+Using the main display comparison function  
+1 Press the RE-ZERO key to set the 
+display to zero. 
+2 Place a sample on the pan. The 
+balance performs a comparison using 
+the specified com parison values and 
+displays the comparison results, HI, 
+OK or LO. 
+3 Each time the MODE key is pressed, 
+the balance switc hes between the 
+standard display and the main display comparison. Note that “ g0” appears 
+for OK. 
+ 
+Notes 
+While the main display comparison 
+function is in use, the processing indicator 
+illuminates as shown in the illustration. 
+If the comparison is not performed, for example,  because the weight value is near zero or 
+unstable, the balance displays the weight value even when the main display comparison 
+function is used. 
+Even while the main display comparison function is in use, the balance re-zeroing and data 
+output is possible. 
+Only the unit selected before this function can be used. 
+While the main display comparison function is in use, the data memory function is not 
+available. 
+--- Page 56 ---
+ 
+ 5410. ID NUMBER AND GLP REPORT 
+z The ID number is used to ident ify the balance when Good Laboratory  Practice (GLP) is used.  
+z The ID number is maintained in non-volatile memory even if the AC adapter is removed. 
+z The GLP output format is selected at “GLP output ( info)” of the function table and can be 
+output to a personal computer or printer using the RS-232C serial interface.  
+z The GLP output format includes the balance m anufacturer, model, serial number, ID number, 
+date, time and space for signature for weighi ng data, the weight used and results for 
+calibration or calibration test data. 
+z The balance can output the following reports for GLP. 
+ “Calibration report” of the calibration, using t he internal mass (Calibration due to changes in 
+temperature and one-touch calibration.) 
+ “Calibration report” of the calib ration, using an external weight. 
+ “Calibration test report” of the ca libration test, using an external weight. 
+ “Title block” and “End block” for the weighing data. 
+z Calibration and calibration test data can be stored in memory to output several reports at the 
+same time. Refer to “11. DATA MEMORY” for details. 
+z For details on confirming and setting the time  and date, refer to “9-9 Clock and Calendar 
+Function”. 
+ 
+10-1 Setting the ID Number 
+1 Press and hold the SAMPLE key until ba5fnc of the function table is displayed, then release 
+the key. 
+2 Press the SAMPLE key se veral times to display id . 
+3 Press the PRINT key. Set the ID number using the following keys. 
+RE-ZERO key To set the character of the digi t selected. Refer to the display character 
+set shown below.  
+SAMPLE key To select the digit to change the value. 
+PRINT key To store the new ID number and display  ba5fnc . 
+CAL key To cancel the new ID number and display ba5fnc . 
+4 With ba5fnc  displayed, press the CAL key to return to the weighing mode. 
+ 
+Display character set 
+ 
+  
+ 
+--- Page 57 ---
+ 
+ 5510-2 GLP Report 
+Set the following parameters to output the report.  
+z To print the report, set the “GLP output ( info)” parameter to “ 1” and use MODE 3 of the 
+AD-8121B. For details on using the printer, refer to “15-1 Connection to the AD-8121B Printer”. 
+z To output the report to a personal computer us ing the RS-232C interfac e, set the “GLP output 
+(info)” parameter to “ 2”.  
+z If the time and date are not correct, se t the correct time and date in “Clock ( Cl adj)” of the 
+function table. 
+Note 
+For operational details about calibration and calibration test, refer to “7. CALIBRATION”. 
+ 
+Calibration report using the internal mass 
+ 
+When the setting is “ info 1”:   When the setting is “info 2”: 
+ 
+                       
+--- Page 58 ---
+ 
+ 56Calibration report using an external weight 
+When the setting is “ info 1”:   When the setting is “info 2”: 
+ 
+                 
+Calibration test report using an external weight 
+(Calibration test does not perform calibration.) 
+When the setting is “ info 1”:   When the setting is “info 2”: 
+                
+--- Page 59 ---
+ 
+ 57Title block and end block 
+When weight values are recorded as GLP data, a “Title block” is inserted at the beginning and an 
+“End block” is inserted at the end of a group of weight values in the GLP report. 
+ 
+Note 
+To output the report to an AD-8121B , use MODE 3 of the AD-8121B. 
+Caution 
+If the data memory function is used, the “Tit le block” and “End block” can not be output.  
+ 
+Operation 
+1 With the weighing data displayed, press and hold the PRINT key, then release the key. 
+S5tart  is displayed. The “Title block” is output. 
+2 The weighing data is output according to t he parameter setting of the data output mode.  
+3 Press and hold the PRINT key until  recend   is displayed, then re lease the key. The “End 
+block” is output. 
+ 
+ When the setting is “ info 1”:   When the setting is “info 2”: 
+                      
+--- Page 60 ---
+ 
+ 5811. DATA MEMORY 
+Data memory is a function to store weighing data,  calibration data and unit mass in memory. Of the 
+data in memory, the balance can only display the weighing data. The weighing data and calibration 
+data in memory are available for outputting at one time to a printer or personal computer. 
+One of the following data sets can be stored:   z Weighing data (Up to 200 sets. 100 sets when the time and date are added.)  
+ z Calibration and calibration test data (latest 50 sets) 
+ z Unit mass in the counting mode (Up to 50 sets) 
+ z Comparator settings (the upper and lower limit values only, up to 20 sets) 
+ z Tare value (Up to 20 sets) 
+ 
+11-1 Notes on Using Data Memory 
+To use the memory function, set the “Data memory ( data)” parameter of the function table. In 
+addition, for weighing data, set the “Time/Date output ( 5-td)” parameter. For details on setting the 
+data memory, refer to “9. FUNCTION TABLE”. For weighing data, the data contents to be stored and the storage capacity depend on the 
+“Time/Date output ( 5-td)” parameter setting. 
+ 
+Releasing “ Clr” 
+If a different type of data exists in memory when the data is stored, “ Clr” appears blinking in the 
+upper left of the display. For example, you want  to store weighing data but calibration data or unit 
+mass data remains in memory.  
+ 
+Under such a condition, before storing data,  delete the data in memory as follows: 
+1 Press and hold the PRINT key until SClr no  with “ no” blinking is displayed, then release the 
+key.  
+2 Press the RE-ZERO key to display SClr go  with “go” blinking.  
+ The type of data stored in memory appears in the upper left of the display as shown below: 
+Unit mass in the counting mode pC 
+Weighing data without time and date -d- 
+Weighing data with time and date d-t 
+Calibration or calibration test data Hi5 
+Comparator settings Cp 
+Tare value tr 
+3 Press the PRINT key to delete all the data in memory. 
+4 The balance displays  end  and returns to the weighing mode. 
+--- Page 61 ---
+ 
+ 5911-2 Memory for Weighing Data 
+z The data memory function can store 200 sets of weighing data (100 set if time and date are 
+added). Even if the AC adapter is removed, the data is maintained in non-volatile memory. 
+z It is not necessary that the printer or co mputer be continually c onnected to the balance, 
+because the balance stores t he weighing data in memory. 
+z The data in memory is available to be displa yed on the balance for conf irmation, or to output 
+several sets of data at one time to a printer or personal computer. In the function setting, what 
+data is to be added to the output data (I D number, data number, time and date) can be 
+selected. 
+ 
+Storing the weighing data 
+Note 
+If “Clr” appears blinking in the upper left of th e display, delete the data in memory. 
+1 Set the “Data memory ( data)” parameter to “ 2”. 
+2 Set the “Time/Date output ( 5-td)” parameter as necessary. 
+3 The storing operation depends  on the “Data output mode ( prt)” parameter setting. Four types 
+of operating modes are av ailable to store data. 
+Key mode When the PRINT key is pressed and the displayed value is 
+stable, the balance stor es the weighing data. 
+Auto print modes A and B When the displayed value is stable and the conditions of “Auto 
+print polarity”, “Auto print difference” and reference value are 
+met, the balance stores the weighing data.  
+Interval memory mode Weighing data is stored at an interval specified in “Interval time 
+(int)”. Press the PRINT key to start and stop this mode. 
+ 
+        
+Caution 
+z When weighing data is being stored in memory , the data can not be ou tput to a personal 
+computer using the RS-232C interface. 
+z  “fUl” indicates that memory is full or the me mory capacity has been reached. More data can 
+not be stored unless the memory data is deleted. 
+z Automatic self calibration can not be used while the interval memory mode is active. 
+--- Page 62 ---
+ 
+ 60z The following commands can not  be used during data storage. 
+ Q Query command for weighing data.  
+ S Query command for stable weighing data.  SI Query command for weighing data.   SIR Query command for c ontinuous weighing data. 
+ 
+Setting the function table  
+Parameter settings for each output mode are as follows: 
+              I t e m  
+ 
+Mode Data output 
+mode Auto print polarity, 
+difference Data memory 
+function Interval time 
+Key mode prt 0 Not used data 2 
+Auto print mode A prt 1 data 2 
+Auto print mode B prt 2 ap-a 0-2 
+ap-b 0-2 data 2  
+Not used 
+Interval memory mode prt 3 Not used data 2 int 0-8 
+ 
+Set each item, depending on the situation, as follows:  
+No d-no 0 No 5-td 0 Data number  
+Yes d-no 1 Time only 5-td 1 
+No  5-id 0 Date only 5-td 2 ID number 
+Yes 5-id 1  
+Time and date 
+Both 5-td 3 
+  W i t h  5-td 1, 5-td 2  or 5-td 3 selected, the amount of data to be stored is 100 sets. 
+ 
+Enabling the data memory function 
+1 Press and hold the SAMPLE key until  ba5fnc  is displayed, then release the key. 
+2 Press the SAMPLE key se veral times to display  dout . 
+3 Press the PRINT key. 
+4 Press the SAMPLE key three times to display  data 0 . 
+5 Press the RE-ZERO key to display  data 2 . 
+6 Press the PRINT key to store the setting. 
+7 Press the CAL key to return to the weighing mode. 
+ 
+ 
+        
+--- Page 63 ---
+ 
+ 61Recalling the memory data 
+Confirm that the “Data memory ( data)” parameter is set to “ 2”. 
+1 Press and hold the PRINT key until  reCall  is displayed, then release the key. 
+2 Press the PRINT key to enter the memory re call mode. The type of data appears in the upper 
+left of the display as  shown to the right: 
+ Recall the data in memory using the following keys 
+RE-ZERO key To proceed to the next data set. 
+MODE key To go back to the previous data set. 
+PRINT key To transmit the current data using 
+the RS-232C interface. 
+With SAMPLE held down, press the CAL key 
+ To delete the data currently displayed.  
+Note: Deleting the data will not increase th e number of data that can be stored. 
+CAL key To exit the memory recall mode. 
+3 Press the CAL key to return to the weighing mode. 
+ 
+Transmitting all memory data at one time 
+Confirm that the “Serial interface ( 5if)” parameters are set properly. For details, refer to “9. 
+FUNCTION TABLE” and “15. CONNECTION TO PERIPHERAL EQUIPMENT”. 
+1 Press and hold the PRINT key until  reCall  is displayed, 
+then release the key. 
+2 Press the SAMPLE key to display  out . 
+3 Press the PRINT key to display Sout no  with “ no” blinking. 
+5 Press the RE-ZERO key to display  out go  with “ go” 
+blinking. 
+6 Press the PRINT key to transmit all data using the RS-232C 
+interface. 
+7 The balance displays  Clear  when all data is transmitted. 
+Press the CAL key to return to the weighing mode. 
+ 
+Deleting all memory data at one time 
+1 Press and hold the PRINT key until  reCall  is displayed, then release the key. 
+2 Press the SAMPLE key seve ral times to display  Clear . 
+3 Press the PRINT key to display SClr no  with “ no” blinking. 
+4 Press the RE-ZERO key to display SClr go  with “go” blinking. 
+5 Press the PRINT key to delete all data 
+6 The balance displays  end , then  reCall  when all data is deleted. 
+7 Press the CAL key to return to the weighing mode. 
+--- Page 64 ---
+ 
+ 6211-3 Memory for Calibration and Calibration Test Data 
+z Calibration data (when and how it is performed) and calibration test data can be stored in memory. 
+z All the data in memory is available to be output at one time to a printer or personal computer.  
+z Up to 50 data sets of the latest calibration or  calibration test can be stored. When the memory 
+capacity has been reached, “ fUl” illuminates in the upper left of  the display as shown below. 
+ 
+ 
+Storing the calibration and calibration test data 
+Note 
+If “Clr” appears blinking in the upper left of th e display, delete the data in memory. 
+Store the calibration and calibration test data as follows: 
+1 Set the “Data memory ( data)” parameter to “ 3”. 
+2 Set the “GLP output ( info)” parameter to “ 1” or “2”. 
+3 With the settings above, each time calibration or calibration test is performed, the data is 
+stored automatically. 
+ 
+Transmitting the memory data 
+Confirm that the “Serial interface ( 5if)” parameters are set properly. For details, refer to “9. 
+FUNCTION TABLE” and “15. CONNECTION TO PERIP HERAL EQUIPMENT” and also confirm that 
+the “Data memory ( data)” parameter is set to “ 3”. 
+1 Press and hold the PRINT key until out is displayed, then 
+release the key. 
+2 Press the PRINT key to display Sout no  with “ no” blinking. 
+3 Press the RE-ZERO key to display  out go  with “ go” blinking. 
+4 Press the PRINT key to transmi t all memory data using the 
+RS-232C interface. 
+5 The balance displays  Clear  when all memory data is output. Press the CAL key to return 
+to the weighing mode. 
+ 
+Deleting the memory data 
+1 Press and hold the PRINT key until out is displayed, then 
+release the key. 
+2 Press the SAMPLE key to display  Clear . 
+3 Press the PRINT key to display SClr no  with “ no” blinking. 
+4 Press the RE-ZERO key to display SClr go  with “go” blinking. 
+5 Press the PRINT key to delete all data 
+6 The balance displays  out  when all the data has been deleted. Press the CAL key to return 
+to the weighing mode. 
+--- Page 65 ---
+ 
+ 6311-4 Memory for Unit Mass in the Counting Mode 
+z The data memory function can store 50 sets of unit mass for the counting mode. Even if the 
+AC adapter is removed, the data is maintai ned in non-volatile memory. Among the 50 sets, 
+“p01” is the memory function fo r the standard counting mode. 
+z The unit mass in memory can be recalled and used for weighing. 
+z The unit mass in memory can be recalled and changed. 
+Note 
+The recalled unit mass can be changed, using th e weighing input mode or the digital input 
+mode. The weighing input mode uses the specif ied number of samples to store the unit mass. 
+The digital input mode enters the unit mass using the keys. 
+ 
+Storing the unit mass 
+To store a new unit mass: Recall the stored unit mass to be changed (“ Pp01” to “p50”). Then, change the 
+recalled unit mass using the weighing input mode or the digital input mode, and store the new unit mass. 
+1 Set the “Data memory ( data )” parameter to “ 1”. 
+2 Press the MODE key to select    pcs  (counting mode).  
+ If “Clr” appears blinking in the upper left of the display, delete the data in memory. 
+Note 
+If the counting mode can not be select ed, refer to “4. WEIGHING UNITS”. 
+3 Press and hold the PRINT key until the bal ance enters the sample unit mass confirmation 
+mode. The unit mass last selected is displayed as shown below.  
+ 
+ 
+         
+                                             A l l  t h e  d i g i t s  b l i n k i n g  
+4 Select the unit mass number to  be used, using the following keys. 
+RE-ZERO key To increase the unit mass number by one.  
+MODE key To decrease the unit mass by one. 
+5 To change the selected unit mass: 
+ To use the weighing input mode, press the SAMPLE key to enter the weighing input mode.  
+Go to “Weighing input mode” on the next page. 
+ To use the digital input mode, press the SAMPLE key, then press and hold the MODE key to 
+enter the digital input mode. Go to “Digital input mode” on the next page. 
+Notes 
+ACAI can not be performed directly on the recalled unit mass. 
+Using the “UN:mm” command, the unit mass ca n be recalled. (mm indicates a two-digit 
+numerical value 01-50, which corresponds to P 01-P50.) The unit mass recalled can be output 
+using the “?UW” command and can be changed using the “UW:” command. 
+ 
+--- Page 66 ---
+ 
+ 64Weighing input mode 
+In the weighing input mode, the s pecified number of samples is pl aced on the pan to store the unit 
+mass. Re-storing the unit mass or performing Auto matic Counting Accuracy Improvement (ACAI) on 
+the re-stored unit mass is possibl e. Follow the procedure describ ed in “5-2 Counting Mode (PCS)”. 
+ 
+Use the following keys to store a unit mass in weighing input mode. 
+RE-ZERO key To set the display to zero.  10  -  p c s   →  10  0 pcs 
+SAMPLE key To change the number of samples to be stored.  10  0 pcs →  25  0 pcs 
+PRINT key Press, after a sample is  placed, to store the unit mass. 
+CAL key To return to the unit mass conf irmation mode (step 3 in “Recalling the 
+unit mass”). 
+MODE key Press and hold to go to the digital input mode. 
+ 
+Digital input mode 
+To use this mode, the sample unit mass must be known beforehand. In the digital input mode, the 
+unit mass value is entered digitally using the keys. 
+The display in the digital input  mode is shown to the right.  
+                                                           The digit to be changed blinks. 
+Note 
+ACAI can not be used on the unit mass stored using the digital input mode. 
+ 
+Use the following keys to store a unit mass in digital input mode. 
+SAMPLE key To select the digit to be changed. 
+RE-ZERO key To change the value of the 
+selected digit.  
+MODE key To change the decimal point position. 
+PRINT key To store the unit mass. 
+CAL key To return to the unit mass 
+confirmation mode (step 3 in 
+“Recalling the unit mass”). 
+MODE key Press and hold to go to the 
+weighing input mode. 
+Note 
+If the set unit mass is out of the setting range, “ error 2 ” is displayed. For details about the 
+minimum unit mass, refer to  “19. SPECIFICATIONS”. 
+ 
+Recalling the unit mass 
+1 Follow steps1 through 3 in “Storing the unit mass” on 
+the previous page, to enter the sample unit mass 
+confirmation mode. 
+2 Select the unit mass num ber to be used, using the 
+following keys. 
+RE-ZERO key To increase the unit mass 
+number by one.  
+MODE key To decrease the unit mass by one. 
+3 Press the PRINT key to confirm the select ion and to return to the weighing mode. 
+ To cancel the selection and return to  the weighing mode, press the CAL key. 
+--- Page 67 ---
+ 
+ 6511-5 Memory for Comparator Settings 
+z The data memory function can store 20 sets of upper  and lower limit values for the comparator mode. 
+The reference value or tolerance value for t he comparator mode can not be stored in memory. 
+z The upper and lower limit values in memory can be recalled easily using the MODE key and 
+used for weighing. 
+z The upper and lower limit values in memory can be recalled and changed. 
+Note 
+The recalled upper and lower limit values can be ch anged, using the digital input mode or the 
+weighing input mode. The digital input mode enters the upper and lower limit values using 
+the keys. The weighing input mode uses a sample to store the upper and lower limit values.  
+ 
+Storing the upper and lower limit values 
+To store new upper and lower limit values: Reca ll the stored upper and lower limit values to be 
+changed (“ C01” to “C20”). Then, change the recalled upper and lo wer limit values using the digital 
+input mode or the weighing input mode, and store the new value. 
+1 Press the MODE key to select a unit to be used for storage. 
+Note While the data memory function is in use, unit selection using the MODE key is not available. 
+2 Set the “Data memory ( data)” parameter to “ 4”. 
+ If “Clr” appears blinking in the upper left of the display, delete the data in memory as 
+described in “11-1 Notes on Using Data Memory”.  
+3 Press and hold the PRINT key until the balanc e enters the upper and lower limit values 
+confirmation mode. The upper limit value last selected is displayed as shown below.  
+ 
+ 
+ 
+                                                        A l l  t h e  d i g i t s  b l i n k i n g  
+4 Select the comparator number to be used, using the following keys. 
+RE-ZERO key To increase the comparator number by one.  
+MODE key To decrease the comparator number by one. 
+  Each time the RE-ZERO key or MO DE key is pressed, the displayed 
+value changes as follows: .... ↔ C03  HI ↔ C03 LO ↔ C04 HI ↔ C04 LO 
+↔ .... 
+5 To change the selected upper and lower limit values: 
+To use the digital input mode, press the SAMPLE key to enter the digital input mode. Go to 
+“Digital input mode” on the next page. 
+To use the weighing input mode,  press the SAMPLE key, then press and hold the MODE key 
+to enter the weighing input mode. Go to  “Weighing input mode” on the next page. 
+Note 
+Using the “CN:mm” command, the upper and lo wer limit values can be recalled. (mm 
+indicates a two-digit numerical value 01-20, which corresponds to C01-C20.) The upper and 
+lower limit values recalled can be output us ing the “?HI” command or “?LO” command and 
+can be changed using the “HI: ” command or “LO:” command. 
+--- Page 68 ---
+ 
+ 66Digital input mode 
+In the digital input mode, the upper and lower limit  values are entered digitally using the keys. 
+The display in the digital input mode is shown below.  
+ 
+  Use the following keys to store upper and lowe r limit values in digital input mode. 
+SAMPLE key To select the digit to be 
+changed. 
+RE-ZERO key To change the value of the 
+selected digit.  
+MODE key To switch the polarity. 
+PRINT key To store the upper and lower 
+limit values. 
+CAL key To return to the upper and lower 
+limit values confirmation mode 
+(step 3 in “Storing the upper and lower limit values”). 
+MODE key Press and hold to go to the 
+weighing input mode. 
+ 
+Weighing input mode 
+In the weighing input mode, a sample is placed on the pan to store the upper and lower limit values.  
+Notes 
+Pressing the CAL key will interrupt the operation and the balance will return to the upper and 
+lower limit values confirmation mode (step 3 in “Storing the upper and lower limit values”). 
+To go to the digital input mode, press and hold the MODE key. 
+1 The first display in t he weighing input mode depends 
+on the comparator number selected in step 4 in 
+“Storing the upper and lower limit values”. 
+ For example, when “ C03 HI “ is selected in step 4, the 
+display is the current weight  value and the comparator 
+number with HI blinking. 
+2 Place a container on the wei ghing pan, if necessary.  
+ Press the RE-ZERO key to set the display to zero. 
+3 Place a sample corresponding to the upper limit value, 
+on the pan or in the container.  
+4 Press the PRINT key to store the upper limit value.  
+  
+ 
+ The digit to be changed blinks 
+--- Page 69 ---
+ 
+ 67Recalling the upper and lower limit values (Quick selection mode) 
+The procedure below describes an easy way to re call the upper and lower limit values to be used for 
+weighing. When the recalled upper and lower limit values are to be changed, refer to “Storing the 
+upper and lower limit values”. 
+1 Set the “Data memory ( data)” parameter to “ 4”. 
+2 Press the MODE key to enter the upper/lower limit 
+value recalling mode. The upper limit value last 
+selected with its comparator number appears. The display is as shown to the right, with all the digits 
+blinking. 
+3 Press the MODE key to select the value. Each time 
+the MODE key is pressed, the displayed value 
+changes as follows: C03 HI → C03 LO→ C04 HI → 
+C04 LO → ....  → C20 LO → C01 HI →. 
+4 Press the PRINT key to confirm the selection. The 
+balance returns to the weighing mode with the selected upper and lower limit values ready for use. 
+ To cancel the selection, press the CAL key. The 
+balance returns to the weighing mode. 
+Note 
+When no operation is performed in step 4 (after a few 
+seconds of inactivity), the balance selects the value 
+currently displayed and returns to the weighing mode 
+automatically. 
+ 
+ 
+11-6 Memory for Tare Value 
+z The data memory function can store 20 sets of tare value for weighing.  
+z The tare value in memory can be recalled easily using the MODE key and used for weighing. 
+z The tare value in memory can be recalled and changed. 
+Notes 
+The recalled tare value can be changed, using the digital input mode or the weighing input 
+mode. The digital input mode enters the tare value using the keys. The weighing input mode 
+uses a sample tare container to store the tare value.  
+The NET indicator illuminates during tare operation. 
+ 
+     
+--- Page 70 ---
+ 
+ 68Storing the tare value 
+To store a new tare value: Recall the stored tare value to be changed (“ t01” to “t20”). Then, change 
+the recalled tare value using the digital input mo de or the weighing input mode, and store the new 
+value. 
+Notes 
+When the RE-ZERO key is pressed with noth ing placed on the weighing pan, zero is 
+displayed, The NET indicator does not illuminate. 
+“t-- ” appears when a tare operation is perfor med without using the tare value stored in 
+memory. 
+1 Press the MODE key to select a unit to be used for storage. 
+Note 
+While the data memory function is in use, unit selection using the MODE key is not available. 
+2 Set the “Data memory ( data)” parameter to “ 5”. 
+ If “Clr” appears blinking in the upper left of the display, delete the data in memory as 
+described in “11-1 Notes on Using Data Memory”. 
+3 Press and hold the PRINT key unt il the balance enters the tare value confirmation mode. The 
+tare value last selected is displayed as shown below.  
+ 
+ 
+                                                    A l l  t h e  d i g i t s  b l i n k i n g  
+4 Select the tare number to be used, using the following keys. 
+RE-ZERO key To increase the tare number by one.  
+MODE key To decrease the tare number by one. 
+  Each time the RE-ZERO key or MODE key is pressed, the displayed 
+value changes as follows: .... ↔ t03  ↔ t04 ↔ .... ↔ t20 ↔ t01 ↔ .... 
+CAL key  To cancel the operation a nd return to the weighing mode. 
+ 
+5 To change the selected tare value: 
+To use the weighing input mode, press the SAMPLE key to enter  the weighing input mode. Go 
+to “Weighing input mode” on the next page.  
+To use the digital input mode, press the SAM PLE key, then press and hold the MODE key to 
+enter the digital input mode. Go to “Digital input mode” on the next page. 
+Note 
+Using the “PN:mm” command, the tare value can be recalled. (mm indicates a two-digit 
+numerical value 01-20, which corresponds to t01 -t20.) The tare value recalled can be output 
+using the “?PT” command and can be changed using the “PT:” command. 
+ 
+   
+--- Page 71 ---
+ 
+ 69Weighing input mode 
+In the weighing input mode, a sample tare container is placed on the pan to store the tare value.  
+Notes 
+Pressing the CAL key will interrupt the operation and the balance will return to the tare value 
+confirmation mode (step 3 in  “Storing the tare value”). 
+To go to the digital input mode, press and hold the MODE key. 
+1 The first display in the weighing input mode is the 
+current weight value and the selected tare number 
+with PT blinking. 
+2 Press the RE-ZERO key to set the display to zero. 
+3 Place a tare (a container) on the pan. 
+4 Press the PRINT key to store the tare value. Remove 
+the tare from the pan. 
+ 
+ 
+   
+Digital input mode 
+In the digital input mode, the tare value is entered digitally using the keys. The display in the digital input mode is shown below.  
+                                             The digit to be changed blinks.  Use the following keys to store a ta re value in digital input mode. 
+SAMPLE key To select the digit to be 
+changed. 
+RE-ZERO key To change the value of the 
+selected digit.  
+PRINT key To store the tare value. 
+CAL key To return to the tare value 
+confirmation mode (step 3 in 
+“Storing the tare value”). 
+MODE key Press and hold to go to the 
+weighing input mode. 
+ 
+      
+--- Page 72 ---
+ 
+ 70Recalling the tare value  (Quick selection mode) 
+The procedure below describes an easy way to recall the tare value to be used for weighing. When 
+the recalled tare value is to be changed, refer to “Storing the tare value”. 
+1 Set the “Data memory ( data)” parameter to “ 5”. 
+2 Press the MODE key to enter the tare value recalling 
+mode. The tare value last selected with its tare 
+number appears. The display is as shown to the right, with all the digits blinking.  
+3 Press the MODE key to select the value. Each time 
+the MODE key is pressed, the displayed value 
+changes as follows: t03 → t04 → t05 → .... → t20 → 
+t01→ . 
+4 Press the PRINT key to confirm the selection. The 
+balance returns to the weighing mode with the selected tare value ready for use. 
+ To cancel the selection, press the CAL key. The 
+balance returns to the weighing mode. 
+Note 
+When no operation is performed in step 4 (after a few 
+seconds of inactivity), the balance selects the value 
+currently displayed and returns to the weighing mode 
+automatically.  
+ 
+Canceling the tare value data 
+Cancel the tare value data as follows. 
+1 Remove everything from the weighing pan and press 
+the RE-ZERO key to cancel the tare value. 
+ 
+ 
+ 
+          
+--- Page 73 ---
+ 
+ 7111-7 Data Memory: Quick Selection Mode 
+The data memory has a quick selection mode,  to recall data in memory quickly.  
+Using the quick selection mode, the comparator settings or the ta re value, whichever is selected in 
+the function table, can be re called, by a simple operation, using the MODE key.  
+Note 
+While the data memory function is in use, unit selection using the MODE key is not available. 
+ 
+Use the quick selection mode as follows. 
+1 Press the MODE key to enter the memory data recalling mode. The memory data last 
+selected appears with all the digits blinking. 
+2 Press the MODE key to select the value. 
+ Comparator settings: when the “Data memory (data)” parameter is set to “ 4”   
+  Each time the MODE key is pressed, the displayed 
+value changes as follows:  
+ ....C03 HI → C03 LO→ C04 HI → C04 LO → .... → 
+  → C20 LO → C01 HI →.... 
+ 
+ 
+ Tare value: when the “Data memory ( data)” parameter is set to “ 5”   
+  Each time the MODE key is pressed, the displayed 
+value changes as follows:  
+ ....t03 → t04 → t05 → .... → t20 → t01→ .... 
+   
+3 Press the PRINT key or leave the balance as is for a 
+while (after a few seconds of inactivity) to confirm the 
+selection. The balance returns to the weighing mode 
+with the selected data ready for use. 
+ To cancel the selection, press the CAL key. The 
+balance returns to the weighing mode 
+ 
+       
+--- Page 74 ---
+ 
+ 7211-8 Data Memory: Confirmation and Storage Mode 
+The confirmation and storage mode can change and store the recalled data. 
+Of the three types of memory data listed below, one may be selected in the function table, and is 
+available for changes using this mode. 
+z Unit mass in the counting mode   z Comparator settings    z Tare value 
+Notes 
+To change the memory data other than specified in the function table, re-set the Data memory 
+(data )” parameter of the function table.   
+For a detailed description of the procedure for each memory data, see the relevant section. 
+Use the confirmation and storage mode as follows. 
+1 Press and hold the PRINT key to enter the memory data recalling mode. The memory data 
+last selected appears with all the digits blinking. 
+2 Use the following keys to select the value. 
+RE-ZERO key To increase the memory data number by one.  
+MODE key To decrease the memory data number by one. 
+ Unit mass: when the “Data memory ( data)” parameter is set to “1”   
+  Each time the MODE key or RE-ZERO key is 
+pressed, the displayed va lue changes as follows:  
+.... p03 ↔ p04↔  p05↔  .... ↔ p20 ↔  p01 ↔ ....  
+ 
+ 
+ Comparator settings: when the “Data memory (data)” parameter is set to “ 4”   
+  Each time the MODE key or RE-ZERO key is 
+pressed, the displayed va lue changes as follows:  
+.... C03 HI ↔ C03 LO ↔ C04 HI ↔ C04 LO ↔ .... 
+↔ 
+↔ C20 LO ↔ C01 HI ↔.... 
+ 
+ Tare value: when the “Data memory ( data)” parameter is set to “ 5”   
+  Each time the MODE key or RE-ZERO key is 
+pressed, the displayed va lue changes as follows:  
+ .... t03 ↔ t04 ↔ t05 ↔ .... ↔ t20 ↔ t01↔  .... 
+ 
+3 To perform a weighing using the selected memory data 
+Press the PRINT key to confirm the selection. The balance will return to the weighing mode 
+with the selection ready for use. 
+ To change and store the selected memory data 
+Press the SAMPLE key to enter the storage mode.  
+Two inputting modes are available fo r entering the value to be stored. 
+z Digital input mode 
+z Weighing input mode 
+ To switch the inputting mode, press and hold the MODE key. 
+ To cancel the operation and return to the weighing mode, press the CAL key. 
+--- Page 75 ---
+ 
+ 7312. PROGRAMMABLE-UNIT 
+This is a programmable unit conv ersion function. It multiplies the weighing data in kilograms by an 
+arbitrary coefficient set in the func tion table and displays the result.  
+The coefficient must be within the range between the minimum and maximum shown below. If the 
+coefficient set is beyond the ran ge, an error is displayed and the balance returns to the coefficient 
+setting mode, prompting to enter an appropriate val ue. A coefficient of 1 was set at the factory. 
+Model Minimum coefficient Maximum coefficient 
+GP-12K/20K/30K/30KS/40K/61K/61KS 10000 
+GP-60K/60KS/100K/100KS 1000 
+GP-32K/32KS 1000 
+GP-102K  
+0.000001 
+100 
+  
+Operation 
+1 Press and hold the SAMPLE key until ba5fnc  of the function table is displayed, then release the 
+key. 
+2 Press the SAMPLE key seve ral times to display  mltCadj . 
+3 Press the PRINT key. The balance enters t he mode to confirm or set the coefficient. 
+Confirming the coefficient 
+4 The current coefficient is displayed with the first digit blinking.  
+z  When it is not to be changed, press the CAL key and proceed to step 6. 
+z  When it is to be changed, press the RE-ZERO key 
+and proceed to step 5. 
+Setting the coefficient 
+5 Set the coefficient us ing the following keys. 
+SAMPLE key To select a digit to change the 
+value. The selected digit blinks.  
+RE-ZERO key To change the value. 
+MODE key To change the decimal point 
+position. 
+ Each time the sw itch is pressed, 
+the decimal point position changes as follows: 
+   
+PRINT key To store the new setting, display end and go to step 6. 
+CAL key To cancel the new setting and go to step 6.  
+Quitting the operation 
+6 The balance displays  Unit . Press the CAL key to exit the programmable-unit function and 
+return to the weighing mode. 
+Using the function 
+Press the MODE key to select the programmabl e-unit (no display on the unit section). Perform 
+weighing as described in “5-1 Basic Operati on (Kilogram Mode)”. Afte r weighing, the balance 
+displays the result (weighing dat a in kilograms x coefficient). 
+--- Page 76 ---
+ 
+ 7413. DENSITY MEASUREMENT 
+The GP series balance is equipped wi th a density mode. It calculates the density of a solid using the 
+weight of a sample in air and the weight in liquid. 
+z The density mode was not select ed for use when the balance was shipped from the factory. To 
+use the mode, change the function table and activa te the density mode. 
+z Inputting order, of the parameters nece ssary for density meas urement, can be changed. 
+z A part of the parameters can be chang ed and used for re-calculating the density. 
+ Press the SAMPLE key to confirm or select each parameter. The parameters are stored in 
+non-volatile memory. Each time a part of the parameters are changed, the density can be 
+re-calculated. 
+z Two ways to set the density of a liquid are ava ilable in the function tabl e, “Liquid density input 
+(ldin)”: by entering the water temperature or by entering the density directly. 
+z When the density mode is selected, the response adjustment and self check function can not be used. 
+  
+Formula to obtain the density 
+The density can be obtained by  the following formula. 
+  Where A: Density of a sample 
+ A: Weight value of a sample in air 
+ B: Weight value of a sample in liquid 
+ B :  Density of a liquid 
+ 
+Prior to measurement: Changing the function table 
+Prior to measurement, change the function table as follows. 
+(1) Selecting the density mode 
+To use the density mode, select it in the function table.  Once selected, the density mode is 
+available as one of the weighing units and c an be selected by pressing the MODE key. For 
+details, refer to “4-2 Changing the Units”.  
+(2) Selecting a way to se t the density of a liquid  
+Select the liquid density input method from the function table below. The function table is 
+available only when the dens ity mode is selected.  
+Class Item Parameter Description 
+0 Water temperature d5 fnc 
+Density function ld in Liquid density input 1 Liquid density 
+      0 = Factory setting 
+ 
+Measuring the density 
+Note 
+If the liquid temperature or the type of liqui d is changed during measurement, reset the value 
+of the liquid density as necessary. For details, re fer to “C. Entering the density of a liquid.”. 
+(1) Entering the density mode 
+1 Press the MODE key as necessary to select the density mode. When the density mode 
+begins, “d-a” (weight in air), “g (kg for the GP-102K)” for the unit and the processing 
+indicator are turned on.  
+--- Page 77 ---
+ 
+ 75 (2) Selecting a parameter to set. 
+1 Press the SAMPLE key to select a parameter to set. Each pressing of the key switches the parameter.  
+2 Press the RE-ZERO key to enter the i nputting mode of the parameter selected. 
+ 
+            (3) Setting the parameter. 
+A. Entering the weight of a sample in air.
+ 
+1 Confirm that nothing is placed on the upper pan (in air). Press the RE-ZERO key to set the 
+display to zero.  
+2 Place a sample on the upper pan. When t he value displayed on the balance becomes 
+stable, press the PRINT key. The sample wei ght in air is confirmed and the balance will 
+return to the density mode (the condition of step 1, (2) Sele cting a parameter to set). 
+3 Remove the sample from the upper pan.     
+ 
+Notes  
+If an unstable value, a negative value or e (error) is displayed, the PRINT key is disabled. 
+The SAMPLE key can not be used to  change the minimum weighing value. 
+ 
+B. Entering the weight of a sample in liquid.  
+1 Confirm that nothing is plac ed on the lower pan (in liquid). Press the RE-ZERO key to set 
+the display to zero.  
+2 Place a sample on the lower pan (in liquid). When the value displayed on the balance becomes 
+stable, press the PRINT key. The sample weight  in liquid is confirmed and the balance will 
+return to the density mode (the condition of  step1, (2) Selecting a parameter to set). 
+3 Remove the sample from the lower pan.     
+ 
+Notes 
+ 
+If an unstable value or e (error) is displayed, the PRINT key is disabled. 
+The SAMPLE key can not be used to  change the minimum weighing value. 
+--- Page 78 ---
+ 
+ 76C. Entering the density of a liquid.  
+ Two ways to set the density of a liquid are available in the function table, Liquid density 
+input (ldin): by entering the water temperature or by entering the density directly. 
+• Enter the water temperature ( ldin 0) 
+ The water temperature currently set (unit: °C, 
+factory setting : 25 °C) is displayed.  
+ 
+ Use the following keys  to change the value. 
+RE-ZERO key  To increase the temperature by one degree. (0-99° C) 
+MODE key  To decrease the temperature by one degree. (0-99 °C) 
+PRINT key  To store the change, display  end  and return to the density mode 
+(the condition of step1, (2) Selecting a parameter to set). 
+CAL key  To cancel the change and return to the density mode (the condition 
+of step 1, (2) Selecting a parameter to set). 
+The relation between the water temper ature and density is shown below. 
+ 
+        
+• Enter the density directly ( ldin 1)  
+ The density currently set (unit : g / cm
+3, factory 
+setting : 1.0000g / cm3) is displayed.  
+  
+ Use the following keys  to change the value. 
+RE-ZERO key  To set the value of the digit selected. 
+SAMPLE key To select the digit to change the value. 
+PRINT key  To store the change, display  end  and return to the density mode  
+(the condition of step1, (2) Selecting a parameter to set). 
+CAL key  To cancel the change and return to the density mode  (the 
+condition of step1, (2) Select ing a parameter to set). 
+Note 
+The range to set the density is 0.0000 to 1.9999 g / cm3  
+ 
+(4) Outputting the density. 
+After all the necessary parameters have been set, press the SAMPLE key to output the density calculated. 
+Note 
+The density is displayed with three decimal places. 
+--- Page 79 ---
+ 
+ 7714. I/O UNIT SPECIFICATIONS (Standard)  
+14-1 RS-232C//External Contact Input  
+D-Sub 25 pin numbers 
+ 
+   
+ 
+ 
+D-Sub 25 pin assignments   
+Pin No. Signal name Interface type Direction Description 
+1 FG  - Frame ground 
+2 RXD RS-232C Input Receive data 
+3 TXD RS-232C Output Transmit data 
+4 RTS RS-232C Input Ready to send 
+5 CTS RS-232C Output Clear to send 
+6 DSR RS-232C Output Data set ready 
+7 SG RS-232C/external contact input - Si gnal ground 
+18 PRINT External contact input Input Same as the PRINT key 
+19 RE-ZERO External contact input Input Same as the RE-ZERO key
+Others - - - No connection 
+  
+RS-232C 
+The balance is a DCE device. Connect the balance to a personal computer (D TE), using a straight 
+through cable. 
+Transmission system : EIA RS-232C 
+Transmission form :  Asynchronou s, bi-directional, half duplex 
+Transmission rate : 10 times/second or 5 times/second (same as data refresh rate) 
+Data format :  Baud rate : 600, 1200, 2400, 4800, 9600, 19200bps 
+   Data bits  : 7 or 8 bits 
+  Parity : Even, Odd  (Data bits 7 bits) 
+    None  (Data bits 8 bits) 
+   Stop bit : 1 bit   
+(When sending, 2 bits; receiving, 1 bit.     A personal computer will function with either 
+setting.) 
+  Code : ASCII 
+ 
+ 
+     
+--- Page 80 ---
+ 
+ 78 
+ 
+    
+ 
+       
+External contact input 
+By connecting pin 18 to pin 7, or pin 19 to pin 7, for more than 100 ms, the same operation as 
+performed by pressing the RE-ZERO key or the PRINT key, will be performed. 
+               Use of example      
+The external input connector (AX-HDB-25P/CTF) and the foot switch (AX-SW128) are sold separately.  
+       
+       
+--- Page 81 ---
+ 
+ 7915. CONNECTION TO PERIPHERAL EQUIPMENT 
+15-1 Connection to the AD-8121B Printer 
+Set the following parameters to use the AD-8121B printer. 
+Function setting Description 
+dout prt  0-3 Selects a print mode. 
+dout ap-p 0-2 Selects the polarity for the auto print mode. 
+dout ap-b 0-2 Selects the auto print difference. 
+dout pU5e 0,1 Selects data output pause. 
+5if bp5 2 Factory setting 2400 bps 
+5if btpr 0 Factory setting  7 bits, Even parity check 
+5if Crlf 0 Factory setting  CR, LF 
+5if Ct5 0 Factory setting  CTS and RTS control, not used 
+ 
+When “MODE 1” or “MODE 2” of the AD-8121B printer is used 
+dout 5-td 0 Factory setting  Not to output the time and date. 
+dout 5-id 0 Factory setting  Not to output the ID number. 
+dout at-f 0 Factory setting  Not to use auto feed. 
+5if type 0 Factory setting  A&D standard format 
+ 
+When “MODE 3” of the AD-8121B printer is used. 
+dout 5-td 0-3 Outputs the time and date as necessary. 
+dout 5-id 0,1 Outputs the ID number as necessary. 
+dout at-f 0,1 Uses auto feed as necessary. 
+5if type 1 DP format 
+ 
+When data is transmitted continuously. 
+When all memory data is transmitted at one time. 
+dout pU5e 1 Uses pause. 
+Note 
+The printer performs as follows, de pending on the data memory setting. 
+Setting What is printed 
+data 0 The weighing data  
+data 2 The weighing data stored in memory  
+data 3 The calibration or calibration test data stored in memory  
+Refer to “10. ID NUMBER AND GLP REPORT” for a print sample. 
+ 
+15-2 Connection to a Computer 
+The GP series balance is of  the DCE type (Data Communica tion Equipment), which can be 
+connected to a personal computer using the RS-232C interface.  
+Before connection, read the personal  computer manual thoroughly.  
+Use a standard DCE cable for connecti on (cable type: straight-through). 
+When the personal computer type is a DOS/V with a 9-pin port, use a straight-through cable with 
+a 25-pin male connector and a 9-pin female connector. 
+ 
+  
+--- Page 82 ---
+ 
+ 8015-3 Using Windows Communication Tools (WinCT) 
+When Windows is used as an oper ating system in a personal computer, the provided WinCT 
+software can be used to transmit the we ighing data to the personal computer. 
+The WinCT software has two communication methods: “RsCom” and “RsKey”. For details on WinCT, 
+refer to the WinCT instruction manual.  
+RsCom  
+z Can transmit commands to  control the balance. 
+z Can make bi-directional communication betw een the balance and a pers onal computer using 
+the RS-232C interface. 
+z Can display or store the data usi ng a text file format. Can also print the data using a printer 
+connected to the per sonal computer.  
+z When several ports of a personal computer ha ve balances connec ted, can communicate with 
+each balance simultaneously. 
+z Can share a personal computer with other application software. 
+z Can receive the balance GLP report.  
+RsKey 
+z Can transmit the weighing data output from the balance directly to other application software 
+such as Microsoft Excel. 
+z Can be used with most application software. 
+z Can receive the balance GLP report. 
+Note 
+Windows and Excel are registered tr ademarks of Microsoft Corporation. 
+ 
+15-4 Using the WinCT software, the balance can do the following: 
+1 Analyzing the weighing data and the statistics with “RsKey”  
+ The weighing data can be input directly into  an Excel worksheet. Then, Excel can analyze the 
+data to obtain total, average, standard deviation,  maximum and minimum value, and display 
+them in a graph.  
+2 Controlling the balance using comma nds from a personal computer 
+ By using “RsCom”, the personal computer sends commands such as “re-zero” or “send 
+weighing data” to the balanc e and controls the balance. 
+3 Printing the balance GLP report using your printer  The balance GLP report can be printed using a printer connected to the personal computer. 
+4 Receiving weighing data at a certain interval  The weighing data can be received at a certain interval and data characteristic with elapsed 
+time can be obtained. 
+ 
+5 Using the GP series balance memory function  The data can be stored in the balance’s memory. Of the data st ored, the weighing data and 
+calibration data can be transmitted to a personal computer at one time. 
+6 Using a personal computer as an external indicator 
+ With the “RsKey” test mode f unction, a personal computer can be used as an external weight 
+indicator for the balance. (To do this, set the balance data output m ode to stream mode.) 
+--- Page 83 ---
+ 
+ 8116. COMMANDS 
+16-1 Command List 
+Note 
+A command has a terminator adde d, that is specified using “ 5if Crlf ” of the function table, 
+and is sent to the balance. 
+Commands to query weighing data 
+C Cancels the S or SIR command. 
+Q Requests the weighing data immediately. 
+S Requests the weighing data when stabilized. 
+SI Requests the weighing data immediately. 
+SIR Requests the weighing data continuously. 
+Commands to control the balance 
+CAL Same as the CAL key.  
+OFF Turns the display off. 
+ON Turns the display on. 
+P Same as the ON:OFF key 
+PRT Same as the PRINT key 
+R Same as the RE-ZERO key 
+SMP Same as the SAMPLE key. 
+U Same as the MODE key 
+UN:mm Recalls the unit mass values in memory. (mm indicates 01-50) 
+?UN Requests the unit mass numbers in memory. 
+UW:∗∗∗∗∗∗ . ∗     g  Changes the unit mass value. (Onl y “g” is available as a unit.) 
+Command e.g.: UW:+002000.0     g  
+(Set the unit mass value to 2000. 0 g:   indicates a space.) 
+?UW Requests the unit mass value. 
+CN:mm Recalls the upper/lower limit value in memory (mm indicates 01-20) 
+?CN Requests the upper/lower limit value code number of the selected value. 
+H I:∗∗∗∗∗∗. ∗     g  Sets the upper limit values. Command e.g.: HI:+002000.0      g  
+(To set the upper limit value to 2000.0 g:   indicates a space.) 
+LO:∗∗∗∗∗∗ . ∗     g  Sets the lower limit values. 
+Command e.g.:LO:+001000.0      g  
+(To set the lower limit value to 1000.0 g:   indicates a space.) 
+?HI Requests the upper limit value. 
+?LO Requests the lower limit value. 
+PN:mm Recalls the tare value in memory. (mm indicates 01-20) 
+?PN Request the tare number of the selected value. (mm indicates 01-20)
+PT:∗∗∗∗∗ . ∗     g  Sets the tare value. 
+Command e.g.:PT:+001000.0      g  (To set the tare value to 1000.0 g:   indicates a space.) 
+?PT Request the tare value. 
+MCL  Deletes all data in memory. 
+MD:nnn Deletes data with the data number nnn. 
+?MA  Outputs all weighing data in memory. 
+?MQnnn  Outputs data with the data number nnn. 
+?MX Outputs the number of data in memory (the last data number) 
+Notes 
+When a unit is required in commands such as a “P T:” command, use the 3-digit unit code of 
+the A&D standard format. 
+nnn indicates a three-digit numerical value. 
+--- Page 84 ---
+ 
+ 8216-2 Acknowledge Code and Error Codes 
+When the “Serial interface function ( 5if)” parameter is set to “ erCd 1”, the balance outputs <AK> 
+code or error code to each command as follows: 
+<AK> (06h)  Acknowledge in ASCII code.  
+z When the balance receives a command to reque st data and can not process it, the balance 
+transmits an error code (EC, Exx). 
+ When the balance receives a command to r equest data and can proc ess it, the balance 
+outputs the data.  
+z When the balance receives a command to cont rol the balance and can not process it, the 
+balance transmits an e rror code (EC, Exx). 
+ When the balance receives a command to control the balance and can process it, the balance 
+transmits the acknowledge code.  
+ Among commands to control t he balance, the following trans mit the acknowledge code both 
+when the balance receives the command and  when the balance has accomplished the 
+command. If the command can not  be processed properly, the balance transmits an error code 
+(EC, Exx). This error can be released using the CAL command. 
+ CAL command (Calibration command)  ON command (Display ON command) 
+ P command (Display ON/OFF command) R command (RE-ZERO command) z When a communication error has occurred due to external noise, or a parity error has occurred 
+due to transmission error, the balance transmits an error code. In this case, send the command 
+again. 
+ 
+16-3 Control Using CTS and RTS 
+Depending on the “Ct5”  parameter of “Serial interface (5if)”, the balance performs as follows: 
+ 
+Ct5 0 
+Regardless of whether the balance can receive a command or not, the balance keeps the CTS line 
+HI. The balance outputs data regardless of the condition of the RTS line. 
+ 
+Ct5 1 
+The CTS line is kept Hi normally. When the balanc e can not receive the next command (e.g. while 
+the balance is processing last command), the balance sets the CTS line to Lo. The balance confirms the level of the RTS line before outputting a set of  data. If the RTS level is Hi, the balance outputs 
+data. If the RTS level is Lo, data is not output (The data is canceled). 
+ 
+16-4 Settings Related to RS-232C 
+Concerning the RS-232C,  the balance has two f unctions: “Data output ( dout)” and “Serial interface 
+(5if)”. Set each function as necessary. 
+--- Page 85 ---
+ 
+ 8317. MAINTENANCE 
+z Do not disassemble the balance. C ontact the local A&D dealer if the balance needs service or repair.  
+z Use the original packing material for transportation. 
+z Do not use organic solvents to clean the balance.  Clean the balance with a lint free cloth that 
+is moistened with warm water and a mild detergent. 
+z The mass of the internal mass may change due to corrosion or other damage caused by the operating 
+environment, or due to aging. Check the internal  mass using an external weight periodically. 
+ 
+ 
+18. TROUBLESHOOTING 
+18-1 Checking the Balance Performance and Environment 
+The balance is a precision instrument. When the operating environment or the operating method is 
+inadequate, correct weighing can not be performed. Place a sample on the pan and remove it, and 
+repeat this several times. If the balance seems to  have a problem with repeatability or to perform 
+improperly, check as described below. If improper performance persists after checking, contact the 
+local A&D dealer for repair.  
+Checking that the balance performs properly 
+z Check the balance performance us ing the self-check function as described in “6-1 Automatic 
+Response Adjustment / Self Check Function”. 
+ An error display appears when a malfunction is found. z Check the balance repeatability using an external weight. Be sure to place the weight in the 
+center of the weighing pan. 
+z Check the balance repeatability, linearity and calib rated value using external weights with a 
+known value. 
+ 
+Checking that the operating environmen t or weighing method is proper 
+Operating environment z Is the weighing table solid enough? 
+z Is the balance level? Refer to “3-1 Before Use”. 
+z Is the operating environment free from vibration and drafts? 
+z Is there a strong electrical or magnetic noise source such  as a motor near the balance? 
+ 
+Weighing method z Is the weighing pan installed correctly?  
+z Is the RE-ZERO key pressed before placing a sample on the weighing pan? 
+z Is the sample placed in the center of the weighing pan? 
+z Has the balance been calibrated using the internal mass (one-touch calibration)? 
+z Has the balance been warmed up for 30 minutes before weighing?  
+--- Page 86 ---
+ 
+ 84 
+Sample and container 
+z Has the sample absorbed or lost moisture due to the ambient conditions  such as temperature 
+and humidity? 
+z Has the temperature of the container been a llowed to equalize to the ambient temperature? 
+Refer to “3-2 During Use”. 
+z Is the sample charged with static elec tricity? Refer to “3-2 During Use”. 
+z Is the sample of magnetic material such as  iron? Caution is require d for weighing magnetic 
+materials. Refer to “3-2 During Use”. 
+ 
+18-2 Error Codes 
+ Display             Error code Description 
+EC, E11 Stability error  
+The balance can not stabilize due to an environmental 
+problem. Prevent vibration, drafts, temperature 
+changes, static electricity and magnetic fields, from 
+influencing the balance. 
+Refer to “3. PRECAUTIONS” for details on the 
+operating environment and “6. RESPONSE 
+ADJUSTMENT/SELF CHECK FUNCTION” about 
+adapting the balance to the environment. 
+To return to the weighing mode, press the CAL key.  
+ 
+ 
+ Out of the setting range  
+The data to be stored is out of the setting range.  
+EC, E16  Internal mass error  Applying the internal mass does not yield a change in 
+the weight value as specified. 
+Confirm that there is not hing on the pan and perform 
+the weighing operation from the beginning again.  
+EC, E17 Internal mass error 
+The internal mass application mechanism does not 
+function properly. 
+Perform the weighing operation from the beginning 
+again.  
+EC, E20 Calibration weight error  
+The calibration weight is too heavy. Confirm the 
+calibration weight value. 
+Press the CAL key to return to the weighing mode.  
+EC, E21 Calibration weight error  
+The calibration weight is too light. Confirm the 
+calibration weight value. 
+Press the CAL key to return to the weighing mode.  
+ Overload error  
+A sample beyond the balance weighing capacity has 
+been placed on the pan.  
+Remove the sample from the pan. 
+ 
+--- Page 87 ---
+ 
+ 85  
+ Display             Error code Description 
+ Weighing pan Error  
+The weight value is too light.  
+Confirm that the weighing pan is properly installed and 
+calibrate the balance.  
+ Sample mass error 
+The balance can not store the sample for the counting 
+mode or for the percent mode because it is too light.  
+Use a larger sample.  
+ Unit mass error 
+The sample unit mass for the counting mode is too 
+light. Storing and using it for counting will cause a 
+counting error. Add samples to reach the specified number and press 
+the PRINT key. 
+Pressing the PRINT key without adding samples will 
+shift the balance to the counting mode. But, to acquire 
+accurate weighing, be sure to add samples. 
+ Automatic response adjustment zero error 
+The automatic response adjustment can not be 
+performed because there is  something on the pan. 
+ Clear the pan. Press the CAL key to return to the 
+weighing mode.  
+ 
+ 
+   (CHECK NG) Automatic response adjustment unstable error 
+ The automatic response adjustment can not be 
+performed because the wei ght value is unstable. 
+Check the ambient conditi ons such as breeze,  
+vibration and magnetic fields , also check the weighing 
+pan. Press the CAL key to return to the weighing mode.  
+ 
+ 
+   (CHECK NO) Internal error 
+Indicates an internal error as the result of self-check 
+function. 
+Repair is required. Contact the local A&D dealer. 
+ Clock battery error 
+The clock backup batte ry has been depleted. 
+Press any key and set the time and date. The clock and 
+calendar function works normally as long as the AC 
+adapter is connected to the balance. If this error appears 
+frequently, contact the local A&D dealer. 
+  
+             (Blinking) Memory full 
+ The amount of weighing data in memory has reached 
+the maximum capacity. 
+ Delete data in memory to store new data. For details, refer to “11. DATA MEMORY”. 
+ 
+             (Illuminated) Memory full 
+The amount of calibration or calibration test data in 
+memory has reached the maximum capacity (50 sets). 
+ The data in memory will be deleted automatically to 
+store new data. For details, refer to “11. DATA 
+MEMORY”. 
+ 
+--- Page 88 ---
+ 
+ 86Display             Error code Description 
+ Memory type error 
+Type of memory set in the function table and type of 
+data stored are different. 
+For details, refer to “11. DATA MEMORY”.  
+EC, E00 Communications error 
+A protocol error occurred in communications.  
+Confirm the format, baud rate and parity. 
+ EC, E01 Undefined command error 
+An undefined command was received.  
+Confirm the command. 
+EC, E02 Not ready 
+A received command can not be processed.  
+e.g. The balance received a Q command, but not in the 
+weighing mode. 
+e.g. The balance received a Q command while  
+processing a RE-ZERO command. 
+Adjust the delay time to transmit a command. 
+EC, E03 Timeout error 
+If the timeout parameter is set to “ t-Up1”, the balance 
+did not receive the next c haracter of a command within 
+the time limit of one second. Confirm the communication. 
+EC, E04 Excess characters error The balance received excessive characters in a command.
+Confirm the command.  
+EC, E06 Format error 
+A command includes incorrect data. e.g. The data is numerically incorrect. 
+Confirm the command.  
+EC, E07 Parameter setting error 
+The received data exceeds the r ange that the balance can accept. 
+Confirm the parameter range of the command.  
+Other errors If the errors described abov e can not be released or 
+other errors are displayed, contact the local A&D dealer.  
+Other symbol 
+ When this indicator blinks, aut omatic self calibration is 
+required. The indicator b links when the balance detects 
+changes in ambient temperat ure. If the balance is not 
+used for several minutes with this indicator blinking, the 
+balance performs automatic self  calibration. The blinking 
+period depends on the operating environment. 
+ 
+18-3 Asking For Repair 
+If the balance needs service or repa ir, contact the local A&D dealer. 
+The balance is a precision instrument. Use much care when handling the balance and observe 
+the following when trans porting the balance. 
+z Use the original packing material. 
+z Remove the weighing pan from the main unit. 
+--- Page 89 ---
+ 
+ 8719. SPECIFICATIONS 
+ 
+ GP-12K GP-20K GP-30K 
+GP-30KS  GP-32K 
+GP-32KS GP-40K 
+Weighing capacity 12 kg 21 kg 31 kg 31 kg 41 kg 
+Maximum display 
+(See bottom for the description of ∗) 12.0084 kg 21.0084 kg 31.0084 kg 31.008 kg 
+6.1009 kg ∗ 41.0080 kg
+Minimum weighing value (1 digit) 0.1 g 1 g/0.1 g 0.5 g 
+Repeatability (Standard deviation) 0.1 g 0.5 g/0.1 g 0.5 g 
+Linearity ±0.2 g ±1g/±0.2 g ±1g 
+Stabilization time (typical at FAST) Approx.1.5 seconds 
+Sensitivity drift (10°C-30°C/50 °F-86°F ) ∗∗ ±3 ppm/°C ±5 ppm/°C 
+±1.0 g ±1.5 g Accuracy right after calibration using 
+t h e  i n t e r n a l  m a s s .                 ∗∗∗ The value above is to the weighing capacity.  
+Operating environment 5°C to 40°C (41°F to 104°F) 
+85%RH or less (No condensation) 
+Display refresh rate 5 times/second or 10 times/second 
+Minimum unit mass 0.1 g 1 g 0.5 g Counting 
+mode Number of samples 10, 25, 50 or 100 pieces 
+Minimum 100% reference mass 10 g 100 g 50 g Percent mode Minimum 100% display 0.01%, 0.1%, 1% (Depends on the reference mass stored.) 
+Interface (Provided as standard) RS-232 C with Windows Communication Tools WinCT 
+External calibration weight 5 kg 
+10 kg 10 kg 
+20 kg 20 kg 30 kg 20 kg 30 kg 40 kg 
+Weighing pan 384 x 344 mm 
+Dust and water protection Complying with IP65 
+Sensor used  Super Hy brid Sensor (SHS) 
+AC adapter Confirm that the adapter ty pe is correct for the local voltage 
+and power receptacle type 
+Power consumption Approx. 14VA (supplied to the AC adapter ) 
+External dimensions (WxDxH, mm) 372 x 615 x 130   (GP-30KS/ GP-32KS: 344 x 442 x 130 ) ∗∗∗∗
+Net weight Approx. 17 kg 
+∗ The GP-32K and GP-32KS allow weighing using a precision range, even with a heavy tare 
+placed on the pan. (S mart range function) 
+∗∗ When automatic self calib ration is not used, at 10 °C to 30°C (50° F to 86°F) 
+∗∗∗ Accuracy right after calibration using the inte rnal mass in good ambient  conditions (within the 
+temperature range of 10 °C to 30°C (50°F to 86°F) with no abrupt changes in temperature or 
+humidity, no drafts, no effect by magnet ic fields or static electricity). 
+ Check the internal mass periodically as described in “17. MAINTENANCE”. 
+∗∗∗∗ The size for the GP-30KS/32KS is that of the main unit. The display size is 260x164x202. 
+ The cable length, for the separate display type balances (GP-30KS/32KS), is 3 meters. 
+--- Page 90 ---
+ 
+ 88 
+ GP-60K 
+GP-60KS GP-61K 
+GP-61KS GP-100K 
+GP-100KS GP-102K 
+Weighing capacity 61 kg 61 kg 101 kg 101 kg 
+Maximum display (See bottom for ∗) 61.084 kg 61.0084 kg 101.084 kg 101.08kg 
+61.009 kg ∗ 
+Minimum weighing value (1 digit) 1 g 0.1 g 1 g 10 g/1 g 
+Repeatability (Standard deviati on) 0.7 g 0.2 g 1 g 5 g/1 g 
+Linearity ±1 g ±0.5 g ±2 g ±10 g/±2 g 
+Stabilization time (typical at FAST) Approx.1.5 seconds 
+Sensitivity drift (10°C-30°C/50 °F-86°F ) ∗∗ ±6ppm/°C ±10 ppm/°C 
+±5 g ±3 g ±10 g Accuracy right after calibration using 
+t h e  i n t e r n a l  m a s s .                 ∗∗∗ The value above is to the weighing capacity.  
+Operating environment 5°C to 40°C (41°F to 104°F) 
+85%RH or less (No condensation) 
+Display refresh rate 5 times/second or 10 times/second 
+Minimum unit mass 1 g 0.1 g 1 g 10 g Counting 
+mode Number of samples 10, 25, 50 or 100 pieces 
+Minimum 100% reference mass 100 g 10 g 100 g 1000 g Percent 
+mode Minimum 100% display 0.01%, 0.1%, 1% (Depends on the reference mass stored.) 
+Interface (Provided as standard) RS-232 C with Windows Communication Tools WinCT 
+External calibration weight 30 kg 
+40 kg 50 kg 
+60 kg 60 kg 80 kg 
+100 kg 
+Weighing pan 384 x 344 mm 386 x 346mm 
+Dust and water protection Complying with IP65 
+Sensor used  Super Hy brid Sensor (SHS) 
+AC adapter Confirm that the adapter ty pe is correct for the local voltage 
+and power receptacle type 
+Power consumption Approx. 14VA (supplied to the AC adapter )  
+External dimensions (WxDxH, mm) 372 x 615 x 130  
+(GP-60KS/ GP-61KS:  
+344 x 442 x 130 ) ∗∗∗∗ 373 x 615 x 130  
+(GP-100KS: 346 x 443 x 130 ) 
+∗∗∗∗ 
+Net weight Approx. 17 kg Approx. 18 kg 
+ 
+∗ The GP-102K allow weighing using a precisi on range, even with a heavy tare placed on the 
+pan. (Smart range function) 
+∗∗ When automatic self calib ration is not used, at 10 °C to 30°C (50° F to 86°F) 
+∗∗∗ Accuracy right after calibration using the inte rnal mass in good ambient  conditions (within the 
+temperature range of 10 °C to 30°C (50°F to 86°F) with no abrupt changes in temperature or 
+humidity, no drafts, no effect by magnet ic fields or static electricity). 
+ Check the internal mass periodically as described in “17. MAINTENANCE”. 
+∗∗∗∗ The size for the GP-60KS/61KS/100KS is that of the main unit. The display size is 260x164x202. 
+ The cable length, for the separate display type balances (GP-60KS/61KS /100KS), is 3 meters. 
+--- Page 91 ---
+ 
+ 8920. EXTERNAL DIMENSIONS 
+ Standard Type: GP-12K/20K/3 0K/32K/40K/60K/61K/100K/102K 
+ 
+                                 
+Note 
+The size in parentheses is for the GP-100K/102K                                  Unit: mm 
+ 
+--- Page 92 ---
+ 
+ 90Separate Display Type: GP-30KS/32KS/60KS/61KS/100KS 
+ 
+                                   
+Note 
+The size in parentheses is for GP-100KS                                        Unit: mm 
+--- Page 93 ---
+ 
+ 9121. OPTIONS 
+AD-8121B Printer  
+z Compact dot-matrix printer 
+z Statistical function, clock and calendar function, interval 
+print function, graphic print function, dump print mode 
+z 5 x 7 dots, 16 characters per line 
+z Print paper (AX-PP143, 45 (W) x 50 (L) mm , ø65 mm) 
+z AC adapter or alkaline battery 
+ 
+OP-04: Comparator output (relay/ with a buzzer)/RS-232C/Current loop 
+z Generates a relay output corresponding to HI , OK and LO in the display. 
+z Current loop and RS-232C can be used at the same time. For example, a personal computer 
+and an AD-8121B printer can be used simultaneously. 
+z Installed in place of the standard RS-232C serial interface. 
+ 
+OP-06: Analog voltage output/Current loop 
+z Gains a voltage of 0-1V (or 0.2-1V ) depending on the displayed value. 
+z With this option, current loop can be used. For example, an AD-8121B  printer can be used 
+simultaneously using this option. 
+z Installed in place of the standard RS-232C serial  interface. So, RS-232C is not available for use. 
+ 
+OP-07: Extension cable, 5 m (Available as factor y option only when ordered with a GP balance) 
+z Applicable balance models: GP-30KS/32KS/60KS/61KS/100KS 
+z A cable of 5 meters, to connect between the display and the main unit 
+ 
+OP-20: Underhook 
+z Applicable balance models: GP- 12K/20K/30K/30 KS/32K/32KS/40K 
+z Used for measuring the densit y of magnetic materials and c oncrete (coarse aggregates). 
+ 
+OP-21 : Underhook 
+z Applicable balance models: GP- 60K/60KS/61K/61KS/100K/100KS/102K 
+z Used for measuring the densit y of magnetic materials and c oncrete (coarse aggregates). 
+ 
+OP-22: Printer bracket 
+z Used to place the AD-8121B printer beside the display. 
+ 
+AD-1682 Rechargeable battery 
+z Allows use of the balance in a plac e where AC power is not available. 
+ 
+AD-8524A/B: Keyboard adapter 
+z Used to connect the balance to  a personal computer with appropriate OS and applications. 
+ 
+AD-8920: Remote display 
+z Connected to the GP series using the RS-232C interface. 
+ 
+AX-SW128: Foot switch 
+z Used to externally transmit a RE-ZERO or PRINT signal to the balance.  
+--- Page 94 ---
+ 
+ 9222. TERMS/INDEX 
+Terms 
+Stable value  The stable weight data, indicated by  the illuminated stabilization indicator. 
+Environment  Ambient conditions such as vibration, drafts, temperature, static electricity 
+and magnetic fields which affect the weighing operation. 
+Store  To save the weighing data, unit mass or calibration data using the data 
+memory function. 
+Calibration Adjustment of the balance so that it can weigh accurately. 
+Output  To output the weighing data using the RS-232C interface. 
+Zero point  A weighing reference point. Usually refers to the value displayed when 
+nothing is on the weighing pan. 
+Smart range function Allows weighing in the precision range, even if a heavy tare is used. 
+Data number  Numbers assigned sequentially when weighing data or unit weight is stored. 
+Digit  The minimum weighing value available. Used for the balance,  1 digit is the 
+smallest displayable mass. 
+Tare To cancel the weight of a contai ner which is not to be included in the 
+weighing data. Normally, refers to an operation of placing a container and 
+setting the display to zero. 
+Mode  Balance operational function. 
+Re-zero  To set the display to zero. 
+GLP Good Laboratory Practice. 
+Repeatability  Variation in measured values obtai ned when the same mass is placed and 
+removed repetitively. Usually expressed as a standard deviation. 
+ e.g. Standard deviation=1 digit: This means that measur ed values, obtained 
+when the same sample is placed and removed repetitively, fall within ± 1 digit 
+in the frequency of about 68%. 
+Stabilization time  Time required after a sample being placed, until the stabilization indicator 
+illuminates and the weighing data is displayed. 
+Sensitivity drift  An affect that a change in temper ature causes to the weighing data. 
+Expressed as temperature coefficient. 
+ e.g. Temperature coefficient = 3 ppm/ °C : If a load is 20 kg and the 
+temperature changes by 10 °C, the value displayed changes by the following 
+value. 
+ 0.0003%/ °C x 10° C x 20 kg = 0.6 g 
+In this example, if the value disp layed is 20.0000 kg before temperature 
+changes, a temperature change of 10 °C will make the value displayed 
+20.0006 kg. 
+ 
+ 
+--- Page 95 ---
+ 
+ 93Index 
+Keys and symbols 
+      ON/OFF key ..................................................11 
+      SAMPL E key ...........................................11, 12 
+      MODE key...............................................11, 13 
+      CAL key.........................................................11 
+      PRINT key.....................................................11 
+      RE-ZER O key ...................................10,  11, 12 
+         Stabiliz ation indica tor................................11 
+         Interval me mory active in dicator...............11 
+         Interval me mory standby in dicator............11 
+         Prior notice indication of automatic self 
+calibration.................................................11 
+         Proce ssing indicator.................................11 
+?CN ................................................................ 81 
+?HI ................................................................ 81 
+?LO ................................................................ 81 
+?MA ................................................................ 81 
+?MQnnn  ................................................................ 81 
+?MX ................................................................ 81 
+?PN ................................................................ 81 
+?PT ................................................................ 81 
+?UN ................................................................ 81 
+?UW ................................................................ 81  
+- A - 
+add .................................................... 21, 37, 41 
+ap-b ................................................................ 37 ap-p ................................................................ 37 ar-d ................................................................ 39 
+at-f ................................................................ 39 
+A&D standard format ............................................... 43 
+AC adapter ................................................ 7, 8,  87, 88 
+AC adapter ID label ............................................... 7, 8 
+ACAI ................................................................ 19 Accumulation f unction ....................................... 21, 41 
+AD-16 82 ................................................................ 91 
+AD-8121B .......................................................... 79,  91 
+AD-8524A /B ............................................................ 91 
+AD-89 20 ................................................................ 91 
+AK ................................................................ 82 Angle adjusting  knob ............................................. 7, 8 
+Animal mode indi cator........................................11, 40 
+Auto displa y-OFF .................................................... 41 
+Auto disp lay-ON ...................................................... 41 
+Automatic Respons e Adjust ment ............................. 23 
+Automatic Self Ca libration ................................... 3, 26 
+Auto print mode A.................................................... 42 
+Auto print mode B.................................................... 42 
+AX-SW128 ......................................................... 78,  91 
+ 
+- B - 
+ba5fnc  ................................................................ 37 
+bep- ................................................................ 37 
+bep- ................................................................ 37 bep_ ................................................................ 37 
+bp5 ................................................................ 39 
+btpr ................................................................ 39 
+Bubble sprit level ................................................... 7, 8 
+- C - 
+C5 in ................................................................ 39 
+Cal e ................................................................ 84 
+-Cal e ................................................................ 84 
+Cl adj ................................................................ 37 
+Cond .......................................................... 37,  40 
+Cp ................................................................ 37 
+Cp fnc ................................................................ 37 Cp Hi ................................................................ 37 
+Cp in ................................................................ 37 
+Cp lmt ................................................................ 37 
+Cp ref ................................................................ 37 
+Cp-b ................................................................ 37 Cp-lo ................................................................ 37 
+Cp-r ................................................................ 37 Crlf ................................................................ 39 
+Ct5 ................................................................ 39 
+Cable clam p .......................................................... 7, 8 
+CAL key ...........................................................11, 27 
+Calibratio n ............................................. 25, 26, 27, 92 
+Calibration test .................................................. 31, 85 
+Calibration wei ght erro r ........................................... 84 
+Capacity indi cator...............................................11, 41 
+Carriage return ........................................................ 46 Clear display cover................................................ 7, 8 
+Comparator in dicators ..............................................11 
+Comparator functi on................................................ 50 
+Conditi on ................................................................ 40 
+CSV forma t.............................................................. 44 
+ 
+- D - 
+d5 fnc ................................................................ 39 
+data ................................................................ 37 
+d-no ................................................................ 37 
+doud ................................................................ 39 dout ................................................................ 37 
+Data me mory........................................................... 58 
+Data number ...................................................... 45,  92 
+Decimal point ........................................................... 41 
+Digit .................................................... 28, 30, 92 
+Display at start......................................................... 41 
+Display refresh rate ..................................... 41,  87, 88 
+DP forma t ................................................................ 43 
+Dust and water pr otection .................................. 87,  88 
+ 
+- E - 
+e ................................................................ 85 
+-e ................................................................ 84 
+erCd ................................................................ 39 error 1  ................................................................ 84 
+error 2  ................................................................ 84 
+error 6  ................................................................ 84 
+error 7  ................................................................ 84 
+EC, E00 ................................................................ 86 EC, E01 ................................................................ 86 EC, E02 ................................................................ 86 
+EC, E03 ................................................................ 86 
+EC, E04 ................................................................ 86 EC, E06 ................................................................ 86 
+EC, E07 ................................................................ 86 
+EC, E1 1 ................................................................ 84 
+EC, E16 ................................................................ 84 
+EC, E17 ................................................................ 84 
+EC, E20 ................................................................ 84 EC, E21 ................................................................ 84 
+External calibrati on weight ................................. 87, 88 
+External contac t input........................................ 77, 78 
+External dime nsions .......................................... 87, 88 
+ 
+- F - 
+FAST ................................................................ 23 
+Foot switch .............................................................. 91  
+- G - 
+g5i .......................................................... 37,  41 
+GLP .......................................................... 54, 92 
+--- Page 96 ---
+ 
+ 94Gross indicator ........................................................ 41 
+Grounding term inal................................................ 7, 8  
+- H - 
+Hold .......................................................... 37,  40 
+Hold function ........................................................... 40  
+- I - 
+id ................................................................ 39 info ................................................................ 39 
+int ................................................................ 37 
+ID number .......................................................... 45,  54 
+Inhibi t ................................................................ 34 
+Initializing th e balan ce ............................................. 35 
+Internal ma ss erro r .................................................. 84 
+Interval memory acti ve indicator...............................11 
+Interval memo ry mode............................................. 43 
+Interval memory stan dby indicator............................11 
+IP65 .......................................................... 87, 88  
+- K - 
+Key mode ................................................................ 42 
+Keyboard ad apter .................................................... 91 
+KF forma t ................................................................ 44  
+- L - 
+ld in ................................................................ 39 
+lo   .......................................................... 19, 85 
+Leveling f oot.......................................................... 7, 8 
+Linearity .......................................................... 87,  88 
+LO ............................................................ 3, 50  
+- M - 
+mlt ................................................................ 39 
+Maximum disp lay............................................... 87, 88 
+Memory full.............................................................. 85 MID., ................................................................ 23 Minimum weighing value ................................... 87, 88 
+Mode ................................................................ 92 
+MODE key................................................................11 
+MT forma t................................................................ 44  
+- N - 
+NET indica tor,...........................................................11 
+Net weight ......................................................... 87,  88 
+NU forma t................................................................ 44  
+- O - 
+100% reference mass ............................................. 20 
+ON:OFF key.......................................................11, 34 
+OP-04 ................................................................ 91 
+OP-06 ................................................................ 91 
+OP-07 ................................................................ 91 
+OP-20 ................................................................ 91 
+OP-21 ................................................................ 91 
+OP-22 ................................................................ 91 
+Operating envir onment ...................................... 87,  88 
+Out of the setting rang e........................................... 84 
+Overload error ......................................................... 84  
+- P - 
+pnt .......................................................... 37,  41 
+poff .......................................................... 37,  41 
+p-on .......................................................... 37,  41 
+prt ................................................................ 37 
+pU5e, ................................................................ 39  
+Percent mode.......................................................... 20 Permit ................................................................ 34 
+Power consumpt ion........................................... 87, 88 
+PRINT key ..........................................................11, 16 
+Printer brac ket .......................................................  91 
+Prior notice indicator of autom atic self calibration ....11 
+Processing in dicator .................................................11 
+ 
+- R - 
+rng .......................................................... 37,  41 
+Rechargeable battery .............................................. 91 
+Reference ca rd...................................................... 7, 8 
+Remote di splay........................................................ 91 
+Repeatabilit y...................................................... 87,  88 
+RESPONS E, ........................................................... 23 
+Response ad justment.............................................. 23 
+Response char acterist ic .......................................... 23 
+Response indi cator...................................................11 
+RE-ZERO key ....................................................10, 11 
+RsCom ................................................................ 80 RsKey ................................................................ 80 
+ 
+- S - 
+5-id ................................................................ 37 
+5pd .......................................................... 37,  41 
+5t-b .......................................................... 37,  40 
+5-td ................................................................ 37 
+SAMPLE key................................................ 11, 12, 16 
+Sample mass error .................................................. 85 
+Self check functi on .................................................. 23 
+Sensitivity dr ift ................................................... 87, 88 
+SHS .......................................................... 87, 88 
+SLOW ................................................................ 23 Smart range func tion ......................................... 12, 92 
+Space ................................................................ 47 Stability band width.................................................. 40 
+Stability e rror........................................................... 84 
+Stabilization indi cator.......................................... 11, 16 
+Stabilization time ............................................... 87, 88 
+Stable val ue,...................................................... 23, 92 
+Standby indica tor, .....................................................11 
+Stream mode ........................................................... 42 
+Swing arm ............................................................. 7, 8  
+ 
+- T - 
+trc .......................................................... 37,  41 
+t-Up ................................................................ 39 type ................................................................ 39 
+Tare ................................................................ 92 
+ 
+- U - 
+Unit ................................................................ 39 
+Underhook ..................................................... 4, 10, 91 
+Unit ma ss ................................................................ 18 
+Unit mass error ........................................................ 85 
+Units ................................................................ 13  
+- W - 
+Warm up ........................................................ 8, 9, 41 
+Weighing capacity ....................... 3, 10,  41, 84, 87, 88 
+Weighing pa n............................................. 7, 8,  87, 88 
+Weighing pan error .................................................. 85 
+WinCT ............................................................ 4, 80  
+- Z - 
+Zero point  .............................................. 29, 31, 41, 92 
+Zero tra cking ........................................................... 41 
+--- Page 97 ---
+ 
+ 95MEMO 
+ 
+                       
+ 
+ 
+ 
+--- Page 98 ---
+ 
+ 96MEMO 
+ 
+                      
+ 
+   
