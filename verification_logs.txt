@@ -1,0 +1,15 @@
+2025-11-21 18:21:51,315 - Simulator - INFO - Added device: CAS CI-600A
+2025-11-21 18:21:51,316 - Equipment.CAS CI-600A - INFO - Weight set to 123.45 kg
+2025-11-21 18:21:51,316 - Equipment.CAS CI-600A - INFO - Stability set to True
+2025-11-21 18:21:51,316 - Equipment.CAS CI-600A - INFO - Format set to Format 1
+2025-11-21 18:21:51,317 - Verification - INFO - Starting Simulator on COM3...
+2025-11-21 18:21:51,317 - CommManager - INFO - Opened serial port COM3 at 9600, 8 data bits, N parity, 1 stop bits
+2025-11-21 18:21:53,316 - Verification - INFO - Starting Client on COM4...
+2025-11-21 18:21:54,317 - Verification - INFO - Sending RW command...
+2025-11-21 18:21:54,319 - Verification - INFO - Received: b'ST.GS.10.   123.5 kg\r\n'
+2025-11-21 18:21:54,319 - Verification - INFO - Sending MZ command...
+2025-11-21 18:21:54,319 - Equipment.CAS CI-600A - INFO - Weight set to 0.0 kg
+2025-11-21 18:21:54,320 - Verification - INFO - Received: b'01MZ\r\n'
+2025-11-21 18:21:54,320 - Verification - INFO - Received after Zero: b'ST.GS.10.     0.0 kg\r\n'
+2025-11-21 18:21:54,329 - CommManager - ERROR - Error in serial loop COM3: ClearCommError failed (OSError(9, '핸들이 잘못되었습니다.', None, 6))
+2025-11-21 18:21:54,329 - Verification - INFO - Simulator stopped.
