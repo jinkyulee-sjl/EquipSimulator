@@ -1,0 +1,46 @@
+{
+  "version": "1.0",
+  "created": "2025-11-22T05:26:24.571582",
+  "devices": [
+    {
+      "name": "견비중",
+      "model": "CAS CI-600A",
+      "device_id": "견비중",
+      "connection_settings": {
+        "port": "COM3",
+        "baudrate": 9600,
+        "bytesize": 8,
+        "parity": "N",
+        "stopbits": 1.0
+      },
+      "current_weight": 6.428571428571427,
+      "is_stable": true,
+      "current_format": "Format 1",
+      "print_mode": "Stream",
+      "weight_range": {
+        "min": -10.0,
+        "max": 100.0
+      }
+    },
+    {
+      "name": "총중량",
+      "model": "CAS CI-600A",
+      "device_id": "총중량",
+      "connection_settings": {
+        "port": "COM6",
+        "baudrate": 9600,
+        "bytesize": 8,
+        "parity": "N",
+        "stopbits": 1.0
+      },
+      "current_weight": 7.445887445887447,
+      "is_stable": true,
+      "current_format": "Format 3",
+      "print_mode": "Command",
+      "weight_range": {
+        "min": -10.0,
+        "max": 300.0
+      }
+    }
+  ]
+}
