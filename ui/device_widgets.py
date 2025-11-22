@@ -71,6 +71,26 @@ class ScaleControlWidget(ttk.Frame):
             self.format_combo.pack(side=tk.LEFT, padx=5, pady=5)
             self.format_combo.bind("<<ComboboxSelected>>", self._on_format_change)
 
+        # Command Mode (Conditional)
+        if hasattr(self.scale, 'available_command_modes') and self.scale.available_command_modes:
+            ttk.Label(format_frame, text="Cmd Mode:").pack(side=tk.LEFT, padx=5)
+            self.cmd_mode_combo = ttk.Combobox(format_frame, values=self.scale.available_command_modes, state="readonly", width=10)
+            
+            # Set initial value
+            current_mode = getattr(self.scale, '_current_command_mode', self.scale.available_command_modes[0])
+            self.cmd_mode_combo.set(current_mode)
+            self.cmd_mode_combo.pack(side=tk.LEFT, padx=5, pady=5)
+            self.cmd_mode_combo.bind("<<ComboboxSelected>>", self._on_cmd_mode_change)
+            
+            # Use BCC Checkbox (Conditional)
+            if hasattr(self.scale, 'set_use_bcc'):
+                self.use_bcc_var = tk.BooleanVar(value=getattr(self.scale, '_use_bcc', True))
+                self.bcc_check = ttk.Checkbutton(format_frame, text="Use BCC", variable=self.use_bcc_var, command=self._on_bcc_change)
+                self.bcc_check.pack(side=tk.LEFT, padx=5)
+                
+                # Initial state update
+                self._update_bcc_visibility()
+
         # Print Mode (Always shown)
         ttk.Label(format_frame, text="Mode:").pack(side=tk.LEFT, padx=5)
         self.mode_combo = ttk.Combobox(format_frame, values=["Command", "Stream"], state="readonly", width=10)
@@ -152,6 +172,22 @@ class ScaleControlWidget(ttk.Frame):
     def _on_format_change(self, event):
         self.scale.set_format(self.format_combo.get())
 
+    def _on_cmd_mode_change(self, event):
+        if hasattr(self.scale, 'set_command_mode'):
+            self.scale.set_command_mode(self.cmd_mode_combo.get())
+            self._update_bcc_visibility()
+
+    def _on_bcc_change(self):
+        if hasattr(self.scale, 'set_use_bcc'):
+            self.scale.set_use_bcc(self.use_bcc_var.get())
+
+    def _update_bcc_visibility(self):
+        if hasattr(self, 'bcc_check') and hasattr(self, 'cmd_mode_combo'):
+            if self.cmd_mode_combo.get() == "Complex":
+                self.bcc_check.configure(state="normal")
+            else:
+                self.bcc_check.configure(state="disabled")
+
     def _on_mode_change(self, event):
         self.scale.set_print_mode(self.mode_combo.get())
 
@@ -171,6 +207,10 @@ class ScaleControlWidget(ttk.Frame):
             self.scale.set_format(self.format_combo.get())
         if hasattr(self, 'mode_combo'):
             self.scale.set_print_mode(self.mode_combo.get())
+        if hasattr(self, 'cmd_mode_combo') and hasattr(self.scale, 'set_command_mode'):
+            self.scale.set_command_mode(self.cmd_mode_combo.get())
+        if hasattr(self, 'use_bcc_var') and hasattr(self.scale, 'set_use_bcc'):
+            self.scale.set_use_bcc(self.use_bcc_var.get())
         
         if self.on_start_serial:
             self.on_start_serial()

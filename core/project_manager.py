@@ -46,6 +46,10 @@ class ProjectManager:
                     device_data["print_mode"] = device.print_mode
                 if hasattr(device, 'weight_range'):
                     device_data["weight_range"] = device.weight_range
+                if hasattr(device, '_current_command_mode'):
+                    device_data["command_mode"] = device._current_command_mode
+                if hasattr(device, '_use_bcc'):
+                    device_data["use_bcc"] = device._use_bcc
                     
                 project_data["devices"].append(device_data)
             
@@ -117,6 +121,10 @@ class ProjectManager:
                         device.print_mode = device_data["print_mode"]
                     if hasattr(device, 'weight_range') and "weight_range" in device_data:
                         device.weight_range = device_data["weight_range"]
+                    if hasattr(device, 'set_command_mode') and "command_mode" in device_data:
+                        device.set_command_mode(device_data["command_mode"])
+                    if hasattr(device, 'set_use_bcc') and "use_bcc" in device_data:
+                        device.set_use_bcc(device_data["use_bcc"])
                 else:
                     self.logger.error(f"Failed to create device: {name} ({model})")
             

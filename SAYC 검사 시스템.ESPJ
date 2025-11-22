@@ -1,0 +1,46 @@
+{
+  "version": "1.0",
+  "created": "2025-11-23T00:53:29.190650",
+  "devices": [
+    {
+      "name": "견비중",
+      "model": "CAS EC-D",
+      "device_id": "견비중",
+      "connection_settings": {
+        "port": "COM6",
+        "baudrate": 9600,
+        "bytesize": 8,
+        "parity": "N",
+        "stopbits": 1.0
+      },
+      "current_weight": -18.7012987012987,
+      "is_stable": true,
+      "current_format": null,
+      "print_mode": "Stream",
+      "weight_range": {
+        "min": -30.0,
+        "max": 30.0
+      }
+    },
+    {
+      "name": "시편비중",
+      "model": "Sartorius CPA",
+      "device_id": "시편비중",
+      "connection_settings": {
+        "port": "COM9",
+        "baudrate": 9600,
+        "bytesize": 8,
+        "parity": "N",
+        "stopbits": 1.0
+      },
+      "current_weight": -11.038961038961038,
+      "is_stable": true,
+      "current_format": "Format 2",
+      "print_mode": "Stream",
+      "weight_range": {
+        "min": -30.0,
+        "max": 30.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "created": "2025-11-23T02:38:49.596408",
+  "devices": [
+    {
+      "name": "총중량",
+      "model": "CAS NT-301A",
+      "device_id": "총중량",
+      "connection_settings": {
+        "port": "COM6",
+        "baudrate": 9600,
+        "bytesize": 8,
+        "parity": "N",
+        "stopbits": 1.0
+      },
+      "current_weight": 26.59016393442623,
+      "is_stable": true,
+      "current_format": "Format 2",
+      "print_mode": "Command",
+      "weight_range": {
+        "min": -10.0,
+        "max": 300.0
+      },
+      "command_mode": "Complex",
+      "use_bcc": false
+    }
+  ]
+}

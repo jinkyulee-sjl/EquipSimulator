@@ -6,6 +6,16 @@ class SartoriusBPScale(BaseScale):
         super().__init__(name, device_id)
         self.terminator = b'\r\n'
         self.unit = "g" # Default unit
+        self._current_format = "16 Byte"
+
+    @property
+    def available_formats(self):
+        return ["16 Byte", "22 Byte"]
+
+    def set_format(self, format_name: str):
+        if format_name in self.available_formats:
+            self._current_format = format_name
+            super().set_format(format_name)
 
     def process_command(self, command: bytes) -> bytes:
         """
@@ -49,21 +59,18 @@ class SartoriusBPScale(BaseScale):
         return None
 
     def _build_weight_response(self) -> bytes:
-        # Sartorius BP Format (16 chars)
-        # [Sign(1)][Space/Digit(10)][Unit(3)][CR][LF]
-        # Sign: '+', '-', ' '
-        # Data: Right aligned, 10 chars
-        # Unit: 3 chars
+        # Sartorius BP Format
+        # Format 1 (16 chars): [Sign(1)][Data(10)][Unit(3)][CR][LF]
+        # Format 2 (22 chars): [ID(6)][Sign(1)][Data(10)][Unit(3)][CR][LF]
         
         if self.current_weight > 999999: # Overload
-            # Special code: "Stat High" or similar?
-            # Manual says: "High" for overload
-            # Let's output "        High" (12 chars) + Unit? Or just text?
-            # Manual: "      High  " (12 chars) ?
-            # Let's approximate: "High" usually replaces the number.
-            resp_str = "        High   " # 16 chars total?
-            # Let's stick to standard format if possible or simple text
-            return b"        High   \r\n"
+            # Special code for overload
+            # 16 Byte: "        High   " (14 chars + CR LF)
+            base_resp = "        High  "
+            if self._current_format == "22 Byte":
+                 # ID(6) + base
+                 base_resp = "Stat  " + base_resp
+            return base_resp.encode('ascii') + self.terminator
 
         # Sign
         sign = "+" if self.current_weight >= 0 else "-"
@@ -79,40 +86,16 @@ class SartoriusBPScale(BaseScale):
         # Unit (3 chars)
         unit_str = self.unit.ljust(3) # "g  "
 
-        # Construct: Sign + Data + Unit
-        # Note: Manual says [Sign(1)][Space/Digit(10)][Unit(3)]
-        # Example: "+    123.45 g  "
+        # Construct Base Response (14 chars)
+        base_resp = f"{sign}{data_str}{unit_str}"
         
-        response = f"{sign}{data_str} {unit_str}" # Added space before unit? Manual: [Unit(3)]
-        # Wait, manual example: "+    123.45 g  "
-        # Sign(1): "+"
-        # Data(10): "    123.45"
-        # Unit(3): " g " ??
-        # Let's try to match 16 chars length (excluding CR LF)
-        
-        # Re-check example: "+    123.45 g  " -> 1 + 10 + 1(space?) + 3? = 15?
-        # Manual says 16 chars.
-        # Maybe Unit is 3 chars, but preceded by space?
-        # Let's assume: Sign(1) + Data(10) + Unit(5 including spaces)?
-        # Or Sign(1) + Data(11) + Unit(4)?
-        
-        # Let's follow the structure strictly:
-        # [Sign(1)][Data(10)][Unit(3)] = 14 chars? That's short.
-        # Maybe Data is 11 or 12?
-        # Let's assume 16 chars total.
-        # Sign(1) + Data(11) + Unit(4)?
-        
-        # Let's use a safe formatting:
-        # Sign(1) + Data(10) + Space(1) + Unit(3) + Space(1) = 16?
-        
-        # Let's try: "{sign}{data_str:>10} {unit_str:<3}"
-        # + "    123.45" + " " + "g  " = 1 + 10 + 1 + 3 = 15. Still 1 short.
-        # Maybe Data is 11 chars?
-        
-        data_str = f"{weight_val:11.2f}" # 11 chars
-        response = f"{sign}{data_str} {unit_str}" # 1+11+1+3 = 16.
-        
-        return response.encode('ascii') + self.terminator
+        if self._current_format == "22 Byte":
+            # Add ID (6 chars)
+            # ID: "N     " (Net?) or "Stat  "
+            id_str = "N     "
+            base_resp = f"{id_str}{base_resp}"
+
+        return base_resp.encode('ascii') + self.terminator
 
     def _get_current_weight_data(self) -> bytes:
         return self._build_weight_response()
