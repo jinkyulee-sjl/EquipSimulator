@@ -104,7 +104,7 @@ class MainWindow(tk.Tk):
         
         # Model Selection
         ttk.Label(dialog, text="Model Name:").pack(pady=5)
-        type_combo = ttk.Combobox(dialog, values=list(self.simulator.device_types.keys()), state="readonly")
+        type_combo = ttk.Combobox(dialog, values=sorted(list(self.simulator.device_types.keys())), state="readonly")
         type_combo.pack(pady=5)
         if self.simulator.device_types:
             type_combo.current(0)
@@ -145,7 +145,7 @@ class MainWindow(tk.Tk):
         
         # Model Selection
         ttk.Label(dialog, text="Model Name:").pack(pady=5)
-        model_combo = ttk.Combobox(dialog, values=list(self.simulator.device_types.keys()), state="readonly")
+        model_combo = ttk.Combobox(dialog, values=sorted(list(self.simulator.device_types.keys())), state="readonly")
         model_combo.set(old_model)
         model_combo.pack(pady=5)
 

@@ -15,6 +15,7 @@ from devices.scales.sartorius_cpa_scale import SartoriusCPAScale
 from devices.scales.and_ad4401_scale import ANDAD4401Scale
 from devices.scales.cas_nt301a_scale import CasNT301AScale
 from devices.scales.cas_nt302a_scale import CasNT302AScale
+from devices.scales.cas_ed_h_scale import CasEdHScale
 
 def main():
     logging.basicConfig(level=logging.INFO)
@@ -32,6 +33,8 @@ def main():
     sim.register_device_type("AND AD-4401 (New)", ANDAD4401Scale) # Renamed to distinguish from existing generic AND
     sim.register_device_type("CAS NT-301A", CasNT301AScale)
     sim.register_device_type("CAS NT-302A", CasNT302AScale)
+    sim.register_device_type("CAS EC-D", CasEdHScale)
+    sim.register_device_type("CAS ED-H", CasEdHScale)
     
     try:
         app = MainWindow(sim)
